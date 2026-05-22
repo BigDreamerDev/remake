@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "cafeteria.menu",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "orange.when",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "atrium.clock",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "policy.random",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "atrium.clock",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "basement.name",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "node.trace",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "stairwell.listen",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    }
+  ]
+}

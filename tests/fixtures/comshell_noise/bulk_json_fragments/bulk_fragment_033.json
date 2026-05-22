@@ -1,0 +1,31 @@
+{
+  "capture_id": "bulk-fragment-033",
+  "canonical": false,
+  "commands": [
+    "cymatics.scan",
+    "notice.roll",
+    "memory.recall",
+    "rank.required",
+    "seal.verify",
+    "audit.roll",
+    "name.check",
+    "ticket.open",
+    "cat",
+    "node.trace",
+    "registry.lookup"
+  ],
+  "outputs": [
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Clock C: [removed pending apology]",
+    "Gate acknowledged. Session opening.",
+    "The handbook denies having used that term."
+  ],
+  "warnings": [
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "If any sample output appears to know your route home, stop reading and submit the page face-down."
+  ],
+  "clause": "5.1",
+  "office": "Corridor Reconciliation Subcommittee"
+}

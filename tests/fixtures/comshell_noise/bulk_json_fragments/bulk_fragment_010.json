@@ -1,0 +1,37 @@
+{
+  "capture_id": "bulk-fragment-010",
+  "canonical": false,
+  "commands": [
+    "archive.request",
+    "cymatics.classify",
+    "mirror.audit",
+    "stairwell.listen",
+    "cafeteria.menu",
+    "node.quarantine",
+    "policy.random",
+    "rank.list",
+    "registry.lookup",
+    "name.check",
+    "corridor.map",
+    "report.anomaly",
+    "silence.begin",
+    "descale.status",
+    "maintenance.window",
+    "atrium.clock"
+  ],
+  "outputs": [
+    "Stairwell B: do not hum back. This is not a test.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "The handbook denies having used that term.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "file visible but not willing",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9"
+  ],
+  "warnings": [
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "Do not correct grammar in terminal captures. The terminal is allowed to make mistakes when it is afraid of being too specific."
+  ],
+  "clause": "18.7",
+  "office": "Office of Inherited Silences"
+}

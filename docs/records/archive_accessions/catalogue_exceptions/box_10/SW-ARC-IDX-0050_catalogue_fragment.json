@@ -1,0 +1,95 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-BOX-1822-0050-00",
+      "date_recorded": "1822",
+      "type": "lighthouse memorandum",
+      "condition": "date corrected by unknown hand",
+      "location": "Black Shelf",
+      "instruction": "do not correct the date twice",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-WET-1996-0050-01",
+      "date_recorded": "1996",
+      "type": "warehouse receipt",
+      "condition": "marginalia appears under oblique light",
+      "location": "Locked Reading Room",
+      "instruction": "where a page names the reader, end the review",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1996-0050-02",
+      "date_recorded": "1996",
+      "type": "burial index",
+      "condition": "seal impression wet to touch",
+      "location": "East Wing",
+      "instruction": "if the room number appears in pencil, do not erase it",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-BOX-1869-0050-03",
+      "date_recorded": "1869",
+      "type": "burial index",
+      "condition": "witness marks do not agree with index",
+      "location": "Room \u0fbe2-A",
+      "instruction": "if the room number appears in pencil, do not erase it",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1541-0050-04",
+      "date_recorded": "1541",
+      "type": "weather register",
+      "condition": "waterline visible at lower margin",
+      "location": "Driftmoor",
+      "instruction": "records addressed to the seventh shelf are to be placed on the sixth",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-PAL-1488-0050-05",
+      "date_recorded": "1488",
+      "type": "bridge inspection",
+      "condition": "pagination continues beyond final folio",
+      "location": "Black Shelf",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-SIG-1714-0050-06",
+      "date_recorded": "1714",
+      "type": "dock manifest",
+      "condition": "reverse side warmer than front",
+      "location": "Locked Reading Room",
+      "instruction": "records addressed to the seventh shelf are to be placed on the sixth",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1931-0050-07",
+      "date_recorded": "1931",
+      "type": "burial index",
+      "condition": "waterline visible at lower margin",
+      "location": "East Wing",
+      "instruction": "do not index a blank folio by the sound it makes",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-VLM-1324-0050-08",
+      "date_recorded": "1324",
+      "type": "canal permit",
+      "condition": "reverse side warmer than front",
+      "location": "East Wing",
+      "instruction": "do not correct the date twice",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-PAL-1541-0050-09",
+      "date_recorded": "1541",
+      "type": "lighthouse memorandum",
+      "condition": "reverse side warmer than front",
+      "location": "Sublevel 5",
+      "instruction": "copies made after sunset must be returned face down",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

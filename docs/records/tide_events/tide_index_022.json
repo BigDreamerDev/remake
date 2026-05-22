@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5022",
+  "record_type": "maritime_anomaly_index",
+  "location": "Sublevel K Drainage",
+  "phenomenon": "floor-level surf",
+  "classification": "Brackish-Liminal",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 654,
+    "salinity_ppt": 0.33,
+    "audio": "rain",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "no access material recorded"
+}

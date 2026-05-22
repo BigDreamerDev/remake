@@ -1,0 +1,34 @@
+{
+  "capture_id": "bulk-fragment-050",
+  "canonical": false,
+  "commands": [
+    "policy.random",
+    "name.check",
+    "cymatics.scan",
+    "hydrology.pressure",
+    "memorial.check",
+    "seal.verify",
+    "lights.status",
+    "archive.status",
+    "motd",
+    "contact.office",
+    "node.trace",
+    "floor.plan",
+    "mirror.audit",
+    "rank.required"
+  ],
+  "outputs": [
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Gate acknowledged. Session opening.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa"
+  ],
+  "warnings": [
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "Terminal behaviour described in this appendix is decorative, ceremonial, or retained for staff confidence. It is not authoritative for restricted procedures.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d."
+  ],
+  "clause": "5.1",
+  "office": "Codicology Desk"
+}

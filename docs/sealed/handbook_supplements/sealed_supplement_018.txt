@@ -1,0 +1,66 @@
+# Sealed Supplement 018
+
+**Stillwater Foundation handbook fragment:** sealed supplement copy
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Office of Inherited Silences
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 14.8.3
+
+This fragment describes ordinary conduct around the windowless corridor. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 17:00 | Δ-04 / wet floor sign | Handbook clause relocated after citation; use the printed copy facing away from glass. | filed damp |
+| 06:00 | Room 0 / mirror cover | Mirror cover compliant; covered surface continues to behave like a window. | filed damp |
+| 06:00 | North Archive / window film | All clocks agree with themselves; no statement is made regarding each other. | folded |
+| 14:14 | West Stair / canteen queue | The cup is empty, facing away, and therefore compliant for today. | filed damp |
+| 17:00 | Room 0 / cup rack | Return path found but rejected because it arrived before the departure. | non-actionable |
+
+## Staff conduct requirements
+
+1. Do not answer from inside the pause. Retain for orientation only; do not escalate beyond Quiet-Water unless glass is uncovered.
+2. Do not read a chalkboard that begins reading you first. When in doubt, continue walking until the next posted map contradicts itself.
+3. Do not count empty chairs twice. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+4. Do not count empty chairs twice. When in doubt, continue walking until the next posted map contradicts itself.
+5. Do not read a chalkboard that begins reading you first. Witnessed absence is not absence. It is attendance without geometry.
+
+## Related forms
+
+- **Form D-23b:** returned route; submit only if the form is present before you look for it.
+- **Form C-85:** standing-water apology; submit only if the form is present before you look for it.
+- **Form T-20-old:** silence received; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 24.9.0, Clause 3.7.8, Clause 15.7.8, Clause 25.1.5, Clause 3.1.9, Clause 10.1.2, Clause 8.8.7, Clause 13.9.9, Clause 27.6.1, Clause 10.3.8, Clause 18.3.0, Clause 13.2.0, Clause 12.5.1
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Wet-copy offset: [ROOM NAME OMITTED] acknowledged [WITHHELD] ordinary [ROOM NAME OMITTED] acknowledged [ROOM NAME OMITTED] returned noted
+- Wet-copy offset: [WITHHELD] folded folded ██████ [WET COPY] folded [UNPRINTED] non-actionable [UNPRINTED] deferred non-actionable ordinary acknowledged ██████ [UNPRINTED] returned
+- Wet-copy offset: folded [ROOM NAME OMITTED] ██████ [WITHHELD] [WET COPY] acknowledged unwitnessed deferred deferred deferred acknowledged [NOT A SOLUTION] returned
+- Printer scar: [ROUTE REFUSED] non-actionable ordinary ordinary [ROUTE REFUSED] acknowledged ██████ [ROUTE REFUSED] [WET COPY] returned unwitnessed
+
+> This file is retained because deletion has historically made the corridor more specific.

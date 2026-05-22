@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5068",
+  "record_type": "maritime_anomaly_index",
+  "location": "West Sluice Door",
+  "phenomenon": "coastal hallway recursion",
+  "classification": "Quiet-Water",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 237,
+    "salinity_ppt": 37.45,
+    "audio": "rain",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

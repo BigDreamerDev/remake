@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5035",
+  "record_type": "maritime_anomaly_index",
+  "location": "South Intake Tunnel",
+  "phenomenon": "coastal hallway recursion",
+  "classification": "Fathom-Null",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 304,
+    "salinity_ppt": 31.12,
+    "audio": "surf",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "archive only; not an instruction"
+}

@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-035
+classification: Harbour-Black
+location: Salt Archive
+phenomenon: black foam
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 341
+    smell: cold tea
+    reflection: delayed
+  - phase: 1
+    waterline_mm: 252
+    smell: cold tea
+    reflection: stairs
+  - phase: 2
+    waterline_mm: 53
+    smell: bleach
+    reflection: stairs
+  - phase: 3
+    waterline_mm: 422
+    smell: rain concrete
+    reflection: delayed
+  - phase: 4
+    waterline_mm: 66
+    smell: cold tea
+    reflection: sea
+  - phase: 5
+    waterline_mm: 279
+    smell: rain concrete
+    reflection: stairs
+  - phase: 6
+    waterline_mm: 159
+    smell: rain concrete
+    reflection: delayed
+  - phase: 7
+    waterline_mm: 136
+    smell: rain concrete
+    reflection: wrong-room
+  - phase: 8
+    waterline_mm: 455
+    smell: cold tea
+    reflection: person-absent
+  - phase: 9
+    waterline_mm: 85
+    smell: none
+    reflection: person-absent
+  - phase: 10
+    waterline_mm: 53
+    smell: bleach
+    reflection: person-absent

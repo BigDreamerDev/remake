@@ -1,0 +1,42 @@
+record: liminal-hydrology-fixture-029
+classification: Low-Swell
+location: The Third Jetty
+phenomenon: mirror water
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 481
+    smell: bleach
+    reflection: delayed
+  - phase: 1
+    waterline_mm: 78
+    smell: kelp
+    reflection: wrong-room
+  - phase: 2
+    waterline_mm: 77
+    smell: salt
+    reflection: wrong-room
+  - phase: 3
+    waterline_mm: 38
+    smell: cold tea
+    reflection: correct
+  - phase: 4
+    waterline_mm: 326
+    smell: bleach
+    reflection: delayed
+  - phase: 5
+    waterline_mm: 113
+    smell: rain concrete
+    reflection: wrong-room
+  - phase: 6
+    waterline_mm: 418
+    smell: kelp
+    reflection: person-absent
+  - phase: 7
+    waterline_mm: 61
+    smell: salt
+    reflection: delayed
+  - phase: 8
+    waterline_mm: 25
+    smell: salt
+    reflection: wrong-room

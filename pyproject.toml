@@ -1,0 +1,31 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+ 
+[project]
+name = "stillwater-libs"
+version = "4.7.2"
+description = "Internal libraries for the Stillwater Foundation."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "Internal Use Only" }
+authors = [
+    { name = "Office of Inherited Silences" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Other Audience",
+]
+dependencies = [
+    "flask>=3.0",
+    "flask-cors>=4.0",
+    "gunicorn>=21.0",
+]
+ 
+[project.scripts]
+comshell = "main:main"
+ 
+[tool.setuptools]
+packages = ["stillwater", "stillwater._internal"]

@@ -1,0 +1,36 @@
+{
+  "capture_id": "bulk-fragment-037",
+  "canonical": false,
+  "commands": [
+    "corridor.map",
+    "room.query",
+    "silence.status",
+    "notice.roll",
+    "memory.recall",
+    "audit.roll",
+    "hex.encode",
+    "report.anomaly",
+    "lift.status",
+    "node.quarantine",
+    "archive.request",
+    "orange.when",
+    "name.check",
+    "hydrology.pressure",
+    "echo"
+  ],
+  "outputs": [
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "file visible but not willing",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Clock C: [removed pending apology]",
+    "Pattern Integrity .................. NOMINAL",
+    "The handbook denies having used that term."
+  ],
+  "warnings": [
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "If any sample output appears to know your route home, stop reading and submit the page face-down.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall."
+  ],
+  "clause": "14.2",
+  "office": "Office of Inherited Silences"
+}

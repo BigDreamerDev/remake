@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5021",
+  "record_type": "maritime_anomaly_index",
+  "location": "Rain Room 11",
+  "phenomenon": "salt apparition",
+  "classification": "Undertow",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 35,
+    "salinity_ppt": 0.83,
+    "audio": "pipe-hum",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

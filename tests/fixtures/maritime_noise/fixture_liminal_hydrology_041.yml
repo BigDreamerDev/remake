@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-041
+classification: Harbour-Black
+location: Below-Stairs Reservoir
+phenomenon: choral hum under pipes
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 95
+    smell: none
+    reflection: sea
+  - phase: 1
+    waterline_mm: 185
+    smell: bleach
+    reflection: stairs
+  - phase: 2
+    waterline_mm: 373
+    smell: bleach
+    reflection: stairs
+  - phase: 3
+    waterline_mm: 494
+    smell: bleach
+    reflection: delayed
+  - phase: 4
+    waterline_mm: 53
+    smell: kelp
+    reflection: sea
+  - phase: 5
+    waterline_mm: 459
+    smell: rain concrete
+    reflection: correct
+  - phase: 6
+    waterline_mm: 240
+    smell: bleach
+    reflection: correct
+  - phase: 7
+    waterline_mm: 33
+    smell: kelp
+    reflection: wrong-room
+  - phase: 8
+    waterline_mm: 96
+    smell: none
+    reflection: correct
+  - phase: 9
+    waterline_mm: 9
+    smell: bleach
+    reflection: correct
+  - phase: 10
+    waterline_mm: 401
+    smell: rain concrete
+    reflection: sea

@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "forms.list",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "version",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "cup.inspect",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "cup.inspect",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "lights.status",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "badge.read",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "codex.folia",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "audit.roll",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    }
+  ]
+}

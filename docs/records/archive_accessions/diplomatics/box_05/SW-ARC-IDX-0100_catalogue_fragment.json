@@ -1,0 +1,77 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-SIG-1179-0100-00",
+      "date_recorded": "1179",
+      "type": "sanatorium visitor book",
+      "condition": "pages smell faintly of low tide",
+      "location": "North Archive",
+      "instruction": "copies made after sunset must be returned face down",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-PAL-1714-0100-01",
+      "date_recorded": "1714",
+      "type": "ship log",
+      "condition": "pages smell faintly of low tide",
+      "location": "Black Shelf",
+      "instruction": "do not correct the date twice",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1907-0100-02",
+      "date_recorded": "1907",
+      "type": "charter",
+      "condition": "pagination continues beyond final folio",
+      "location": "Cresswell Quay",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-VLM-1996-0100-03",
+      "date_recorded": "1996",
+      "type": "canal permit",
+      "condition": "corners remember being folded",
+      "location": "Black Shelf",
+      "instruction": "do not correct the date twice",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-BOX-1714-0100-04",
+      "date_recorded": "1714",
+      "type": "weather register",
+      "condition": "seal impression wet to touch",
+      "location": "Building \u0394",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-QRY-1907-0100-05",
+      "date_recorded": "1907",
+      "type": "navigation chart",
+      "condition": "marginalia appears under oblique light",
+      "location": "Pondroom",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-MGR-1179-0100-06",
+      "date_recorded": "1179",
+      "type": "school attendance ledger",
+      "condition": "pagination continues beyond final folio",
+      "location": "Driftmoor",
+      "instruction": "copies made after sunset must be returned face down",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-SIG-1666-0100-07",
+      "date_recorded": "1666",
+      "type": "chapel account",
+      "condition": "date corrected by unknown hand",
+      "location": "Borderlake",
+      "instruction": "do not index a blank folio by the sound it makes",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+record: liminal-hydrology-fixture-038
+classification: Salt-Mirror
+location: South Intake Tunnel
+phenomenon: black foam
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 89
+    smell: none
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 495
+    smell: cold tea
+    reflection: correct
+  - phase: 2
+    waterline_mm: 160
+    smell: none
+    reflection: stairs
+  - phase: 3
+    waterline_mm: 437
+    smell: salt
+    reflection: person-absent
+  - phase: 4
+    waterline_mm: 83
+    smell: none
+    reflection: sea
+  - phase: 5
+    waterline_mm: 434
+    smell: salt
+    reflection: delayed

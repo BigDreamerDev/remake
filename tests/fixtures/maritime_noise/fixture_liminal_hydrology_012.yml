@@ -1,0 +1,42 @@
+record: liminal-hydrology-fixture-012
+classification: Brackish-Liminal
+location: Observation Deck 4
+phenomenon: waterline displacement
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 344
+    smell: salt
+    reflection: correct
+  - phase: 1
+    waterline_mm: 406
+    smell: rain concrete
+    reflection: delayed
+  - phase: 2
+    waterline_mm: 170
+    smell: rain concrete
+    reflection: delayed
+  - phase: 3
+    waterline_mm: 476
+    smell: rain concrete
+    reflection: sea
+  - phase: 4
+    waterline_mm: 293
+    smell: salt
+    reflection: delayed
+  - phase: 5
+    waterline_mm: 231
+    smell: rain concrete
+    reflection: stairs
+  - phase: 6
+    waterline_mm: 393
+    smell: rain concrete
+    reflection: stairs
+  - phase: 7
+    waterline_mm: 139
+    smell: salt
+    reflection: sea
+  - phase: 8
+    waterline_mm: 462
+    smell: bleach
+    reflection: correct

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5039",
+  "record_type": "maritime_anomaly_index",
+  "location": "Anchor Hall",
+  "phenomenon": "tidal duplication",
+  "classification": "Night-Surf",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 10,
+    "salinity_ppt": 29.69,
+    "audio": "rain",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

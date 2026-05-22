@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5066",
+  "record_type": "maritime_anomaly_index",
+  "location": "Ashen Ferry Terminal",
+  "phenomenon": "indoor swell",
+  "classification": "Salt-Mirror",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 553,
+    "salinity_ppt": 24.06,
+    "audio": "choir",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "weather.inside",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "forms.lookup",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "door.test",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "return.path",
+      "result": "result withheld because the witness had already gone home in a previous shift",
+      "action": "none"
+    },
+    {
+      "command": "codex.quire",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    },
+    {
+      "command": "memory.recall",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "codex.folia",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "maintenance.window",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    }
+  ]
+}

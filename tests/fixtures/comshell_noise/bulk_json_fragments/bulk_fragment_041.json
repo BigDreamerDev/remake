@@ -1,0 +1,36 @@
+{
+  "capture_id": "bulk-fragment-041",
+  "canonical": false,
+  "commands": [
+    "archive.request",
+    "hydrology.pressure",
+    "report.anomaly",
+    "ticket.open",
+    "forms.lookup",
+    "archive.status",
+    "silence.status",
+    "contact.office",
+    "room.query",
+    "atrium.clock",
+    "audit.roll",
+    "mailroom.check",
+    "memory.recall",
+    "descale.status"
+  ],
+  "outputs": [
+    "Mirror audit complete: one reflection late, none missing.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Clock C: [removed pending apology]",
+    "file visible but not willing",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Pattern Integrity .................. NOMINAL",
+    "sleep denied: terminals are not permitted to dream during business hours"
+  ],
+  "warnings": [
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall."
+  ],
+  "clause": "20.0",
+  "office": "Meal Substitution Review"
+}

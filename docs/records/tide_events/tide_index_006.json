@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5006",
+  "record_type": "maritime_anomaly_index",
+  "location": "West Sluice Door",
+  "phenomenon": "tidal duplication",
+  "classification": "Night-Surf",
+  "status": "awaiting tide",
+  "sensor_summary": {
+    "max_depth_mm": 392,
+    "salinity_ppt": 24.77,
+    "audio": "bell",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

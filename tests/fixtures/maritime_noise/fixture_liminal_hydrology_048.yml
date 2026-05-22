@@ -1,0 +1,38 @@
+record: liminal-hydrology-fixture-048
+classification: Low-Swell
+location: Ashen Ferry Terminal
+phenomenon: floor-level surf
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 352
+    smell: kelp
+    reflection: correct
+  - phase: 1
+    waterline_mm: 490
+    smell: bleach
+    reflection: sea
+  - phase: 2
+    waterline_mm: 493
+    smell: cold tea
+    reflection: wrong-room
+  - phase: 3
+    waterline_mm: 218
+    smell: bleach
+    reflection: stairs
+  - phase: 4
+    waterline_mm: 272
+    smell: rain concrete
+    reflection: person-absent
+  - phase: 5
+    waterline_mm: 11
+    smell: kelp
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 155
+    smell: none
+    reflection: delayed
+  - phase: 7
+    waterline_mm: 401
+    smell: rain concrete
+    reflection: wrong-room

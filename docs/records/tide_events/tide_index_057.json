@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5057",
+  "record_type": "maritime_anomaly_index",
+  "location": "Tide Elevator",
+  "phenomenon": "salt apparition",
+  "classification": "Quiet-Water",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 436,
+    "salinity_ppt": 25.35,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "do not match this with command output"
+}

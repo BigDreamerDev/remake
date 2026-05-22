@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5013",
+  "record_type": "maritime_anomaly_index",
+  "location": "Blue Door Quay",
+  "phenomenon": "floor-level surf",
+  "classification": "Bell-Sink",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 376,
+    "salinity_ppt": 33.62,
+    "audio": "pipe-hum",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

@@ -1,0 +1,26 @@
+record: liminal-hydrology-fixture-040
+classification: Tide-Locked
+location: Ashen Ferry Terminal
+phenomenon: submerged office
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 30
+    smell: salt
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 462
+    smell: cold tea
+    reflection: sea
+  - phase: 2
+    waterline_mm: 80
+    smell: salt
+    reflection: correct
+  - phase: 3
+    waterline_mm: 356
+    smell: none
+    reflection: sea
+  - phase: 4
+    waterline_mm: 397
+    smell: salt
+    reflection: sea

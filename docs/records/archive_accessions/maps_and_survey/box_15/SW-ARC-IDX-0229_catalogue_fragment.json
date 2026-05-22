@@ -1,0 +1,50 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-RET-1793-0229-00",
+      "date_recorded": "1793",
+      "type": "railway notice",
+      "condition": "paper darkens when read aloud",
+      "location": "Saltmarsh",
+      "instruction": "do not index a blank folio by the sound it makes",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-QRY-1958-0229-01",
+      "date_recorded": "1958",
+      "type": "court roll",
+      "condition": "corners remember being folded",
+      "location": "North Archive",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-MGR-1958-0229-02",
+      "date_recorded": "1958",
+      "type": "ship log",
+      "condition": "ink blooms inward from gutter",
+      "location": "Borderlake",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-FOL-1869-0229-03",
+      "date_recorded": "1869",
+      "type": "weather register",
+      "condition": "seal impression wet to touch",
+      "location": "East Wing",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-RET-1541-0229-04",
+      "date_recorded": "1541",
+      "type": "dock manifest",
+      "condition": "reverse side warmer than front",
+      "location": "Saltmarsh",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

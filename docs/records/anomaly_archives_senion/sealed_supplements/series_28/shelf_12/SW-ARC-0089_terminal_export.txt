@@ -1,0 +1,16 @@
+DESIGNATIO: SW-ARC-0089
+TUREN: arvel kelhom
+TIEREN: dovelveth
+
+SAVAR:
+  Tos dovelveth han-seln.
+
+DOMI:
+  Tos dom-us-seln.
+  Karer oshri-or-seln.
+
+THURIOM:
+  Ravelom arvel-eth sēl-us-seln.
+
+  Sēl-veth han-vor-seln.
+  Karer-lan oshri-or-seln.

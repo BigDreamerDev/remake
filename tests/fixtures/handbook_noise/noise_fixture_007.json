@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "forms.list",
+      "result": "handbook clause relocated after citation; use the printed copy facing away from glass",
+      "action": "none"
+    },
+    {
+      "command": "codex.quire",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "badge.read",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "mirror.audit",
+      "result": "one reflection answered late; no disciplinary event is created by lateness alone",
+      "action": "none"
+    },
+    {
+      "command": "forms.list",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "waterline",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "registry.lookup",
+      "result": "standing water found above the label but below the room name",
+      "action": "none"
+    },
+    {
+      "command": "forms.list",
+      "result": "one reflection answered late; no disciplinary event is created by lateness alone",
+      "action": "none"
+    }
+  ]
+}

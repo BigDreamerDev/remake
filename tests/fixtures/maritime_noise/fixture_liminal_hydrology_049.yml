@@ -1,0 +1,30 @@
+record: liminal-hydrology-fixture-049
+classification: Quiet-Water
+location: Undertow Corridor
+phenomenon: choral hum under pipes
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 123
+    smell: none
+    reflection: person-absent
+  - phase: 1
+    waterline_mm: 401
+    smell: cold tea
+    reflection: sea
+  - phase: 2
+    waterline_mm: 283
+    smell: none
+    reflection: delayed
+  - phase: 3
+    waterline_mm: 337
+    smell: salt
+    reflection: wrong-room
+  - phase: 4
+    waterline_mm: 79
+    smell: none
+    reflection: wrong-room
+  - phase: 5
+    waterline_mm: 496
+    smell: bleach
+    reflection: correct

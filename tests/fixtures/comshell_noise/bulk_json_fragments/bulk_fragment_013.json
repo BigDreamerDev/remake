@@ -1,0 +1,33 @@
+{
+  "capture_id": "bulk-fragment-013",
+  "canonical": false,
+  "commands": [
+    "stairwell.listen",
+    "ticket.open",
+    "silence.begin",
+    "rank.required",
+    "inventory.sample",
+    "motd",
+    "badge.read",
+    "descale.status",
+    "codex.folia",
+    "handbook.random",
+    "corridor.map",
+    "log.tail",
+    "silence.status",
+    "cymatics.classify"
+  ],
+  "outputs": [
+    "Stairwell B: do not hum back. This is not a test.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Gate acknowledged. Session opening."
+  ],
+  "warnings": [
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement."
+  ],
+  "clause": "22.1",
+  "office": "Corridor Reconciliation Subcommittee"
+}

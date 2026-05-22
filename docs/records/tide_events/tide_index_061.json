@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5061",
+  "record_type": "maritime_anomaly_index",
+  "location": "Observation Deck 4",
+  "phenomenon": "reverse tide",
+  "classification": "Night-Surf",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 355,
+    "salinity_ppt": 25.56,
+    "audio": "pipe-hum",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "watch for corridor length change"
+}

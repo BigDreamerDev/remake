@@ -1,0 +1,35 @@
+{
+  "capture_id": "bulk-fragment-034",
+  "canonical": false,
+  "commands": [
+    "lift.status",
+    "observance.next",
+    "codex.folia",
+    "memory.recall",
+    "silence.begin",
+    "mailroom.check",
+    "ticket.open",
+    "room.query",
+    "descale.status",
+    "floor.plan",
+    "cymatics.classify",
+    "registry.lookup",
+    "stairwell.listen"
+  ],
+  "outputs": [
+    "file visible but not willing",
+    "Gate acknowledged. Session opening.",
+    "Pattern Integrity .................. NOMINAL",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Clock C: [removed pending apology]"
+  ],
+  "warnings": [
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "Where the command appears to answer a question not asked, attach the transcript to the nearest related form and do not ask the terminal to clarify itself.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed."
+  ],
+  "clause": "25.0",
+  "office": "Office of Inherited Silences"
+}

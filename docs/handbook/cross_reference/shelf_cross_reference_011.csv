@@ -1,0 +1,21 @@
+time,location,observation,disposition
+04:04,stairwell,standing water found above the label but below the room name,non-actionable
+04:04,conference room,standing water found above the label but below the room name,non-actionable
+02:00,return path,the cup is empty; facing away; and therefore compliant for today,non-actionable
+14:14,corridor,standing water found above the label but below the room name,non-actionable
+04:04,descaling sink,all clocks agree with themselves; no statement is made regarding each other,non-actionable
+04:04,descaling sink,badge echo delayed by 2.1 seconds; temporary absence preserved,retained
+06:00,descaling sink,return path found but rejected because it arrived before the departure,folded
+04:04,floor map,the corridor accepted the request and then changed which side the door was on,non-actionable
+11:11,photocopier,the staircase returned a sample resembling the last thing typed by the operator,folded
+02:00,visitor ledger,the corridor accepted the request and then changed which side the door was on,non-actionable
+02:00,lamp housing,the corridor accepted the request and then changed which side the door was on,folded
+02:00,corridor,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,non-actionable
+02:00,photocopier,return path found but rejected because it arrived before the departure,non-actionable
+06:00,canteen queue,mirror cover compliant; covered surface continues to behave like a window,folded
+04:04,conference room,badge echo delayed by 2.1 seconds; temporary absence preserved,retained
+11:11,descaling sink,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,non-actionable
+06:00,window film,mirror cover compliant; covered surface continues to behave like a window,non-actionable
+04:04,return path,mirror cover compliant; covered surface continues to behave like a window,retained
+04:04,intercom,result withheld because the witness had already gone home in a previous shift,retained
+02:00,wet floor sign,one reflection answered late; no disciplinary event is created by lateness alone,non-actionable

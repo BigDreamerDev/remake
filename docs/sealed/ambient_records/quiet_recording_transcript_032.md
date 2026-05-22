@@ -1,0 +1,67 @@
+# Quiet Recording Transcript 032
+
+**Stillwater Foundation handbook fragment:** sealed supplement copy
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Codicology Annex
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 6.2.0
+
+This fragment describes ordinary conduct around the mirrored corridor. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 06:00 | Room 0 / mirror cover | The queue moved while unobserved and returned with one extra place. | retained |
+| 00:00 | ྾2 / intercom | Result withheld because the witness had already gone home in a previous shift. | non-actionable |
+| 02:00 | West Stair / lift | Badge echo delayed by 2.1 seconds; temporary absence preserved. | returned unread |
+| 17:00 | ྾2 / return path | One reflection answered late; no disciplinary event is created by lateness alone. | no escalation |
+| 06:00 | ྾2 / handrail | The staircase returned a sample resembling the last thing typed by the operator. | witness pending |
+
+## Staff conduct requirements
+
+1. Do not count empty chairs twice. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+2. Do not answer from inside the pause. Cross-reference the nearest clause that does not face the window.
+3. Do not remove wet floor signs from dry floors. When in doubt, continue walking until the next posted map contradicts itself.
+4. Do not count empty chairs twice. Retain for orientation only; do not escalate beyond Quiet-Water unless glass is uncovered.
+5. Do not dry paper that arrived damp around a name. Witnessed absence is not absence. It is attendance without geometry.
+6. Do not let a second person explain the first person's silence. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+
+## Related forms
+
+- **Form D-42:** silence received; submit only if the form is present before you look for it.
+- **Form V-07:** mirror cover variance; submit only if the form is present before you look for it.
+- **Form HA-77:** dry cup inventory; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 28.9.3, Clause 14.2.2, Clause 9.5.5, Clause 26.9.4, Clause 18.8.4, Clause 21.5.8, Clause 19.8.7, Clause 14.2.3, Clause 30.5.8, Clause 14.0.9, Clause 29.6.6, Clause 2.1.4, Clause 5.0.2, Clause 31.2.8
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Wet-copy offset: ordinary [NOT A SOLUTION] [ROUTE REFUSED] deferred folded [ROUTE REFUSED] non-actionable [WET COPY] returned returned ordinary unwitnessed deferred
+- Wet-copy offset: returned folded deferred [ROUTE REFUSED] returned [WET COPY] [WITHHELD] non-actionable
+- Unassigned annotation: [ROOM NAME OMITTED] ██████ unwitnessed unwitnessed acknowledged [UNPRINTED] unwitnessed non-actionable ordinary [WITHHELD] [NOT A SOLUTION] ordinary
+- Wet-copy offset: acknowledged noted non-actionable [NOT A SOLUTION] non-actionable noted ██████ noted ordinary [ROUTE REFUSED]
+
+> This file is retained because deletion has historically made the corridor more specific.

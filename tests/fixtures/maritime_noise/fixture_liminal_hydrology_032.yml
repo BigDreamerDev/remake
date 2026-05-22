@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-032
+classification: Salt-Mirror
+location: Rain Room 11
+phenomenon: unlit lighthouse beam
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 419
+    smell: none
+    reflection: correct
+  - phase: 1
+    waterline_mm: 267
+    smell: salt
+    reflection: delayed
+  - phase: 2
+    waterline_mm: 200
+    smell: none
+    reflection: sea
+  - phase: 3
+    waterline_mm: 486
+    smell: kelp
+    reflection: stairs
+  - phase: 4
+    waterline_mm: 14
+    smell: salt
+    reflection: delayed
+  - phase: 5
+    waterline_mm: 287
+    smell: cold tea
+    reflection: sea
+  - phase: 6
+    waterline_mm: 152
+    smell: kelp
+    reflection: delayed
+  - phase: 7
+    waterline_mm: 452
+    smell: kelp
+    reflection: stairs
+  - phase: 8
+    waterline_mm: 279
+    smell: kelp
+    reflection: wrong-room
+  - phase: 9
+    waterline_mm: 426
+    smell: rain concrete
+    reflection: wrong-room
+  - phase: 10
+    waterline_mm: 63
+    smell: kelp
+    reflection: correct

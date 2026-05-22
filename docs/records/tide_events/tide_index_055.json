@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5055",
+  "record_type": "maritime_anomaly_index",
+  "location": "Rain Room 11",
+  "phenomenon": "sleeping bell",
+  "classification": "Fathom-Null",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 291,
+    "salinity_ppt": 27.75,
+    "audio": "surf",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "watch for corridor length change"
+}

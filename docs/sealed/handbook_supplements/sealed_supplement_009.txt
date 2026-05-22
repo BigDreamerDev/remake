@@ -1,0 +1,68 @@
+# Sealed Supplement 009
+
+**Stillwater Foundation handbook fragment:** sealed supplement copy
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Office of Inherited Silences
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 27.7.1
+
+This fragment describes ordinary conduct around the submerged descaling sink. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 14:14 | North Archive / wet floor sign | Result withheld because the witness had already gone home in a previous shift. | filed damp |
+| 14:14 | Room 0 / floor map | The queue moved while unobserved and returned with one extra place. | folded |
+| 17:00 | North Archive / lift | Return path found but rejected because it arrived before the departure. | returned unread |
+| 02:00 | North Archive / stairwell | Form accepted in damp condition; drying would change the filing date. | non-actionable |
+| 23:00 | Δ-04 / lamp housing | Badge echo delayed by 2.1 seconds; temporary absence preserved. | witness pending |
+| 04:04 | Floor -3 / mirror cover | Standing water found above the label but below the room name. | copied by hand |
+
+## Staff conduct requirements
+
+1. Do not file apologies under maintenance unless they are mechanical. Retain for orientation only; do not escalate beyond Quiet-Water unless glass is uncovered.
+2. Do not answer from inside the pause. Retain for orientation only; do not escalate beyond Quiet-Water unless glass is uncovered.
+3. Do not remove wet floor signs from dry floors. Use Form S-00 for silence received, silence withheld, or silence returned warm.
+4. Do not let a second person explain the first person's silence. Witnessed absence is not absence. It is attendance without geometry.
+5. Do not remove wet floor signs from dry floors. File as non-actionable unless the room repeats the observation in writing.
+6. Do not assume a room is safer because it is familiar. Destroy no copies. The duplicate may be the one that remembers the route.
+
+## Related forms
+
+- **Form T-50:** room reclassification; submit only if the form is present before you look for it.
+- **Form D-62-old:** room reclassification; submit only if the form is present before you look for it.
+- **Form S-61b:** returned route; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 30.0.9, Clause 5.7.1, Clause 3.8.7, Clause 24.3.9, Clause 4.6.5, Clause 18.5.0, Clause 12.3.1, Clause 23.8.7, Clause 27.7.5, Clause 17.4.8, Clause 29.3.7, Clause 7.2.2, Clause 19.6.3, Clause 15.7.1, Clause 21.6.6, Clause 19.2.5
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Printer scar: ██████ ██████ ██████ acknowledged unwitnessed [ROUTE REFUSED] non-actionable ordinary [UNPRINTED] ordinary returned [WET COPY] ██████ ordinary
+- Margin note: noted non-actionable folded ordinary non-actionable [UNPRINTED] [ROOM NAME OMITTED] [ROOM NAME OMITTED] folded [WET COPY]
+- Wet-copy offset: acknowledged folded [WITHHELD] ordinary ██████ [ROUTE REFUSED] [ROOM NAME OMITTED] [ROUTE REFUSED] non-actionable [ROOM NAME OMITTED] folded acknowledged [ROOM NAME OMITTED] [ROOM NAME OMITTED] acknowledged
+- Printer scar: noted acknowledged noted [WET COPY] noted noted [ROUTE REFUSED] folded ██████
+
+> This file is retained because deletion has historically made the corridor more specific.

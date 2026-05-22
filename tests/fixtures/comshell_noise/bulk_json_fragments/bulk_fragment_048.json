@@ -1,0 +1,29 @@
+{
+  "capture_id": "bulk-fragment-048",
+  "canonical": false,
+  "commands": [
+    "node.trace",
+    "forms.lookup",
+    "weather.inside",
+    "maintenance.window",
+    "hex.encode",
+    "stairwell.listen",
+    "log.tail",
+    "orange.when",
+    "echo",
+    "forms.list"
+  ],
+  "outputs": [
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "file visible but not willing",
+    "The handbook denies having used that term."
+  ],
+  "warnings": [
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent.",
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed."
+  ],
+  "clause": "25.0",
+  "office": "Cymatic Compliance Room"
+}

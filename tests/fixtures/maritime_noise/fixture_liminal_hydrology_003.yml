@@ -1,0 +1,30 @@
+record: liminal-hydrology-fixture-003
+classification: Bell-Sink
+location: Old Bathing Pavilion
+phenomenon: sleeping bell
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 272
+    smell: rain concrete
+    reflection: sea
+  - phase: 1
+    waterline_mm: 25
+    smell: rain concrete
+    reflection: correct
+  - phase: 2
+    waterline_mm: 302
+    smell: bleach
+    reflection: person-absent
+  - phase: 3
+    waterline_mm: 415
+    smell: none
+    reflection: wrong-room
+  - phase: 4
+    waterline_mm: 179
+    smell: none
+    reflection: correct
+  - phase: 5
+    waterline_mm: 405
+    smell: bleach
+    reflection: person-absent

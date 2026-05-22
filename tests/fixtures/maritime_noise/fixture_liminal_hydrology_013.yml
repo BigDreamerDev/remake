@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-013
+classification: Fathom-Null
+location: Lighthouse 7
+phenomenon: voice-carrying fog
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 451
+    smell: rain concrete
+    reflection: sea
+  - phase: 1
+    waterline_mm: 436
+    smell: rain concrete
+    reflection: correct
+  - phase: 2
+    waterline_mm: 426
+    smell: bleach
+    reflection: correct
+  - phase: 3
+    waterline_mm: 45
+    smell: bleach
+    reflection: person-absent
+  - phase: 4
+    waterline_mm: 238
+    smell: cold tea
+    reflection: person-absent
+  - phase: 5
+    waterline_mm: 24
+    smell: rain concrete
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 120
+    smell: bleach
+    reflection: sea
+  - phase: 7
+    waterline_mm: 256
+    smell: rain concrete
+    reflection: stairs
+  - phase: 8
+    waterline_mm: 379
+    smell: salt
+    reflection: person-absent
+  - phase: 9
+    waterline_mm: 461
+    smell: rain concrete
+    reflection: person-absent
+  - phase: 10
+    waterline_mm: 295
+    smell: cold tea
+    reflection: sea

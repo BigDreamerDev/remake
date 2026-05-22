@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5014",
+  "record_type": "maritime_anomaly_index",
+  "location": "North Glass Shoal",
+  "phenomenon": "submerged office",
+  "classification": "Night-Surf",
+  "status": "awaiting tide",
+  "sensor_summary": {
+    "max_depth_mm": 64,
+    "salinity_ppt": 0.18,
+    "audio": "none",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "archive only; not an instruction"
+}

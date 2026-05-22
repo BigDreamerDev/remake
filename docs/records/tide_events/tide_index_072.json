@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5072",
+  "record_type": "maritime_anomaly_index",
+  "location": "Old Bathing Pavilion",
+  "phenomenon": "unlit lighthouse beam",
+  "classification": "Bell-Sink",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 375,
+    "salinity_ppt": 16.55,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "archive only; not an instruction"
+}

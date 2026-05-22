@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5029",
+  "record_type": "maritime_anomaly_index",
+  "location": "Ward C Washroom",
+  "phenomenon": "floor-level surf",
+  "classification": "Brackish-Liminal",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 685,
+    "salinity_ppt": 24.36,
+    "audio": "choir",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "archive only; not an instruction"
+}

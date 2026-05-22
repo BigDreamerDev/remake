@@ -1,0 +1,44 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-021-000,Grey Buoy Field,wet chalk,233,261,none,ordinary until midnight
+SS-021-001,Old Bathing Pavilion,salt nail,498,below,bell,marker dry
+SS-021-002,Crescent Breakwater,brass tag,312,same as yesterday,bell,do not revisit alone
+SS-021-003,Lower Bell Marina,brass tag,350,715,gulls,marker wet
+SS-021-004,Ward C Washroom,white rope,214,inside,none,do not revisit alone
+SS-021-005,Mirrorpool Basin,wet chalk,881,same as yesterday,gulls,marker dry
+SS-021-006,Old Bathing Pavilion,brass tag,837,218,bell,ordinary until midnight
+SS-021-007,West Sluice Door,unmarked,982,below,none,do not revisit alone
+SS-021-008,Tide Elevator,salt nail,423,below,none,distance changed while writing
+SS-021-009,Anchor Hall,salt nail,742,not returned,gulls,marker dry
+SS-021-010,Blackwater Pier,brass tag,12,below,none,do not revisit alone
+SS-021-011,Lighthouse 7,blue tape,2,below,pipe breath,marker wet
+SS-021-012,The Third Jetty,brass tag,833,inside,surf,marker wet
+SS-021-013,Canteen Tidewell,white rope,646,same as yesterday,bell,marker dry
+SS-021-014,Lighthouse 7,white rope,699,inside,none,marker dry
+SS-021-015,Lower Bell Marina,salt nail,682,below,bell,ordinary until midnight
+SS-021-016,Ashen Ferry Terminal,salt nail,723,same as yesterday,bell,ordinary until midnight
+SS-021-017,Blackwater Pier,brass tag,380,inside,rain inside,marker wet
+SS-021-018,The Empty Aquarium,salt nail,697,inside,surf,distance changed while writing
+SS-021-019,North Glass Shoal,salt nail,678,same as yesterday,gulls,marker wet
+SS-021-020,Mirrorpool Basin,white rope,432,not returned,none,marker dry
+SS-021-021,Rain Room 11,brass tag,81,1141,rain inside,marker wet
+SS-021-022,Lower Bell Marina,brass tag,260,1047,gulls,ordinary until midnight
+SS-021-023,North Glass Shoal,salt nail,531,inside,pipe breath,marker dry
+SS-021-024,The Third Jetty,unmarked,772,same as yesterday,pipe breath,do not revisit alone
+SS-021-025,North Glass Shoal,blue tape,144,not returned,rain inside,marker wet
+SS-021-026,Sublevel K Drainage,salt nail,985,not returned,bell,distance changed while writing
+SS-021-027,Ward C Washroom,unmarked,224,below,surf,ordinary until midnight
+SS-021-028,Observation Deck 4,brass tag,642,717,pipe breath,marker wet
+SS-021-029,The Dry Dock With Water In It,blue tape,44,same as yesterday,surf,marker dry
+SS-021-030,Room 0 Flood Annex,unmarked,933,same as yesterday,bell,distance changed while writing
+SS-021-031,South Intake Tunnel,salt nail,919,not returned,rain inside,marker wet
+SS-021-032,The Dry Dock With Water In It,blue tape,614,916,none,marker dry
+SS-021-033,North Glass Shoal,blue tape,599,same as yesterday,bell,ordinary until midnight
+SS-021-034,South Intake Tunnel,white rope,906,same as yesterday,gulls,distance changed while writing
+SS-021-035,Below-Stairs Reservoir,white rope,58,292,gulls,distance changed while writing
+SS-021-036,Ashen Ferry Terminal,wet chalk,976,same as yesterday,pipe breath,distance changed while writing
+SS-021-037,West Sluice Door,brass tag,977,not returned,gulls,ordinary until midnight
+SS-021-038,The Dry Dock With Water In It,salt nail,741,same as yesterday,rain inside,marker wet
+SS-021-039,Crescent Breakwater,blue tape,108,below,none,ordinary until midnight
+SS-021-040,Ashen Ferry Terminal,brass tag,908,same as yesterday,bell,marker wet
+SS-021-041,Blackwater Pier,brass tag,437,inside,gulls,marker dry
+SS-021-042,Lower Bell Marina,unmarked,951,not returned,gulls,ordinary until midnight

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5076",
+  "record_type": "maritime_anomaly_index",
+  "location": "Rain Room 11",
+  "phenomenon": "coastal hallway recursion",
+  "classification": "Fathom-Null",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 442,
+    "salinity_ppt": 20.92,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "no access material recorded"
+}

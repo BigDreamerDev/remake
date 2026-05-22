@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "memory.recall",
+      "result": "handbook clause relocated after citation; use the printed copy facing away from glass",
+      "action": "none"
+    },
+    {
+      "command": "silence.begin",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "id",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "orange.when",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    },
+    {
+      "command": "seal.verify",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "node.trace",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "lamp.replace",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "silence.begin",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    }
+  ]
+}

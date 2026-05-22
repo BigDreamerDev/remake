@@ -1,0 +1,42 @@
+record: liminal-hydrology-fixture-031
+classification: Harbour-Black
+location: Lighthouse 7
+phenomenon: unlit lighthouse beam
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 315
+    smell: rain concrete
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 419
+    smell: bleach
+    reflection: wrong-room
+  - phase: 2
+    waterline_mm: 432
+    smell: rain concrete
+    reflection: delayed
+  - phase: 3
+    waterline_mm: 401
+    smell: rain concrete
+    reflection: stairs
+  - phase: 4
+    waterline_mm: 416
+    smell: kelp
+    reflection: sea
+  - phase: 5
+    waterline_mm: 78
+    smell: bleach
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 268
+    smell: cold tea
+    reflection: correct
+  - phase: 7
+    waterline_mm: 372
+    smell: none
+    reflection: sea
+  - phase: 8
+    waterline_mm: 194
+    smell: kelp
+    reflection: sea

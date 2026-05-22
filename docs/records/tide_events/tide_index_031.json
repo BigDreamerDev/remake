@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5031",
+  "record_type": "maritime_anomaly_index",
+  "location": "Crescent Breakwater",
+  "phenomenon": "stairwell flood without source",
+  "classification": "Night-Surf",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 6,
+    "salinity_ppt": 19.3,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

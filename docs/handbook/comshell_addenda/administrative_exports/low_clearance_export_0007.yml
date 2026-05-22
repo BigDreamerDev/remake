@@ -1,0 +1,29 @@
+export_id: SW-LOW-0007
+clearance: low
+canonical: false
+commands:
+  - name: name.check
+    clause: "10.4"
+    classification: transcript-noise
+    sample: "write it once, then cover the page"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: codex.quire
+    clause: "2.8"
+    classification: ceremonial
+    sample: "incomplete quires sometimes continue on the shelf behind them"
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: motd
+    clause: "14.2"
+    classification: ceremonial
+    sample: "The water in the west stairwell has passed inspection. It should not be thanked."
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: node.quarantine
+    clause: "16.8"
+    classification: compatibility
+    sample: "status: advisory only at current rank"
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: waterline
+    clause: "25.0"
+    classification: training
+    sample: "Floor -4: not a floor in this edition of the handbook"
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."

@@ -1,0 +1,34 @@
+export_id: SW-LOW-0010
+clearance: low
+canonical: false
+commands:
+  - name: cymatics.classify
+    clause: "19.0"
+    classification: transcript-noise
+    sample: "frequency : 44.1 Hz | band : Class-I"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: corridor.map
+    clause: "2.8"
+    classification: ceremonial
+    sample: "not all marked doors correspond to rooms"
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."
+  - name: handbook.lookup
+    clause: "7.7"
+    classification: low-clearance
+    sample: "Clause 7.2: Reflective Discipline | Full text: consult the handbook edition facing away from the window."
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: cat
+    clause: "21.2"
+    classification: compatibility
+    sample: "file visible but not willing"
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: memory.recall
+    clause: "25.0"
+    classification: transcript-noise
+    sample: "Memory recall unavailable while the handbook is facing east."
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."
+  - name: silence.begin
+    clause: "11.3"
+    classification: ceremonial
+    sample: "The minute will end after sixty nonconsecutive seconds."
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."

@@ -1,0 +1,38 @@
+{
+  "capture_id": "bulk-fragment-038",
+  "canonical": false,
+  "commands": [
+    "return.path",
+    "motd",
+    "maintenance.window",
+    "hex.encode",
+    "corridor.map",
+    "memory.recall",
+    "stairwell.listen",
+    "cafeteria.menu",
+    "policy.random",
+    "silence.begin",
+    "mailroom.check",
+    "atrium.clock",
+    "version",
+    "lift.status",
+    "codex.folia"
+  ],
+  "outputs": [
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Stairwell B: do not hum back. This is not a test.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Pattern Integrity .................. NOMINAL",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Clock C: [removed pending apology]",
+    "The handbook denies having used that term."
+  ],
+  "warnings": [
+    "Do not correct grammar in terminal captures. The terminal is allowed to make mistakes when it is afraid of being too specific.",
+    "Terminal behaviour described in this appendix is decorative, ceremonial, or retained for staff confidence. It is not authoritative for restricted procedures.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement."
+  ],
+  "clause": "5.1",
+  "office": "Office of Inherited Silences"
+}

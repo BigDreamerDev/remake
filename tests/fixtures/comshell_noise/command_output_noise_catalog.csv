@@ -1,0 +1,58 @@
+id,command,classification,sample_output,canonical,clause
+cmd-noise-001,version,ceremonial,comShell v4.8.0 / public terminal build | schema ring: liminal-stable,False,14.2
+cmd-noise-002,motd,ceremonial,The water in the west stairwell has passed inspection. It should not be thanked.,False,14.2
+cmd-noise-003,notice.roll,transcript-noise,Notice 7-F: The suggestion box is not accepting apologies this quarter.,False,7.2
+cmd-noise-004,handbook.lookup,low-clearance,Clause 7.2: Reflective Discipline | Full text: consult the handbook edition facing away from the window.,False,7.7
+cmd-noise-005,handbook.random,low-clearance,Random selection does not constitute authorisation.,False,11.3
+cmd-noise-006,forms.list,transcript-noise,Known forms: | Form D-17(b) | Form PI-3,False,2.8
+cmd-noise-007,forms.lookup,ceremonial,audible_anomaly → Form HA-9,False,20.0
+cmd-noise-008,rank.required,compatibility,Restricted invocation rank requirement: | This does not open a restricted command by itself.,False,16.8
+cmd-noise-009,rank.list,training,Trainee | Junior | Senior | Limonology,False,20.0
+cmd-noise-010,cymatics.classify,transcript-noise,frequency : 44.1 Hz | band : Class-I,False,19.0
+cmd-noise-011,cymatics.scan,ceremonial,Cymatic scan complete. | Note: terminal microphone not calibrated for doors that breathe.,False,2.8
+cmd-noise-012,hydrology.depth,training,classification : shallow | do not disturb still water that contains corridor light,False,9.7
+cmd-noise-013,hydrology.pressure,training,hydrostatic pressure at 0.6 m: 5883.83 Pa,False,7.7
+cmd-noise-014,codex.folia,ceremonial,55 pages → 28 folia,False,19.0
+cmd-noise-015,codex.quire,ceremonial,incomplete quires sometimes continue on the shelf behind them,False,2.8
+cmd-noise-016,hex.encode,low-clearance,"encoded text is administrative, not evidentiary",False,7.2
+cmd-noise-017,hex.decode,transcript-noise,decode failed or produced silence,False,10.4
+cmd-noise-018,archive.status,low-clearance,incoming crates .............. 11 | palimpsest review ............. pending,False,7.2
+cmd-noise-019,archive.request,training,Retrieval window: within the current quarter,False,11.3
+cmd-noise-020,mirror.audit,compatibility,"Mirror audit complete: one reflection late, none missing.",False,20.0
+cmd-noise-021,stairwell.listen,training,Stairwell B: do not hum back. This is not a test.,False,14.2
+cmd-noise-022,cafeteria.menu,transcript-noise,Today: all items discontinued except the queue.,False,25.0
+cmd-noise-023,policy.random,training,"Clause 25.0: Silence is daily, but not always at the same minute.",False,19.0
+cmd-noise-024,memory.recall,transcript-noise,Memory recall unavailable while the handbook is facing east.,False,25.0
+cmd-noise-025,audit.roll,compatibility,"present, present, absent, present, [blank], present",False,2.8
+cmd-noise-026,log.tail,low-clearance,06:04:04 corridor: administrative merge completed twice,False,7.7
+cmd-noise-027,lights.status,low-clearance,Room 19.0 ..................... no fixture assigned,False,25.0
+cmd-noise-028,door.test,low-clearance,"Cafeteria rear door ........... ajar by policy, not by geometry",False,9.7
+cmd-noise-029,badge.read,ceremonial,Magnetic stripe contains 0 approved corridors and 1 remembered corridor.,False,20.0
+cmd-noise-030,descale.status,compatibility,Do not enter if you hear someone finishing your sentence.,False,10.4
+cmd-noise-031,atrium.clock,ceremonial,Clock C: [removed pending apology],False,21.2
+cmd-noise-032,observance.next,training,Silence begins when the lights stop agreeing.,False,14.2
+cmd-noise-033,orange.when,compatibility,"orange is a time, not a colour, during audits.",False,7.2
+cmd-noise-034,weather.inside,low-clearance,precipitation: observed only under covered areas,False,20.0
+cmd-noise-035,waterline,training,Floor -4: not a floor in this edition of the handbook,False,25.0
+cmd-noise-036,mailroom.check,ceremonial,One envelope contains only the sound of opening it.,False,16.8
+cmd-noise-037,maintenance.window,ceremonial,04:04–04:04 west corridor reconciliation,False,19.0
+cmd-noise-038,memorial.check,transcript-noise,You are not currently absent enough to be excused.,False,16.8
+cmd-noise-039,silence.begin,ceremonial,The minute will end after sixty nonconsecutive seconds.,False,11.3
+cmd-noise-040,silence.status,training,Unsynchronised variance within accepted limits.,False,2.8
+cmd-noise-041,contact.office,training,"Codicology ................. knock twice, then document the third knock",False,9.7
+cmd-noise-042,return.path,compatibility,Return path cannot be calculated while the route remembers you arriving.,False,7.2
+cmd-noise-043,corridor.map,ceremonial,not all marked doors correspond to rooms,False,2.8
+cmd-noise-044,lift.status,ceremonial,Lift D: never installed; do not wait inside it,False,25.0
+cmd-noise-045,room.query,training,available only to staff already inside,False,2.8
+cmd-noise-046,node.trace,compatibility,corridor-cache / repeated,False,10.4
+cmd-noise-047,node.quarantine,compatibility,status: advisory only at current rank,False,16.8
+cmd-noise-048,report.anomaly,compatibility,A representative may contact you before the event that produced the report.,False,14.2
+cmd-noise-049,ticket.open,transcript-noise,waiting for a department to admit jurisdiction,False,11.3
+cmd-noise-050,inventory.sample,training,covered mirror | receipt for an unopened door,False,9.7
+cmd-noise-051,floor.plan,training,a floor omitted from a plan may still support weight,False,21.2
+cmd-noise-052,registry.lookup,low-clearance,term may have been filed under the sound it made,False,9.7
+cmd-noise-053,seal.verify,training,seal is probably still deciding,False,2.8
+cmd-noise-054,name.check,transcript-noise,"write it once, then cover the page",False,10.4
+cmd-noise-055,echo,low-clearance,input may be repeated in reverse under corridor echo conditions,False,20.0
+cmd-noise-056,cat,compatibility,file visible but not willing,False,21.2
+cmd-noise-057,sleep,compatibility,terminals are not permitted to dream during business hours,False,19.0

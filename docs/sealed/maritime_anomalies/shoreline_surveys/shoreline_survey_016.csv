@@ -1,0 +1,38 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-016-000,Ward C Washroom,blue tape,918,inside,pipe breath,do not revisit alone
+SS-016-001,Sublevel K Drainage,unmarked,77,847,rain inside,distance changed while writing
+SS-016-002,North Glass Shoal,brass tag,1033,1103,bell,marker dry
+SS-016-003,The Pool That Was Not Built,brass tag,1086,388,surf,ordinary until midnight
+SS-016-004,Below-Stairs Reservoir,white rope,532,below,pipe breath,do not revisit alone
+SS-016-005,Salt Archive,salt nail,927,608,pipe breath,do not revisit alone
+SS-016-006,Canteen Tidewell,wet chalk,1083,not returned,gulls,marker wet
+SS-016-007,Blue Door Quay,wet chalk,1172,below,none,distance changed while writing
+SS-016-008,Sublevel K Drainage,unmarked,1123,inside,gulls,marker dry
+SS-016-009,Anchor Hall,salt nail,138,649,surf,distance changed while writing
+SS-016-010,Blackwater Pier,brass tag,517,1138,gulls,distance changed while writing
+SS-016-011,South Intake Tunnel,brass tag,914,below,pipe breath,marker wet
+SS-016-012,Below-Stairs Reservoir,white rope,770,inside,surf,ordinary until midnight
+SS-016-013,Canteen Tidewell,unmarked,737,below,pipe breath,marker dry
+SS-016-014,Oyster Stair,salt nail,238,same as yesterday,bell,distance changed while writing
+SS-016-015,Below-Stairs Reservoir,salt nail,839,428,pipe breath,marker dry
+SS-016-016,Rain Room 11,brass tag,805,not returned,gulls,do not revisit alone
+SS-016-017,Ward C Washroom,unmarked,131,inside,gulls,ordinary until midnight
+SS-016-018,Grey Buoy Field,unmarked,889,not returned,gulls,marker dry
+SS-016-019,Sublevel K Drainage,brass tag,840,not returned,bell,marker wet
+SS-016-020,Mirrorpool Basin,unmarked,405,not returned,surf,marker wet
+SS-016-021,The Dry Dock With Water In It,brass tag,268,inside,surf,distance changed while writing
+SS-016-022,Rain Room 11,white rope,1040,below,bell,marker wet
+SS-016-023,Anchor Hall,unmarked,524,not returned,surf,marker dry
+SS-016-024,South Intake Tunnel,unmarked,320,984,bell,marker wet
+SS-016-025,Blackwater Pier,unmarked,812,same as yesterday,gulls,ordinary until midnight
+SS-016-026,South Intake Tunnel,blue tape,714,498,gulls,marker dry
+SS-016-027,Lower Bell Marina,white rope,325,174,surf,distance changed while writing
+SS-016-028,Lighthouse 7,white rope,410,not returned,none,marker dry
+SS-016-029,Old Bathing Pavilion,wet chalk,261,same as yesterday,surf,distance changed while writing
+SS-016-030,Blue Door Quay,wet chalk,300,inside,surf,ordinary until midnight
+SS-016-031,Sublevel K Drainage,brass tag,718,below,gulls,marker wet
+SS-016-032,Grey Buoy Field,brass tag,161,not returned,surf,marker wet
+SS-016-033,Observation Deck 4,unmarked,52,below,none,ordinary until midnight
+SS-016-034,Crescent Breakwater,white rope,345,same as yesterday,gulls,marker dry
+SS-016-035,South Intake Tunnel,unmarked,11,not returned,pipe breath,do not revisit alone
+SS-016-036,Blue Door Quay,unmarked,890,below,surf,ordinary until midnight

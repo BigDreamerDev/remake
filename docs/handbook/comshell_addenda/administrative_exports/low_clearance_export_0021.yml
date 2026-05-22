@@ -1,0 +1,49 @@
+export_id: SW-LOW-0021
+clearance: low
+canonical: false
+commands:
+  - name: lift.status
+    clause: "25.0"
+    classification: ceremonial
+    sample: "Lift D: never installed; do not wait inside it"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: observance.next
+    clause: "14.2"
+    classification: training
+    sample: "Silence begins when the lights stop agreeing."
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: registry.lookup
+    clause: "9.7"
+    classification: low-clearance
+    sample: "term may have been filed under the sound it made"
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: echo
+    clause: "20.0"
+    classification: low-clearance
+    sample: "input may be repeated in reverse under corridor echo conditions"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: notice.roll
+    clause: "7.2"
+    classification: transcript-noise
+    sample: "Notice 7-F: The suggestion box is not accepting apologies this quarter."
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."
+  - name: cat
+    clause: "21.2"
+    classification: compatibility
+    sample: "file visible but not willing"
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: hydrology.pressure
+    clause: "7.7"
+    classification: training
+    sample: "hydrostatic pressure at 0.6 m: 5883.83 Pa"
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."
+  - name: cafeteria.menu
+    clause: "25.0"
+    classification: transcript-noise
+    sample: "Today: all items discontinued except the queue."
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: cymatics.classify
+    clause: "19.0"
+    classification: transcript-noise
+    sample: "frequency : 44.1 Hz | band : Class-I"
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."

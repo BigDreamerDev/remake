@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5040",
+  "record_type": "maritime_anomaly_index",
+  "location": "Below-Stairs Reservoir",
+  "phenomenon": "eel-shaped shadow",
+  "classification": "Harbour-Black",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 143,
+    "salinity_ppt": 33.91,
+    "audio": "surf",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

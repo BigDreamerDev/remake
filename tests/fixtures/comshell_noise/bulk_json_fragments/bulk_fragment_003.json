@@ -1,0 +1,34 @@
+{
+  "capture_id": "bulk-fragment-003",
+  "canonical": false,
+  "commands": [
+    "door.test",
+    "stairwell.listen",
+    "motd",
+    "hex.encode",
+    "codex.folia",
+    "weather.inside",
+    "floor.plan",
+    "report.anomaly",
+    "lights.status",
+    "observance.next",
+    "mirror.audit",
+    "hex.decode"
+  ],
+  "outputs": [
+    "Stairwell B: do not hum back. This is not a test.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "file visible but not willing",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Pattern Integrity .................. NOMINAL",
+    "Clock C: [removed pending apology]"
+  ],
+  "warnings": [
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing."
+  ],
+  "clause": "9.7",
+  "office": "Codicology Desk"
+}

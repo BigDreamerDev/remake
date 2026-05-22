@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5025",
+  "record_type": "maritime_anomaly_index",
+  "location": "Observation Deck 4",
+  "phenomenon": "black foam",
+  "classification": "Fathom-Null",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 341,
+    "salinity_ppt": 5.44,
+    "audio": "bell",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

@@ -1,0 +1,35 @@
+{
+  "capture_id": "bulk-fragment-059",
+  "canonical": false,
+  "commands": [
+    "mailroom.check",
+    "cymatics.scan",
+    "waterline",
+    "memory.recall",
+    "weather.inside",
+    "silence.begin",
+    "lift.status",
+    "seal.verify",
+    "observance.next",
+    "room.query",
+    "archive.request",
+    "badge.read"
+  ],
+  "outputs": [
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Gate acknowledged. Session opening.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Stairwell B: do not hum back. This is not a test.",
+    "Pattern Integrity .................. NOMINAL",
+    "The water in the west stairwell has passed inspection. It should not be thanked."
+  ],
+  "warnings": [
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d."
+  ],
+  "clause": "9.7",
+  "office": "Meal Substitution Review"
+}

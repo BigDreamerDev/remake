@@ -1,0 +1,31 @@
+{
+  "capture_id": "bulk-fragment-035",
+  "canonical": false,
+  "commands": [
+    "memorial.check",
+    "name.check",
+    "hydrology.depth",
+    "weather.inside",
+    "archive.status",
+    "room.query",
+    "corridor.map",
+    "mirror.audit",
+    "hydrology.pressure",
+    "echo",
+    "handbook.random"
+  ],
+  "outputs": [
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Gate acknowledged. Session opening.",
+    "The handbook denies having used that term.",
+    "The water in the west stairwell has passed inspection. It should not be thanked."
+  ],
+  "warnings": [
+    "If any sample output appears to know your route home, stop reading and submit the page face-down.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing."
+  ],
+  "clause": "20.3",
+  "office": "Corridor Reconciliation Subcommittee"
+}

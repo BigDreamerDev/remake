@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5051",
+  "record_type": "maritime_anomaly_index",
+  "location": "Mirrorpool Basin",
+  "phenomenon": "coastal hallway recursion",
+  "classification": "Quiet-Water",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 290,
+    "salinity_ppt": 29.76,
+    "audio": "bell",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

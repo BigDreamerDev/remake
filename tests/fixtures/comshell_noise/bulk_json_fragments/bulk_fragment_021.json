@@ -1,0 +1,36 @@
+{
+  "capture_id": "bulk-fragment-021",
+  "canonical": false,
+  "commands": [
+    "motd",
+    "return.path",
+    "node.trace",
+    "lights.status",
+    "orange.when",
+    "handbook.lookup",
+    "hydrology.depth",
+    "codex.folia",
+    "echo",
+    "report.anomaly",
+    "node.quarantine",
+    "hydrology.pressure",
+    "silence.status"
+  ],
+  "outputs": [
+    "Pattern Integrity .................. NOMINAL",
+    "Gate acknowledged. Session opening.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Clock C: [removed pending apology]",
+    "The handbook denies having used that term.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Stairwell B: do not hum back. This is not a test."
+  ],
+  "warnings": [
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement."
+  ],
+  "clause": "16.8",
+  "office": "Codicology Desk"
+}

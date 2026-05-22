@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5075",
+  "record_type": "maritime_anomaly_index",
+  "location": "Old Bathing Pavilion",
+  "phenomenon": "salt apparition",
+  "classification": "Undertow",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 366,
+    "salinity_ppt": 30.26,
+    "audio": "bell",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

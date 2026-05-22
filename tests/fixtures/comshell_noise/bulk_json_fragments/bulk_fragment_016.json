@@ -1,0 +1,29 @@
+{
+  "capture_id": "bulk-fragment-016",
+  "canonical": false,
+  "commands": [
+    "motd",
+    "observance.next",
+    "forms.list",
+    "node.trace",
+    "archive.status",
+    "silence.status",
+    "corridor.map",
+    "audit.roll"
+  ],
+  "outputs": [
+    "Mirror audit complete: one reflection late, none missing.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "file visible but not willing",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Gate acknowledged. Session opening."
+  ],
+  "warnings": [
+    "A visible command name in a handbook appendix does not constitute a recommendation to use it near a lift, cafeteria queue, or still-water site.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "Terminal behaviour described in this appendix is decorative, ceremonial, or retained for staff confidence. It is not authoritative for restricted procedures."
+  ],
+  "clause": "19.0",
+  "office": "Meal Substitution Review"
+}

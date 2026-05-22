@@ -1,0 +1,26 @@
+record: liminal-hydrology-fixture-007
+classification: Quiet-Water
+location: Rain Room 11
+phenomenon: black foam
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 234
+    smell: kelp
+    reflection: delayed
+  - phase: 1
+    waterline_mm: 342
+    smell: bleach
+    reflection: person-absent
+  - phase: 2
+    waterline_mm: 170
+    smell: cold tea
+    reflection: wrong-room
+  - phase: 3
+    waterline_mm: 444
+    smell: rain concrete
+    reflection: wrong-room
+  - phase: 4
+    waterline_mm: 73
+    smell: rain concrete
+    reflection: person-absent

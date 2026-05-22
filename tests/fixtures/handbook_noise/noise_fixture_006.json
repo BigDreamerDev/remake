@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "cup.inspect",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "log.tail",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    },
+    {
+      "command": "ink.test",
+      "result": "handbook clause relocated after citation; use the printed copy facing away from glass",
+      "action": "none"
+    },
+    {
+      "command": "rank.required",
+      "result": "result withheld because the witness had already gone home in a previous shift",
+      "action": "none"
+    },
+    {
+      "command": "forms.lookup",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "registry.lookup",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "rank.list",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "badge.read",
+      "result": "one reflection answered late; no disciplinary event is created by lateness alone",
+      "action": "none"
+    }
+  ]
+}

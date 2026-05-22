@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5036",
+  "record_type": "maritime_anomaly_index",
+  "location": "Room 0 Flood Annex",
+  "phenomenon": "memory brine",
+  "classification": "Quiet-Water",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 564,
+    "salinity_ppt": 9.91,
+    "audio": "choir",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "watch for corridor length change"
+}

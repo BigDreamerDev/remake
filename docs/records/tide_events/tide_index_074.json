@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5074",
+  "record_type": "maritime_anomaly_index",
+  "location": "Rain Room 11",
+  "phenomenon": "stairwell flood without source",
+  "classification": "Harbour-Black",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 434,
+    "salinity_ppt": 14.65,
+    "audio": "pipe-hum",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

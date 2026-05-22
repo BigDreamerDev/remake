@@ -1,0 +1,34 @@
+record: liminal-hydrology-fixture-026
+classification: Quiet-Water
+location: Crescent Breakwater
+phenomenon: unlit lighthouse beam
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 301
+    smell: kelp
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 332
+    smell: rain concrete
+    reflection: person-absent
+  - phase: 2
+    waterline_mm: 153
+    smell: none
+    reflection: wrong-room
+  - phase: 3
+    waterline_mm: 144
+    smell: rain concrete
+    reflection: delayed
+  - phase: 4
+    waterline_mm: 385
+    smell: none
+    reflection: correct
+  - phase: 5
+    waterline_mm: 433
+    smell: none
+    reflection: sea
+  - phase: 6
+    waterline_mm: 239
+    smell: salt
+    reflection: delayed

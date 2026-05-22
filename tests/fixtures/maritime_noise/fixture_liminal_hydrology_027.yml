@@ -1,0 +1,38 @@
+record: liminal-hydrology-fixture-027
+classification: Bell-Sink
+location: Anchor Hall
+phenomenon: eel-shaped shadow
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 463
+    smell: cold tea
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 35
+    smell: bleach
+    reflection: stairs
+  - phase: 2
+    waterline_mm: 203
+    smell: kelp
+    reflection: correct
+  - phase: 3
+    waterline_mm: 213
+    smell: rain concrete
+    reflection: delayed
+  - phase: 4
+    waterline_mm: 405
+    smell: kelp
+    reflection: correct
+  - phase: 5
+    waterline_mm: 134
+    smell: kelp
+    reflection: wrong-room
+  - phase: 6
+    waterline_mm: 377
+    smell: bleach
+    reflection: stairs
+  - phase: 7
+    waterline_mm: 395
+    smell: none
+    reflection: stairs

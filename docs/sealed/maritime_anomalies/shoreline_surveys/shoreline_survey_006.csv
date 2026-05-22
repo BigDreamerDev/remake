@@ -1,0 +1,46 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-006-000,Ward C Washroom,white rope,834,inside,bell,ordinary until midnight
+SS-006-001,Rain Room 11,white rope,633,same as yesterday,none,marker wet
+SS-006-002,Grey Buoy Field,blue tape,997,inside,none,marker wet
+SS-006-003,Sublevel K Drainage,white rope,9,not returned,gulls,do not revisit alone
+SS-006-004,Room 0 Flood Annex,salt nail,374,below,none,marker wet
+SS-006-005,Rain Room 11,brass tag,573,not returned,rain inside,do not revisit alone
+SS-006-006,Mirrorpool Basin,white rope,819,same as yesterday,rain inside,ordinary until midnight
+SS-006-007,Ward C Washroom,wet chalk,10,683,bell,do not revisit alone
+SS-006-008,Anchor Hall,salt nail,752,511,pipe breath,distance changed while writing
+SS-006-009,The Pool That Was Not Built,white rope,31,same as yesterday,rain inside,ordinary until midnight
+SS-006-010,Canteen Tidewell,salt nail,56,below,rain inside,marker wet
+SS-006-011,Grey Buoy Field,wet chalk,1110,629,gulls,distance changed while writing
+SS-006-012,Mirrorpool Basin,wet chalk,942,same as yesterday,none,ordinary until midnight
+SS-006-013,Mirrorpool Basin,blue tape,537,below,none,do not revisit alone
+SS-006-014,South Intake Tunnel,wet chalk,626,same as yesterday,pipe breath,marker wet
+SS-006-015,The Empty Aquarium,salt nail,363,236,bell,ordinary until midnight
+SS-006-016,Tide Elevator,wet chalk,70,same as yesterday,surf,marker wet
+SS-006-017,Crescent Breakwater,white rope,193,below,bell,distance changed while writing
+SS-006-018,Lighthouse 7,salt nail,800,same as yesterday,bell,marker wet
+SS-006-019,Rain Room 11,blue tape,73,same as yesterday,rain inside,ordinary until midnight
+SS-006-020,North Glass Shoal,white rope,325,inside,surf,do not revisit alone
+SS-006-021,West Sluice Door,blue tape,48,same as yesterday,rain inside,do not revisit alone
+SS-006-022,Sublevel K Drainage,white rope,567,inside,bell,marker wet
+SS-006-023,West Sluice Door,unmarked,365,inside,surf,do not revisit alone
+SS-006-024,Tide Elevator,unmarked,963,below,pipe breath,marker dry
+SS-006-025,The Dry Dock With Water In It,unmarked,379,492,none,ordinary until midnight
+SS-006-026,Ashen Ferry Terminal,brass tag,440,291,none,marker wet
+SS-006-027,Rain Room 11,unmarked,637,inside,bell,marker wet
+SS-006-028,South Intake Tunnel,white rope,480,528,surf,marker wet
+SS-006-029,West Sluice Door,salt nail,94,below,none,distance changed while writing
+SS-006-030,Oyster Stair,brass tag,848,same as yesterday,rain inside,marker dry
+SS-006-031,Old Bathing Pavilion,blue tape,1175,not returned,rain inside,do not revisit alone
+SS-006-032,Lower Bell Marina,unmarked,1066,same as yesterday,gulls,marker wet
+SS-006-033,Ashen Ferry Terminal,unmarked,1076,not returned,rain inside,ordinary until midnight
+SS-006-034,Canteen Tidewell,unmarked,973,same as yesterday,pipe breath,ordinary until midnight
+SS-006-035,Lighthouse 7,unmarked,827,inside,pipe breath,marker wet
+SS-006-036,Undertow Corridor,white rope,766,not returned,pipe breath,marker dry
+SS-006-037,North Glass Shoal,salt nail,940,inside,surf,marker dry
+SS-006-038,Ashen Ferry Terminal,wet chalk,666,313,pipe breath,distance changed while writing
+SS-006-039,Old Bathing Pavilion,unmarked,1117,below,surf,do not revisit alone
+SS-006-040,Ashen Ferry Terminal,blue tape,130,same as yesterday,bell,marker dry
+SS-006-041,Salt Archive,unmarked,225,inside,pipe breath,ordinary until midnight
+SS-006-042,Anchor Hall,wet chalk,671,1067,bell,distance changed while writing
+SS-006-043,The Empty Aquarium,salt nail,929,below,none,do not revisit alone
+SS-006-044,The Third Jetty,blue tape,50,not returned,bell,distance changed while writing

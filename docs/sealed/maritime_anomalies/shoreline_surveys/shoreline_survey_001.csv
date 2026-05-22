@@ -1,0 +1,45 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-001-000,Grey Buoy Field,brass tag,943,below,rain inside,distance changed while writing
+SS-001-001,Tide Elevator,salt nail,99,same as yesterday,surf,marker dry
+SS-001-002,Undertow Corridor,wet chalk,245,same as yesterday,none,distance changed while writing
+SS-001-003,Blackwater Pier,salt nail,210,inside,rain inside,marker wet
+SS-001-004,Anchor Hall,blue tape,861,576,pipe breath,do not revisit alone
+SS-001-005,Below-Stairs Reservoir,white rope,196,inside,bell,distance changed while writing
+SS-001-006,Sublevel K Drainage,salt nail,156,below,rain inside,marker wet
+SS-001-007,The Empty Aquarium,white rope,257,inside,pipe breath,do not revisit alone
+SS-001-008,Sublevel K Drainage,salt nail,584,401,surf,marker dry
+SS-001-009,Oyster Stair,salt nail,235,inside,none,ordinary until midnight
+SS-001-010,The Empty Aquarium,blue tape,586,below,none,marker wet
+SS-001-011,Tide Elevator,unmarked,226,707,pipe breath,marker wet
+SS-001-012,Room 0 Flood Annex,unmarked,436,716,rain inside,marker dry
+SS-001-013,Ward C Washroom,wet chalk,565,290,bell,marker wet
+SS-001-014,Room 0 Flood Annex,salt nail,589,524,bell,do not revisit alone
+SS-001-015,Anchor Hall,unmarked,831,not returned,rain inside,marker wet
+SS-001-016,Blue Door Quay,wet chalk,284,same as yesterday,bell,marker wet
+SS-001-017,The Dry Dock With Water In It,salt nail,549,below,rain inside,do not revisit alone
+SS-001-018,Blackwater Pier,white rope,663,966,bell,marker dry
+SS-001-019,Anchor Hall,wet chalk,643,not returned,gulls,ordinary until midnight
+SS-001-020,Lighthouse 7,brass tag,936,inside,gulls,do not revisit alone
+SS-001-021,Old Bathing Pavilion,white rope,647,inside,rain inside,do not revisit alone
+SS-001-022,The Third Jetty,brass tag,493,not returned,pipe breath,marker wet
+SS-001-023,Observation Deck 4,wet chalk,126,below,bell,distance changed while writing
+SS-001-024,Blackwater Pier,brass tag,726,below,pipe breath,do not revisit alone
+SS-001-025,Canteen Tidewell,salt nail,529,not returned,bell,marker dry
+SS-001-026,The Empty Aquarium,wet chalk,19,inside,pipe breath,marker dry
+SS-001-027,Canteen Tidewell,salt nail,964,below,rain inside,marker wet
+SS-001-028,Mirrorpool Basin,white rope,60,621,gulls,do not revisit alone
+SS-001-029,Grey Buoy Field,white rope,363,inside,none,ordinary until midnight
+SS-001-030,The Dry Dock With Water In It,blue tape,84,699,rain inside,marker dry
+SS-001-031,West Sluice Door,unmarked,972,below,pipe breath,distance changed while writing
+SS-001-032,The Empty Aquarium,wet chalk,509,same as yesterday,pipe breath,marker wet
+SS-001-033,North Glass Shoal,blue tape,511,not returned,gulls,ordinary until midnight
+SS-001-034,Salt Archive,blue tape,464,same as yesterday,surf,marker dry
+SS-001-035,Blackwater Pier,unmarked,163,same as yesterday,gulls,marker dry
+SS-001-036,Ward C Washroom,unmarked,662,inside,none,do not revisit alone
+SS-001-037,The Pool That Was Not Built,blue tape,866,not returned,bell,distance changed while writing
+SS-001-038,Undertow Corridor,wet chalk,655,inside,gulls,distance changed while writing
+SS-001-039,Blue Door Quay,unmarked,1144,not returned,surf,distance changed while writing
+SS-001-040,Tide Elevator,unmarked,1044,below,rain inside,ordinary until midnight
+SS-001-041,The Empty Aquarium,unmarked,393,same as yesterday,surf,distance changed while writing
+SS-001-042,South Intake Tunnel,blue tape,1136,inside,rain inside,ordinary until midnight
+SS-001-043,Ashen Ferry Terminal,salt nail,486,inside,surf,distance changed while writing

@@ -1,0 +1,36 @@
+{
+  "capture_id": "bulk-fragment-058",
+  "canonical": false,
+  "commands": [
+    "registry.lookup",
+    "floor.plan",
+    "corridor.map",
+    "codex.folia",
+    "maintenance.window",
+    "echo",
+    "codex.quire",
+    "cymatics.classify",
+    "forms.lookup",
+    "weather.inside",
+    "mailroom.check",
+    "node.trace",
+    "archive.status",
+    "name.check"
+  ],
+  "outputs": [
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "file visible but not willing",
+    "Pattern Integrity .................. NOMINAL",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Gate acknowledged. Session opening.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9"
+  ],
+  "warnings": [
+    "Do not correct grammar in terminal captures. The terminal is allowed to make mistakes when it is afraid of being too specific.",
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent."
+  ],
+  "clause": "11.3",
+  "office": "Pattern Integrity Working Group"
+}

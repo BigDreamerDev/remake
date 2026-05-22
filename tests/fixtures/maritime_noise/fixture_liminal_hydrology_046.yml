@@ -1,0 +1,26 @@
+record: liminal-hydrology-fixture-046
+classification: Brackish-Liminal
+location: West Sluice Door
+phenomenon: mirror water
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 378
+    smell: rain concrete
+    reflection: person-absent
+  - phase: 1
+    waterline_mm: 81
+    smell: cold tea
+    reflection: sea
+  - phase: 2
+    waterline_mm: 73
+    smell: salt
+    reflection: wrong-room
+  - phase: 3
+    waterline_mm: 217
+    smell: bleach
+    reflection: correct
+  - phase: 4
+    waterline_mm: 404
+    smell: kelp
+    reflection: delayed

@@ -1,0 +1,37 @@
+{
+  "capture_id": "bulk-fragment-044",
+  "canonical": false,
+  "commands": [
+    "archive.status",
+    "log.tail",
+    "door.test",
+    "stairwell.listen",
+    "memorial.check",
+    "hydrology.pressure",
+    "return.path",
+    "name.check",
+    "waterline",
+    "archive.request",
+    "audit.roll",
+    "codex.quire",
+    "memory.recall",
+    "echo",
+    "cafeteria.menu"
+  ],
+  "outputs": [
+    "file visible but not willing",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "The handbook denies having used that term.",
+    "Gate acknowledged. Session opening.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Pattern Integrity .................. NOMINAL"
+  ],
+  "warnings": [
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent.",
+    "Where the command appears to answer a question not asked, attach the transcript to the nearest related form and do not ask the terminal to clarify itself."
+  ],
+  "clause": "20.3",
+  "office": "Meal Substitution Review"
+}

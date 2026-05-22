@@ -1,0 +1,35 @@
+{
+  "capture_id": "bulk-fragment-017",
+  "canonical": false,
+  "commands": [
+    "forms.list",
+    "mailroom.check",
+    "hex.encode",
+    "seal.verify",
+    "cafeteria.menu",
+    "stairwell.listen",
+    "memory.recall",
+    "weather.inside",
+    "node.quarantine",
+    "rank.required",
+    "contact.office",
+    "codex.folia"
+  ],
+  "outputs": [
+    "file visible but not willing",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Clock C: [removed pending apology]",
+    "The handbook denies having used that term.",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Stairwell B: do not hum back. This is not a test."
+  ],
+  "warnings": [
+    "If any sample output appears to know your route home, stop reading and submit the page face-down.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review."
+  ],
+  "clause": "21.2",
+  "office": "Cymatic Compliance Room"
+}

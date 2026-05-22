@@ -1,0 +1,34 @@
+export_id: SW-LOW-0024
+clearance: low
+canonical: false
+commands:
+  - name: cat
+    clause: "21.2"
+    classification: compatibility
+    sample: "file visible but not willing"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: codex.quire
+    clause: "2.8"
+    classification: ceremonial
+    sample: "incomplete quires sometimes continue on the shelf behind them"
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: cafeteria.menu
+    clause: "25.0"
+    classification: transcript-noise
+    sample: "Today: all items discontinued except the queue."
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: mailroom.check
+    clause: "16.8"
+    classification: ceremonial
+    sample: "One envelope contains only the sound of opening it."
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."
+  - name: descale.status
+    clause: "10.4"
+    classification: compatibility
+    sample: "Do not enter if you hear someone finishing your sentence."
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: hydrology.depth
+    clause: "9.7"
+    classification: training
+    sample: "classification : shallow | do not disturb still water that contains corridor light"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."

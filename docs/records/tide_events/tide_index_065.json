@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5065",
+  "record_type": "maritime_anomaly_index",
+  "location": "Ashen Ferry Terminal",
+  "phenomenon": "floor-level surf",
+  "classification": "Low-Swell",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 233,
+    "salinity_ppt": 34.87,
+    "audio": "rain",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "no access material recorded"
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5042",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Pool That Was Not Built",
+  "phenomenon": "coastal hallway recursion",
+  "classification": "Harbour-Black",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 170,
+    "salinity_ppt": 30.96,
+    "audio": "rain",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "no access material recorded"
+}

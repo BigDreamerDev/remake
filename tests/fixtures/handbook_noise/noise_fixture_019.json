@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "node.quarantine",
+      "result": "mirror cover compliant; covered surface continues to behave like a window",
+      "action": "none"
+    },
+    {
+      "command": "rank.required",
+      "result": "mirror cover compliant; covered surface continues to behave like a window",
+      "action": "none"
+    },
+    {
+      "command": "descale.status",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "id",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "memorial.check",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "return.path",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    },
+    {
+      "command": "codex.folia",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "window.cover",
+      "result": "standing water found above the label but below the room name",
+      "action": "none"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "memory.recall",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "badge.read",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "maintenance.window",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "tone.sample",
+      "result": "handbook clause relocated after citation; use the printed copy facing away from glass",
+      "action": "none"
+    },
+    {
+      "command": "tone.sample",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "codex.quire",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "policy.random",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    },
+    {
+      "command": "chair.count",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    }
+  ]
+}

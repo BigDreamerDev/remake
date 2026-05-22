@@ -1,0 +1,77 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-PAL-1931-0064-00",
+      "date_recorded": "1931",
+      "type": "minutes book",
+      "condition": "paper darkens when read aloud",
+      "location": "Cresswell Quay",
+      "instruction": "do not index a blank folio by the sound it makes",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-DIP-1488-0064-01",
+      "date_recorded": "1488",
+      "type": "minutes book",
+      "condition": "paper darkens when read aloud",
+      "location": "Borderlake",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-QRY-1714-0064-02",
+      "date_recorded": "1714",
+      "type": "burial index",
+      "condition": "pagination continues beyond final folio",
+      "location": "Room \u0fbe2-A",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1974-0064-03",
+      "date_recorded": "1974",
+      "type": "tide table",
+      "condition": "pages smell faintly of low tide",
+      "location": "Building \u0394",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1974-0064-04",
+      "date_recorded": "1974",
+      "type": "lighthouse memorandum",
+      "condition": "ink blooms inward from gutter",
+      "location": "Cresswell Quay",
+      "instruction": "if the room number appears in pencil, do not erase it",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-ACC-1541-0064-05",
+      "date_recorded": "1541",
+      "type": "canal permit",
+      "condition": "marginalia appears under oblique light",
+      "location": "Sublevel 5",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-SIG-1958-0064-06",
+      "date_recorded": "1958",
+      "type": "weather register",
+      "condition": "ink blooms inward from gutter",
+      "location": "Driftmoor",
+      "instruction": "if the room number appears in pencil, do not erase it",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-ACC-1179-0064-07",
+      "date_recorded": "1179",
+      "type": "railway notice",
+      "condition": "reverse side warmer than front",
+      "location": "Sublevel 5",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

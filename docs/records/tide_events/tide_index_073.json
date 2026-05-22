@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5073",
+  "record_type": "maritime_anomaly_index",
+  "location": "Below-Stairs Reservoir",
+  "phenomenon": "wet footprints arriving before personnel",
+  "classification": "Brackish-Liminal",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 285,
+    "salinity_ppt": 24.12,
+    "audio": "none",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "watch for corridor length change"
+}

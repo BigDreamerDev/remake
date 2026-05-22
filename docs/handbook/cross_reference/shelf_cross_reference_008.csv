@@ -1,0 +1,21 @@
+time,location,observation,disposition
+14:14,service door,badge echo delayed by 2.1 seconds; temporary absence preserved,folded
+06:00,mailroom shutter,mirror cover compliant; covered surface continues to behave like a window,retained
+06:00,cup rack,form accepted in damp condition; drying would change the filing date,non-actionable
+11:11,basin,standing water found above the label but below the room name,non-actionable
+02:00,printer throat,handbook clause relocated after citation; use the printed copy facing away from glass,folded
+11:11,corridor,one reflection answered late; no disciplinary event is created by lateness alone,retained
+04:04,printer throat,mirror cover compliant; covered surface continues to behave like a window,retained
+11:11,corridor,form accepted in damp condition; drying would change the filing date,non-actionable
+11:11,window film,the corridor accepted the request and then changed which side the door was on,non-actionable
+06:00,mirror cover,return path found but rejected because it arrived before the departure,non-actionable
+02:00,vestibule,return path found but rejected because it arrived before the departure,retained
+04:04,service door,standing water found above the label but below the room name,retained
+02:00,lamp housing,handbook clause relocated after citation; use the printed copy facing away from glass,non-actionable
+02:00,return path,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,non-actionable
+02:00,archive tray,badge echo delayed by 2.1 seconds; temporary absence preserved,non-actionable
+11:11,stairwell,return path found but rejected because it arrived before the departure,retained
+11:11,visitor ledger,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,retained
+06:00,clock face,the staircase returned a sample resembling the last thing typed by the operator,folded
+11:11,stairwell,the corridor accepted the request and then changed which side the door was on,retained
+06:00,return path,return path found but rejected because it arrived before the departure,non-actionable

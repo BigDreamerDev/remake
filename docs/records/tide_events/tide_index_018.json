@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5018",
+  "record_type": "maritime_anomaly_index",
+  "location": "Blackwater Pier",
+  "phenomenon": "salt apparition",
+  "classification": "Quiet-Water",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 561,
+    "salinity_ppt": 33.56,
+    "audio": "surf",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "do not match this with command output"
+}

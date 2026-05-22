@@ -1,0 +1,50 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-WET-1793-0233-00",
+      "date_recorded": "1793",
+      "type": "chapel account",
+      "condition": "witness marks do not agree with index",
+      "location": "East Wing",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-WET-1179-0233-01",
+      "date_recorded": "1179",
+      "type": "chapel account",
+      "condition": "corners remember being folded",
+      "location": "Locked Reading Room",
+      "instruction": "ink that refuses ultraviolet inspection should be filed under patience",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-ACC-1822-0233-02",
+      "date_recorded": "1822",
+      "type": "tide table",
+      "condition": "paper darkens when read aloud",
+      "location": "East Wing",
+      "instruction": "where a page names the reader, end the review",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-WET-1974-0233-03",
+      "date_recorded": "1974",
+      "type": "sanatorium visitor book",
+      "condition": "pages smell faintly of low tide",
+      "location": "Sublevel 5",
+      "instruction": "where a page names the reader, end the review",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-SIG-1541-0233-04",
+      "date_recorded": "1541",
+      "type": "canal permit",
+      "condition": "reverse side warmer than front",
+      "location": "Borderlake",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

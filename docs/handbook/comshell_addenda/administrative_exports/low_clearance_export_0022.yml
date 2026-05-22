@@ -1,0 +1,54 @@
+export_id: SW-LOW-0022
+clearance: low
+canonical: false
+commands:
+  - name: waterline
+    clause: "25.0"
+    classification: training
+    sample: "Floor -4: not a floor in this edition of the handbook"
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: archive.status
+    clause: "7.2"
+    classification: low-clearance
+    sample: "incoming crates .............. 11 | palimpsest review ............. pending"
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: hex.decode
+    clause: "10.4"
+    classification: transcript-noise
+    sample: "decode failed or produced silence"
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: door.test
+    clause: "9.7"
+    classification: low-clearance
+    sample: "Cafeteria rear door ........... ajar by policy, not by geometry"
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: forms.lookup
+    clause: "20.0"
+    classification: ceremonial
+    sample: "audible_anomaly → Form HA-9"
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."
+  - name: hydrology.depth
+    clause: "9.7"
+    classification: training
+    sample: "classification : shallow | do not disturb still water that contains corridor light"
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: cymatics.scan
+    clause: "2.8"
+    classification: ceremonial
+    sample: "Cymatic scan complete. | Note: terminal microphone not calibrated for doors that breathe."
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."
+  - name: node.trace
+    clause: "10.4"
+    classification: compatibility
+    sample: "corridor-cache / repeated"
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: stairwell.listen
+    clause: "14.2"
+    classification: training
+    sample: "Stairwell B: do not hum back. This is not a test."
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: silence.status
+    clause: "2.8"
+    classification: training
+    sample: "Unsynchronised variance within accepted limits."
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."

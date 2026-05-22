@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-015
+classification: Harbour-Black
+location: Crescent Breakwater
+phenomenon: standing wave
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 165
+    smell: kelp
+    reflection: person-absent
+  - phase: 1
+    waterline_mm: 186
+    smell: none
+    reflection: wrong-room
+  - phase: 2
+    waterline_mm: 497
+    smell: kelp
+    reflection: sea
+  - phase: 3
+    waterline_mm: 27
+    smell: none
+    reflection: wrong-room
+  - phase: 4
+    waterline_mm: 310
+    smell: kelp
+    reflection: sea
+  - phase: 5
+    waterline_mm: 239
+    smell: salt
+    reflection: person-absent
+  - phase: 6
+    waterline_mm: 268
+    smell: bleach
+    reflection: sea
+  - phase: 7
+    waterline_mm: 353
+    smell: rain concrete
+    reflection: sea
+  - phase: 8
+    waterline_mm: 144
+    smell: salt
+    reflection: correct
+  - phase: 9
+    waterline_mm: 463
+    smell: rain concrete
+    reflection: person-absent
+  - phase: 10
+    waterline_mm: 476
+    smell: none
+    reflection: correct

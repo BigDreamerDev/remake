@@ -1,0 +1,29 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-014-000,Ashen Ferry Terminal,unmarked,836,not returned,rain inside,ordinary until midnight
+SS-014-001,The Dry Dock With Water In It,white rope,190,not returned,none,distance changed while writing
+SS-014-002,The Empty Aquarium,blue tape,550,1163,pipe breath,marker wet
+SS-014-003,South Intake Tunnel,unmarked,129,same as yesterday,gulls,marker wet
+SS-014-004,The Pool That Was Not Built,white rope,703,inside,bell,marker dry
+SS-014-005,Ashen Ferry Terminal,wet chalk,308,same as yesterday,none,marker dry
+SS-014-006,Grey Buoy Field,unmarked,1196,same as yesterday,pipe breath,do not revisit alone
+SS-014-007,Oyster Stair,blue tape,935,357,none,distance changed while writing
+SS-014-008,The Empty Aquarium,brass tag,568,below,rain inside,do not revisit alone
+SS-014-009,Observation Deck 4,unmarked,728,not returned,none,distance changed while writing
+SS-014-010,The Pool That Was Not Built,wet chalk,647,not returned,none,distance changed while writing
+SS-014-011,Undertow Corridor,unmarked,826,below,surf,marker dry
+SS-014-012,Lighthouse 7,brass tag,977,below,bell,do not revisit alone
+SS-014-013,Ashen Ferry Terminal,unmarked,959,same as yesterday,surf,distance changed while writing
+SS-014-014,The Third Jetty,brass tag,1098,inside,rain inside,marker wet
+SS-014-015,South Intake Tunnel,white rope,1132,741,pipe breath,distance changed while writing
+SS-014-016,Lighthouse 7,brass tag,1057,not returned,surf,do not revisit alone
+SS-014-017,Grey Buoy Field,wet chalk,252,same as yesterday,rain inside,ordinary until midnight
+SS-014-018,Ashen Ferry Terminal,wet chalk,152,same as yesterday,pipe breath,marker wet
+SS-014-019,West Sluice Door,white rope,297,below,none,distance changed while writing
+SS-014-020,The Dry Dock With Water In It,wet chalk,58,1145,bell,marker dry
+SS-014-021,Rain Room 11,wet chalk,12,838,rain inside,do not revisit alone
+SS-014-022,Anchor Hall,wet chalk,993,not returned,gulls,do not revisit alone
+SS-014-023,Crescent Breakwater,brass tag,408,880,gulls,marker dry
+SS-014-024,Anchor Hall,unmarked,323,same as yesterday,bell,distance changed while writing
+SS-014-025,West Sluice Door,unmarked,73,975,none,do not revisit alone
+SS-014-026,Tide Elevator,salt nail,247,below,gulls,marker wet
+SS-014-027,West Sluice Door,wet chalk,834,122,surf,marker wet

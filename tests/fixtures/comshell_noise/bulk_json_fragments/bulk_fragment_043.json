@@ -1,0 +1,35 @@
+{
+  "capture_id": "bulk-fragment-043",
+  "canonical": false,
+  "commands": [
+    "hex.decode",
+    "audit.roll",
+    "hydrology.pressure",
+    "name.check",
+    "mirror.audit",
+    "report.anomaly",
+    "handbook.lookup",
+    "codex.quire",
+    "return.path",
+    "floor.plan",
+    "registry.lookup",
+    "rank.list"
+  ],
+  "outputs": [
+    "Gate acknowledged. Session opening.",
+    "Stairwell B: do not hum back. This is not a test.",
+    "file visible but not willing",
+    "Clock C: [removed pending apology]",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "The handbook denies having used that term.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "The water in the west stairwell has passed inspection. It should not be thanked."
+  ],
+  "warnings": [
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "A visible command name in a handbook appendix does not constitute a recommendation to use it near a lift, cafeteria queue, or still-water site.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent."
+  ],
+  "clause": "7.2",
+  "office": "Office of Inherited Silences"
+}

@@ -1,0 +1,59 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-ACC-1822-0150-00",
+      "date_recorded": "1822",
+      "type": "ship log",
+      "condition": "witness marks do not agree with index",
+      "location": "Borderlake",
+      "instruction": "do not index a blank folio by the sound it makes",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-QRY-1179-0150-01",
+      "date_recorded": "1179",
+      "type": "burial index",
+      "condition": "marginalia appears under oblique light",
+      "location": "Borderlake",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-ACC-1488-0150-02",
+      "date_recorded": "1488",
+      "type": "tide table",
+      "condition": "pagination continues beyond final folio",
+      "location": "Building \u0394",
+      "instruction": "if the room number appears in pencil, do not erase it",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-DIP-1907-0150-03",
+      "date_recorded": "1907",
+      "type": "school attendance ledger",
+      "condition": "seal impression wet to touch",
+      "location": "Driftmoor",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-SIG-1958-0150-04",
+      "date_recorded": "1958",
+      "type": "canal permit",
+      "condition": "signature duplicated after drying",
+      "location": "Mossgate",
+      "instruction": "copies made after sunset must be returned face down",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-MGR-1974-0150-05",
+      "date_recorded": "1974",
+      "type": "land survey",
+      "condition": "pages smell faintly of low tide",
+      "location": "Pondroom",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

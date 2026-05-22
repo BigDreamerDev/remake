@@ -1,0 +1,39 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-023-000,Undertow Corridor,brass tag,83,inside,surf,marker dry
+SS-023-001,Lower Bell Marina,blue tape,107,772,gulls,marker wet
+SS-023-002,Crescent Breakwater,unmarked,565,212,bell,ordinary until midnight
+SS-023-003,Salt Archive,white rope,50,494,rain inside,distance changed while writing
+SS-023-004,Blue Door Quay,salt nail,812,1112,bell,ordinary until midnight
+SS-023-005,Lighthouse 7,salt nail,1185,inside,none,marker dry
+SS-023-006,South Intake Tunnel,wet chalk,378,below,pipe breath,marker wet
+SS-023-007,Observation Deck 4,brass tag,1028,same as yesterday,surf,ordinary until midnight
+SS-023-008,Observation Deck 4,unmarked,132,469,surf,ordinary until midnight
+SS-023-009,Lower Bell Marina,unmarked,707,same as yesterday,rain inside,marker wet
+SS-023-010,Undertow Corridor,blue tape,1144,1024,pipe breath,do not revisit alone
+SS-023-011,Observation Deck 4,brass tag,711,inside,rain inside,distance changed while writing
+SS-023-012,South Intake Tunnel,wet chalk,1194,same as yesterday,bell,ordinary until midnight
+SS-023-013,Ashen Ferry Terminal,salt nail,493,not returned,gulls,distance changed while writing
+SS-023-014,Ward C Washroom,unmarked,112,not returned,pipe breath,marker wet
+SS-023-015,Mirrorpool Basin,wet chalk,166,below,surf,do not revisit alone
+SS-023-016,South Intake Tunnel,brass tag,396,below,gulls,marker dry
+SS-023-017,Mirrorpool Basin,unmarked,938,not returned,gulls,do not revisit alone
+SS-023-018,West Sluice Door,brass tag,770,not returned,rain inside,ordinary until midnight
+SS-023-019,Anchor Hall,brass tag,148,inside,pipe breath,marker wet
+SS-023-020,Lower Bell Marina,blue tape,104,not returned,rain inside,do not revisit alone
+SS-023-021,Lighthouse 7,salt nail,1052,505,surf,do not revisit alone
+SS-023-022,Sublevel K Drainage,unmarked,364,1012,gulls,do not revisit alone
+SS-023-023,Room 0 Flood Annex,wet chalk,767,below,pipe breath,marker wet
+SS-023-024,Sublevel K Drainage,salt nail,50,540,gulls,do not revisit alone
+SS-023-025,Undertow Corridor,brass tag,675,same as yesterday,bell,do not revisit alone
+SS-023-026,Ward C Washroom,wet chalk,217,not returned,pipe breath,marker wet
+SS-023-027,Observation Deck 4,unmarked,68,inside,pipe breath,marker dry
+SS-023-028,Observation Deck 4,wet chalk,78,same as yesterday,none,do not revisit alone
+SS-023-029,Observation Deck 4,brass tag,911,379,gulls,distance changed while writing
+SS-023-030,West Sluice Door,brass tag,627,inside,rain inside,distance changed while writing
+SS-023-031,Observation Deck 4,wet chalk,1072,below,surf,ordinary until midnight
+SS-023-032,Undertow Corridor,salt nail,286,345,bell,do not revisit alone
+SS-023-033,Below-Stairs Reservoir,white rope,931,606,bell,do not revisit alone
+SS-023-034,Crescent Breakwater,white rope,930,below,surf,marker wet
+SS-023-035,Tide Elevator,salt nail,532,not returned,pipe breath,distance changed while writing
+SS-023-036,Anchor Hall,white rope,395,not returned,surf,marker dry
+SS-023-037,South Intake Tunnel,white rope,665,inside,gulls,do not revisit alone

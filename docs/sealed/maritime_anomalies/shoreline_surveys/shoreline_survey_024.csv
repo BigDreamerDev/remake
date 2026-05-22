@@ -1,0 +1,33 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-024-000,Lighthouse 7,salt nail,578,not returned,gulls,do not revisit alone
+SS-024-001,Ashen Ferry Terminal,white rope,1143,inside,rain inside,do not revisit alone
+SS-024-002,Rain Room 11,white rope,618,855,pipe breath,marker dry
+SS-024-003,The Empty Aquarium,white rope,669,below,rain inside,do not revisit alone
+SS-024-004,Room 0 Flood Annex,unmarked,403,below,none,distance changed while writing
+SS-024-005,Grey Buoy Field,salt nail,389,below,gulls,marker wet
+SS-024-006,Canteen Tidewell,salt nail,1043,not returned,bell,marker wet
+SS-024-007,Mirrorpool Basin,salt nail,810,1073,pipe breath,marker dry
+SS-024-008,Undertow Corridor,brass tag,183,below,bell,distance changed while writing
+SS-024-009,The Pool That Was Not Built,blue tape,210,not returned,bell,distance changed while writing
+SS-024-010,Lower Bell Marina,blue tape,6,179,bell,marker wet
+SS-024-011,The Pool That Was Not Built,blue tape,296,inside,pipe breath,marker dry
+SS-024-012,North Glass Shoal,brass tag,1065,same as yesterday,pipe breath,distance changed while writing
+SS-024-013,The Third Jetty,brass tag,358,not returned,bell,marker dry
+SS-024-014,Salt Archive,brass tag,934,not returned,surf,do not revisit alone
+SS-024-015,Grey Buoy Field,salt nail,559,795,surf,ordinary until midnight
+SS-024-016,Old Bathing Pavilion,unmarked,411,inside,gulls,marker dry
+SS-024-017,Tide Elevator,brass tag,161,inside,gulls,ordinary until midnight
+SS-024-018,South Intake Tunnel,brass tag,203,same as yesterday,bell,ordinary until midnight
+SS-024-019,Sublevel K Drainage,wet chalk,634,below,rain inside,marker wet
+SS-024-020,Old Bathing Pavilion,white rope,277,not returned,rain inside,distance changed while writing
+SS-024-021,Blue Door Quay,blue tape,749,inside,pipe breath,distance changed while writing
+SS-024-022,Lighthouse 7,white rope,659,same as yesterday,pipe breath,marker dry
+SS-024-023,South Intake Tunnel,blue tape,1056,below,bell,marker dry
+SS-024-024,Rain Room 11,brass tag,1155,same as yesterday,gulls,ordinary until midnight
+SS-024-025,Blue Door Quay,wet chalk,384,same as yesterday,none,marker wet
+SS-024-026,South Intake Tunnel,unmarked,205,inside,gulls,marker wet
+SS-024-027,Lighthouse 7,white rope,696,628,pipe breath,marker wet
+SS-024-028,The Third Jetty,wet chalk,503,312,none,marker dry
+SS-024-029,The Empty Aquarium,brass tag,258,same as yesterday,rain inside,ordinary until midnight
+SS-024-030,Tide Elevator,wet chalk,809,same as yesterday,bell,ordinary until midnight
+SS-024-031,Blue Door Quay,wet chalk,585,not returned,gulls,marker dry

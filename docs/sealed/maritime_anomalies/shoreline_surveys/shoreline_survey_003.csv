@@ -1,0 +1,45 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-003-000,South Intake Tunnel,salt nail,1018,same as yesterday,surf,do not revisit alone
+SS-003-001,Lighthouse 7,blue tape,822,547,surf,marker wet
+SS-003-002,Room 0 Flood Annex,wet chalk,114,not returned,gulls,distance changed while writing
+SS-003-003,Room 0 Flood Annex,brass tag,489,291,surf,ordinary until midnight
+SS-003-004,Blackwater Pier,blue tape,776,inside,rain inside,marker wet
+SS-003-005,Sublevel K Drainage,white rope,652,below,surf,distance changed while writing
+SS-003-006,Lower Bell Marina,unmarked,548,not returned,bell,ordinary until midnight
+SS-003-007,Undertow Corridor,salt nail,1089,below,surf,marker wet
+SS-003-008,The Dry Dock With Water In It,white rope,1168,below,none,do not revisit alone
+SS-003-009,Crescent Breakwater,wet chalk,1015,inside,surf,do not revisit alone
+SS-003-010,Ward C Washroom,blue tape,272,inside,surf,do not revisit alone
+SS-003-011,Ward C Washroom,brass tag,77,below,gulls,marker dry
+SS-003-012,Room 0 Flood Annex,unmarked,446,same as yesterday,bell,marker wet
+SS-003-013,Canteen Tidewell,wet chalk,964,below,bell,marker dry
+SS-003-014,Ashen Ferry Terminal,unmarked,501,not returned,pipe breath,ordinary until midnight
+SS-003-015,Undertow Corridor,white rope,798,1057,gulls,ordinary until midnight
+SS-003-016,The Third Jetty,brass tag,804,below,none,marker dry
+SS-003-017,Mirrorpool Basin,white rope,1058,inside,pipe breath,ordinary until midnight
+SS-003-018,Tide Elevator,brass tag,130,same as yesterday,bell,marker dry
+SS-003-019,Blackwater Pier,white rope,90,same as yesterday,pipe breath,ordinary until midnight
+SS-003-020,Undertow Corridor,blue tape,644,below,pipe breath,marker wet
+SS-003-021,The Empty Aquarium,brass tag,472,not returned,gulls,do not revisit alone
+SS-003-022,Lower Bell Marina,wet chalk,218,inside,surf,do not revisit alone
+SS-003-023,Mirrorpool Basin,unmarked,275,same as yesterday,rain inside,do not revisit alone
+SS-003-024,Salt Archive,salt nail,703,same as yesterday,surf,marker dry
+SS-003-025,Lighthouse 7,wet chalk,1035,same as yesterday,rain inside,do not revisit alone
+SS-003-026,The Pool That Was Not Built,white rope,999,not returned,rain inside,ordinary until midnight
+SS-003-027,Sublevel K Drainage,salt nail,731,below,gulls,ordinary until midnight
+SS-003-028,Tide Elevator,unmarked,120,same as yesterday,none,marker wet
+SS-003-029,Mirrorpool Basin,salt nail,234,79,pipe breath,do not revisit alone
+SS-003-030,Lower Bell Marina,wet chalk,741,604,surf,ordinary until midnight
+SS-003-031,The Third Jetty,wet chalk,70,same as yesterday,bell,distance changed while writing
+SS-003-032,West Sluice Door,brass tag,799,same as yesterday,none,do not revisit alone
+SS-003-033,The Third Jetty,brass tag,1039,below,rain inside,distance changed while writing
+SS-003-034,South Intake Tunnel,salt nail,324,968,none,marker dry
+SS-003-035,North Glass Shoal,white rope,768,same as yesterday,pipe breath,do not revisit alone
+SS-003-036,Canteen Tidewell,brass tag,236,1122,rain inside,marker wet
+SS-003-037,Crescent Breakwater,unmarked,189,918,bell,marker wet
+SS-003-038,The Pool That Was Not Built,white rope,348,same as yesterday,rain inside,distance changed while writing
+SS-003-039,North Glass Shoal,blue tape,165,not returned,rain inside,marker wet
+SS-003-040,Observation Deck 4,unmarked,251,571,rain inside,ordinary until midnight
+SS-003-041,Old Bathing Pavilion,blue tape,1045,509,pipe breath,marker dry
+SS-003-042,Blackwater Pier,wet chalk,745,inside,none,marker wet
+SS-003-043,The Third Jetty,salt nail,1112,275,bell,marker wet

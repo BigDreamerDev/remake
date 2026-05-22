@@ -1,0 +1,36 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-010-000,Ward C Washroom,white rope,902,inside,rain inside,marker dry
+SS-010-001,Old Bathing Pavilion,blue tape,559,same as yesterday,gulls,do not revisit alone
+SS-010-002,South Intake Tunnel,wet chalk,900,961,rain inside,marker wet
+SS-010-003,North Glass Shoal,brass tag,194,286,none,distance changed while writing
+SS-010-004,The Third Jetty,white rope,167,not returned,bell,ordinary until midnight
+SS-010-005,Crescent Breakwater,unmarked,514,below,pipe breath,ordinary until midnight
+SS-010-006,Rain Room 11,brass tag,532,inside,bell,marker wet
+SS-010-007,Lower Bell Marina,unmarked,154,below,bell,do not revisit alone
+SS-010-008,Undertow Corridor,brass tag,33,same as yesterday,rain inside,marker dry
+SS-010-009,West Sluice Door,brass tag,1039,not returned,bell,marker dry
+SS-010-010,The Third Jetty,wet chalk,1158,not returned,none,marker wet
+SS-010-011,The Pool That Was Not Built,brass tag,524,not returned,bell,distance changed while writing
+SS-010-012,Crescent Breakwater,unmarked,932,not returned,bell,do not revisit alone
+SS-010-013,Observation Deck 4,unmarked,1154,inside,surf,do not revisit alone
+SS-010-014,The Third Jetty,brass tag,1068,inside,none,do not revisit alone
+SS-010-015,Tide Elevator,wet chalk,1090,not returned,none,marker dry
+SS-010-016,Blackwater Pier,white rope,940,inside,gulls,ordinary until midnight
+SS-010-017,Undertow Corridor,blue tape,636,not returned,surf,distance changed while writing
+SS-010-018,Lower Bell Marina,wet chalk,389,same as yesterday,pipe breath,ordinary until midnight
+SS-010-019,The Third Jetty,wet chalk,985,223,bell,do not revisit alone
+SS-010-020,Anchor Hall,unmarked,778,below,rain inside,marker dry
+SS-010-021,The Third Jetty,wet chalk,1163,63,bell,marker dry
+SS-010-022,Canteen Tidewell,unmarked,892,below,none,marker wet
+SS-010-023,Lighthouse 7,blue tape,1149,inside,surf,ordinary until midnight
+SS-010-024,Rain Room 11,blue tape,78,inside,none,do not revisit alone
+SS-010-025,The Third Jetty,white rope,195,inside,rain inside,marker wet
+SS-010-026,Lighthouse 7,wet chalk,650,inside,rain inside,distance changed while writing
+SS-010-027,Blackwater Pier,salt nail,630,same as yesterday,gulls,ordinary until midnight
+SS-010-028,Old Bathing Pavilion,unmarked,2,inside,surf,do not revisit alone
+SS-010-029,The Empty Aquarium,white rope,558,inside,gulls,do not revisit alone
+SS-010-030,Observation Deck 4,unmarked,159,not returned,rain inside,ordinary until midnight
+SS-010-031,Undertow Corridor,brass tag,619,same as yesterday,rain inside,marker dry
+SS-010-032,Lighthouse 7,salt nail,346,below,bell,marker wet
+SS-010-033,North Glass Shoal,unmarked,8,not returned,rain inside,distance changed while writing
+SS-010-034,Rain Room 11,blue tape,648,not returned,pipe breath,marker wet

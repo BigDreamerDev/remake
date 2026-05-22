@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5004",
+  "record_type": "maritime_anomaly_index",
+  "location": "Rain Room 11",
+  "phenomenon": "submerged office",
+  "classification": "Low-Swell",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 509,
+    "salinity_ppt": 4.66,
+    "audio": "bell",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

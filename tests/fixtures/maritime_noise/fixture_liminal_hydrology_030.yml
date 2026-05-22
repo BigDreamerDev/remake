@@ -1,0 +1,26 @@
+record: liminal-hydrology-fixture-030
+classification: Salt-Mirror
+location: Crescent Breakwater
+phenomenon: memory brine
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 18
+    smell: kelp
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 265
+    smell: salt
+    reflection: correct
+  - phase: 2
+    waterline_mm: 292
+    smell: bleach
+    reflection: correct
+  - phase: 3
+    waterline_mm: 37
+    smell: cold tea
+    reflection: person-absent
+  - phase: 4
+    waterline_mm: 399
+    smell: none
+    reflection: wrong-room

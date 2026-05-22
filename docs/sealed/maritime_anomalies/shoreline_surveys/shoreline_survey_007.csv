@@ -1,0 +1,46 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-007-000,Lower Bell Marina,wet chalk,1131,not returned,gulls,marker wet
+SS-007-001,Salt Archive,brass tag,1196,below,pipe breath,marker dry
+SS-007-002,Canteen Tidewell,brass tag,173,below,rain inside,marker wet
+SS-007-003,Blue Door Quay,blue tape,879,289,pipe breath,do not revisit alone
+SS-007-004,The Third Jetty,wet chalk,1059,same as yesterday,pipe breath,marker wet
+SS-007-005,The Pool That Was Not Built,brass tag,1133,not returned,rain inside,marker wet
+SS-007-006,The Dry Dock With Water In It,white rope,593,914,none,distance changed while writing
+SS-007-007,Blackwater Pier,wet chalk,227,below,bell,distance changed while writing
+SS-007-008,Ashen Ferry Terminal,salt nail,900,581,none,marker dry
+SS-007-009,Oyster Stair,white rope,802,1062,rain inside,marker wet
+SS-007-010,Below-Stairs Reservoir,white rope,220,same as yesterday,bell,distance changed while writing
+SS-007-011,Oyster Stair,salt nail,811,below,gulls,marker dry
+SS-007-012,The Dry Dock With Water In It,white rope,1110,inside,rain inside,distance changed while writing
+SS-007-013,Grey Buoy Field,blue tape,276,288,pipe breath,marker dry
+SS-007-014,Tide Elevator,brass tag,854,below,pipe breath,distance changed while writing
+SS-007-015,West Sluice Door,unmarked,181,1141,bell,ordinary until midnight
+SS-007-016,The Pool That Was Not Built,salt nail,171,inside,pipe breath,do not revisit alone
+SS-007-017,Crescent Breakwater,salt nail,1181,below,rain inside,marker wet
+SS-007-018,Below-Stairs Reservoir,brass tag,238,inside,bell,do not revisit alone
+SS-007-019,The Empty Aquarium,blue tape,846,below,none,do not revisit alone
+SS-007-020,Ashen Ferry Terminal,blue tape,207,not returned,none,marker wet
+SS-007-021,Crescent Breakwater,unmarked,1184,not returned,none,marker dry
+SS-007-022,Oyster Stair,white rope,875,same as yesterday,gulls,distance changed while writing
+SS-007-023,The Empty Aquarium,wet chalk,152,below,gulls,marker dry
+SS-007-024,The Dry Dock With Water In It,unmarked,22,inside,rain inside,marker wet
+SS-007-025,The Empty Aquarium,wet chalk,720,same as yesterday,gulls,marker dry
+SS-007-026,The Dry Dock With Water In It,white rope,704,same as yesterday,bell,distance changed while writing
+SS-007-027,Rain Room 11,white rope,1157,847,gulls,do not revisit alone
+SS-007-028,Blue Door Quay,brass tag,605,inside,surf,ordinary until midnight
+SS-007-029,Oyster Stair,brass tag,576,1176,surf,ordinary until midnight
+SS-007-030,The Dry Dock With Water In It,wet chalk,1197,same as yesterday,pipe breath,ordinary until midnight
+SS-007-031,North Glass Shoal,salt nail,69,below,none,marker dry
+SS-007-032,Blackwater Pier,wet chalk,588,same as yesterday,pipe breath,do not revisit alone
+SS-007-033,Lower Bell Marina,brass tag,856,not returned,bell,do not revisit alone
+SS-007-034,Canteen Tidewell,salt nail,789,same as yesterday,rain inside,distance changed while writing
+SS-007-035,The Pool That Was Not Built,blue tape,1048,same as yesterday,surf,distance changed while writing
+SS-007-036,The Third Jetty,blue tape,1053,same as yesterday,pipe breath,distance changed while writing
+SS-007-037,Anchor Hall,unmarked,753,inside,pipe breath,do not revisit alone
+SS-007-038,West Sluice Door,wet chalk,1077,inside,pipe breath,marker dry
+SS-007-039,Tide Elevator,brass tag,192,not returned,pipe breath,do not revisit alone
+SS-007-040,West Sluice Door,wet chalk,826,below,pipe breath,marker dry
+SS-007-041,Below-Stairs Reservoir,brass tag,14,109,bell,do not revisit alone
+SS-007-042,Salt Archive,brass tag,911,968,pipe breath,marker dry
+SS-007-043,Observation Deck 4,brass tag,682,inside,gulls,marker wet
+SS-007-044,Crescent Breakwater,brass tag,454,539,none,marker dry

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5078",
+  "record_type": "maritime_anomaly_index",
+  "location": "Rain Room 11",
+  "phenomenon": "waterline displacement",
+  "classification": "Brackish-Liminal",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 95,
+    "salinity_ppt": 19.37,
+    "audio": "choir",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

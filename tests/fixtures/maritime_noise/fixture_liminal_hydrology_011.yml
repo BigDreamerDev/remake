@@ -1,0 +1,46 @@
+record: liminal-hydrology-fixture-011
+classification: Tide-Locked
+location: Crescent Breakwater
+phenomenon: memory brine
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 238
+    smell: none
+    reflection: sea
+  - phase: 1
+    waterline_mm: 291
+    smell: bleach
+    reflection: person-absent
+  - phase: 2
+    waterline_mm: 273
+    smell: kelp
+    reflection: sea
+  - phase: 3
+    waterline_mm: 438
+    smell: cold tea
+    reflection: sea
+  - phase: 4
+    waterline_mm: 395
+    smell: bleach
+    reflection: correct
+  - phase: 5
+    waterline_mm: 479
+    smell: salt
+    reflection: wrong-room
+  - phase: 6
+    waterline_mm: 122
+    smell: cold tea
+    reflection: sea
+  - phase: 7
+    waterline_mm: 440
+    smell: none
+    reflection: person-absent
+  - phase: 8
+    waterline_mm: 245
+    smell: rain concrete
+    reflection: stairs
+  - phase: 9
+    waterline_mm: 156
+    smell: kelp
+    reflection: wrong-room

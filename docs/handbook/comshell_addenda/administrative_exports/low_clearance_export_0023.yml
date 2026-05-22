@@ -1,0 +1,39 @@
+export_id: SW-LOW-0023
+clearance: low
+canonical: false
+commands:
+  - name: ticket.open
+    clause: "11.3"
+    classification: transcript-noise
+    sample: "waiting for a department to admit jurisdiction"
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: seal.verify
+    clause: "2.8"
+    classification: training
+    sample: "seal is probably still deciding"
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: mailroom.check
+    clause: "16.8"
+    classification: ceremonial
+    sample: "One envelope contains only the sound of opening it."
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."
+  - name: forms.list
+    clause: "2.8"
+    classification: transcript-noise
+    sample: "Known forms: | Form D-17(b) | Form PI-3"
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: observance.next
+    clause: "14.2"
+    classification: training
+    sample: "Silence begins when the lights stop agreeing."
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: hydrology.depth
+    clause: "9.7"
+    classification: training
+    sample: "classification : shallow | do not disturb still water that contains corridor light"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: policy.random
+    clause: "19.0"
+    classification: training
+    sample: "Clause 25.0: Silence is daily, but not always at the same minute."
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5024",
+  "record_type": "maritime_anomaly_index",
+  "location": "Tide Elevator",
+  "phenomenon": "waterline displacement",
+  "classification": "Bell-Sink",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 468,
+    "salinity_ppt": 9.07,
+    "audio": "surf",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "do not match this with command output"
+}

@@ -1,0 +1,29 @@
+export_id: SW-LOW-0015
+clearance: low
+canonical: false
+commands:
+  - name: door.test
+    clause: "9.7"
+    classification: low-clearance
+    sample: "Cafeteria rear door ........... ajar by policy, not by geometry"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: hex.encode
+    clause: "7.2"
+    classification: low-clearance
+    sample: "encoded text is administrative, not evidentiary"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: cymatics.classify
+    clause: "19.0"
+    classification: transcript-noise
+    sample: "frequency : 44.1 Hz | band : Class-I"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: contact.office
+    clause: "9.7"
+    classification: training
+    sample: "Codicology ................. knock twice, then document the third knock"
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: inventory.sample
+    clause: "9.7"
+    classification: training
+    sample: "covered mirror | receipt for an unopened door"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."

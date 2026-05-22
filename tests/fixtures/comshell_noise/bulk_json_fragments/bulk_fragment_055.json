@@ -1,0 +1,30 @@
+{
+  "capture_id": "bulk-fragment-055",
+  "canonical": false,
+  "commands": [
+    "orange.when",
+    "handbook.random",
+    "notice.roll",
+    "motd",
+    "silence.begin",
+    "forms.list",
+    "room.query",
+    "report.anomaly",
+    "name.check",
+    "codex.folia",
+    "seal.verify"
+  ],
+  "outputs": [
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Pattern Integrity .................. NOMINAL",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa"
+  ],
+  "warnings": [
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent."
+  ],
+  "clause": "18.7",
+  "office": "Corridor Reconciliation Subcommittee"
+}

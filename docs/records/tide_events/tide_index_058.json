@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5058",
+  "record_type": "maritime_anomaly_index",
+  "location": "Sublevel K Drainage",
+  "phenomenon": "sleeping bell",
+  "classification": "Quiet-Water",
+  "status": "awaiting tide",
+  "sensor_summary": {
+    "max_depth_mm": 603,
+    "salinity_ppt": 7.28,
+    "audio": "rain",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "archive only; not an instruction"
+}

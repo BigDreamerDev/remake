@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5019",
+  "record_type": "maritime_anomaly_index",
+  "location": "Mirrorpool Basin",
+  "phenomenon": "unreturning rain",
+  "classification": "Fathom-Null",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 103,
+    "salinity_ppt": 24.31,
+    "audio": "pipe-hum",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "watch for corridor length change"
+}

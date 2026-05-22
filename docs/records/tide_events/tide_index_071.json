@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5071",
+  "record_type": "maritime_anomaly_index",
+  "location": "Blackwater Pier",
+  "phenomenon": "mirror water",
+  "classification": "Brackish-Liminal",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 136,
+    "salinity_ppt": 30.57,
+    "audio": "choir",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "watch for corridor length change"
+}

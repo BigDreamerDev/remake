@@ -1,0 +1,46 @@
+record: liminal-hydrology-fixture-028
+classification: Bell-Sink
+location: The Dry Dock With Water In It
+phenomenon: wet footprints arriving before personnel
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 421
+    smell: cold tea
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 266
+    smell: cold tea
+    reflection: stairs
+  - phase: 2
+    waterline_mm: 360
+    smell: kelp
+    reflection: sea
+  - phase: 3
+    waterline_mm: 93
+    smell: none
+    reflection: correct
+  - phase: 4
+    waterline_mm: 123
+    smell: rain concrete
+    reflection: correct
+  - phase: 5
+    waterline_mm: 450
+    smell: salt
+    reflection: correct
+  - phase: 6
+    waterline_mm: 58
+    smell: none
+    reflection: person-absent
+  - phase: 7
+    waterline_mm: 98
+    smell: rain concrete
+    reflection: sea
+  - phase: 8
+    waterline_mm: 224
+    smell: cold tea
+    reflection: person-absent
+  - phase: 9
+    waterline_mm: 229
+    smell: cold tea
+    reflection: person-absent

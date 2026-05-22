@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "hydrology.pressure",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "cymatics.classify",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "seal.verify",
+      "result": "one reflection answered late; no disciplinary event is created by lateness alone",
+      "action": "none"
+    },
+    {
+      "command": "memory.recall",
+      "result": "handbook clause relocated after citation; use the printed copy facing away from glass",
+      "action": "none"
+    },
+    {
+      "command": "cup.inspect",
+      "result": "handbook clause relocated after citation; use the printed copy facing away from glass",
+      "action": "none"
+    },
+    {
+      "command": "atrium.clock",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "atrium.clock",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "window.cover",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    }
+  ]
+}

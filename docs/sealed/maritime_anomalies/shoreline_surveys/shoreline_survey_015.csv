@@ -1,0 +1,43 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-015-000,Oyster Stair,unmarked,201,below,bell,distance changed while writing
+SS-015-001,The Empty Aquarium,brass tag,105,not returned,none,ordinary until midnight
+SS-015-002,Room 0 Flood Annex,unmarked,481,920,surf,do not revisit alone
+SS-015-003,Undertow Corridor,blue tape,63,not returned,pipe breath,ordinary until midnight
+SS-015-004,Crescent Breakwater,blue tape,794,inside,pipe breath,marker wet
+SS-015-005,Blue Door Quay,unmarked,960,714,gulls,ordinary until midnight
+SS-015-006,Lower Bell Marina,unmarked,673,1082,rain inside,do not revisit alone
+SS-015-007,South Intake Tunnel,salt nail,647,inside,gulls,do not revisit alone
+SS-015-008,Anchor Hall,white rope,539,same as yesterday,none,do not revisit alone
+SS-015-009,Blue Door Quay,wet chalk,393,inside,gulls,marker dry
+SS-015-010,Observation Deck 4,brass tag,819,not returned,bell,marker wet
+SS-015-011,The Dry Dock With Water In It,brass tag,983,same as yesterday,none,ordinary until midnight
+SS-015-012,Below-Stairs Reservoir,unmarked,868,below,pipe breath,marker wet
+SS-015-013,The Third Jetty,white rope,1165,310,pipe breath,do not revisit alone
+SS-015-014,Anchor Hall,wet chalk,463,same as yesterday,rain inside,do not revisit alone
+SS-015-015,The Empty Aquarium,blue tape,360,same as yesterday,rain inside,ordinary until midnight
+SS-015-016,Oyster Stair,white rope,1188,308,none,do not revisit alone
+SS-015-017,Canteen Tidewell,salt nail,1074,not returned,surf,distance changed while writing
+SS-015-018,Lighthouse 7,unmarked,1121,not returned,bell,distance changed while writing
+SS-015-019,Room 0 Flood Annex,wet chalk,907,same as yesterday,gulls,do not revisit alone
+SS-015-020,North Glass Shoal,unmarked,871,inside,pipe breath,marker dry
+SS-015-021,Rain Room 11,unmarked,863,not returned,none,marker dry
+SS-015-022,Oyster Stair,wet chalk,201,inside,surf,marker dry
+SS-015-023,Canteen Tidewell,brass tag,252,not returned,gulls,do not revisit alone
+SS-015-024,Crescent Breakwater,brass tag,1013,same as yesterday,surf,marker dry
+SS-015-025,Tide Elevator,blue tape,1030,not returned,rain inside,marker wet
+SS-015-026,Old Bathing Pavilion,white rope,283,same as yesterday,gulls,marker dry
+SS-015-027,The Third Jetty,blue tape,275,not returned,bell,marker dry
+SS-015-028,Canteen Tidewell,blue tape,249,inside,none,marker dry
+SS-015-029,Salt Archive,unmarked,1058,below,rain inside,ordinary until midnight
+SS-015-030,Salt Archive,wet chalk,1189,below,gulls,ordinary until midnight
+SS-015-031,Ashen Ferry Terminal,salt nail,1101,same as yesterday,pipe breath,distance changed while writing
+SS-015-032,Lighthouse 7,blue tape,519,same as yesterday,pipe breath,ordinary until midnight
+SS-015-033,Rain Room 11,white rope,939,below,bell,do not revisit alone
+SS-015-034,West Sluice Door,unmarked,708,inside,surf,do not revisit alone
+SS-015-035,Observation Deck 4,white rope,1161,inside,gulls,ordinary until midnight
+SS-015-036,The Dry Dock With Water In It,unmarked,536,inside,bell,marker dry
+SS-015-037,Lighthouse 7,brass tag,277,not returned,none,marker wet
+SS-015-038,Rain Room 11,unmarked,677,not returned,pipe breath,marker dry
+SS-015-039,Canteen Tidewell,wet chalk,838,273,bell,marker wet
+SS-015-040,Tide Elevator,unmarked,0,not returned,rain inside,marker wet
+SS-015-041,Old Bathing Pavilion,white rope,749,below,pipe breath,ordinary until midnight

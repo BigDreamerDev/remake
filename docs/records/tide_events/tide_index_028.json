@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5028",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Third Jetty",
+  "phenomenon": "floor-level surf",
+  "classification": "Brackish-Liminal",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 624,
+    "salinity_ppt": 33.49,
+    "audio": "surf",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5047",
+  "record_type": "maritime_anomaly_index",
+  "location": "Salt Archive",
+  "phenomenon": "waterline displacement",
+  "classification": "Undertow",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 134,
+    "salinity_ppt": 2.06,
+    "audio": "rain",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "watch for corridor length change"
+}

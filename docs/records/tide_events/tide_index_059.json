@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5059",
+  "record_type": "maritime_anomaly_index",
+  "location": "Ward C Washroom",
+  "phenomenon": "standing wave",
+  "classification": "Salt-Mirror",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 121,
+    "salinity_ppt": 13.92,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "watch for corridor length change"
+}

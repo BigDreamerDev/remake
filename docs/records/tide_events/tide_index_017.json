@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5017",
+  "record_type": "maritime_anomaly_index",
+  "location": "Ashen Ferry Terminal",
+  "phenomenon": "choral hum under pipes",
+  "classification": "Bell-Sink",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 81,
+    "salinity_ppt": 8.49,
+    "audio": "rain",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

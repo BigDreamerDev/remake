@@ -1,0 +1,73 @@
+# Sealed Supplement 010
+
+**Stillwater Foundation handbook fragment:** sealed supplement copy
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Return Path Committee
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 4.3.8
+
+This fragment describes ordinary conduct around the unassigned vestibule. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 14:14 | Canteen rear / lamp housing | All clocks agree with themselves; no statement is made regarding each other. | no escalation |
+| 17:00 | Δ-04 / canteen queue | The corridor accepted the request and then changed which side the door was on. | folded |
+| 23:00 | Canteen rear / wet floor sign | The cup is empty, facing away, and therefore compliant for today. | copied by hand |
+| 11:11 | North Archive / basin | The cup is empty, facing away, and therefore compliant for today. | witness pending |
+| 17:00 | West Stair / handrail | All clocks agree with themselves; no statement is made regarding each other. | filed damp |
+| 02:00 | North Archive / stairwell | Handbook clause relocated after citation; use the printed copy facing away from glass. | copied by hand |
+| 14:14 | Δ-04 / window film | The queue moved while unobserved and returned with one extra place. | witness pending |
+| 06:00 | ྾2 / canteen queue | The staircase returned a sample resembling the last thing typed by the operator. | folded |
+
+## Staff conduct requirements
+
+1. Do not answer from inside the pause. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+2. Do not remove wet floor signs from dry floors. Use Form S-00 for silence received, silence withheld, or silence returned warm.
+3. Do not dry paper that arrived damp around a name. Witnessed absence is not absence. It is attendance without geometry.
+4. Do not synchronise breathing with nearby terminals. Use Form S-00 for silence received, silence withheld, or silence returned warm.
+5. Do not press further lift buttons during the delay. When in doubt, continue walking until the next posted map contradicts itself.
+6. Do not dry paper that arrived damp around a name. Witnessed absence is not absence. It is attendance without geometry.
+7. Do not remove wet floor signs from dry floors. Use Form S-00 for silence received, silence withheld, or silence returned warm.
+
+## Related forms
+
+- **Form T-24:** silence received; submit only if the form is present before you look for it.
+- **Form T-15b:** mirror cover variance; submit only if the form is present before you look for it.
+- **Form S-99/wet:** pre-echo report; submit only if the form is present before you look for it.
+- **Form D-77-old:** silence received; submit only if the form is present before you look for it.
+- **Form C-27:** dry cup inventory; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 31.4.3, Clause 12.1.8, Clause 23.5.8, Clause 11.8.7, Clause 28.4.2, Clause 18.5.2, Clause 28.5.4, Clause 5.9.0, Clause 10.4.9, Clause 13.1.0, Clause 14.2.3, Clause 10.5.5
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Unassigned annotation: acknowledged [UNPRINTED] [ROOM NAME OMITTED] ██████ [NOT A SOLUTION] [UNPRINTED] unwitnessed returned [NOT A SOLUTION] [NOT A SOLUTION] [ROOM NAME OMITTED] ██████ [NOT A SOLUTION] [WET COPY] noted noted
+- Printer scar: folded unwitnessed returned acknowledged [WET COPY] unwitnessed deferred ██████ acknowledged deferred [WET COPY] ██████ ██████ [NOT A SOLUTION]
+- Unassigned annotation: [WITHHELD] [ROOM NAME OMITTED] folded deferred unwitnessed [WET COPY] unwitnessed returned non-actionable
+- Margin note: ordinary ██████ returned [WITHHELD] [WET COPY] [ROUTE REFUSED] ordinary [NOT A SOLUTION] [WET COPY] [ROUTE REFUSED] non-actionable acknowledged folded
+
+> This file is retained because deletion has historically made the corridor more specific.

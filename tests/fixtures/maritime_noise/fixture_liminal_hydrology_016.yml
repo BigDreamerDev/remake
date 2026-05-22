@@ -1,0 +1,46 @@
+record: liminal-hydrology-fixture-016
+classification: Bell-Sink
+location: Sublevel K Drainage
+phenomenon: unassigned lifeboat
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 64
+    smell: none
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 333
+    smell: bleach
+    reflection: person-absent
+  - phase: 2
+    waterline_mm: 105
+    smell: kelp
+    reflection: stairs
+  - phase: 3
+    waterline_mm: 53
+    smell: none
+    reflection: correct
+  - phase: 4
+    waterline_mm: 293
+    smell: none
+    reflection: correct
+  - phase: 5
+    waterline_mm: 272
+    smell: cold tea
+    reflection: sea
+  - phase: 6
+    waterline_mm: 4
+    smell: rain concrete
+    reflection: correct
+  - phase: 7
+    waterline_mm: 472
+    smell: salt
+    reflection: correct
+  - phase: 8
+    waterline_mm: 328
+    smell: bleach
+    reflection: sea
+  - phase: 9
+    waterline_mm: 157
+    smell: bleach
+    reflection: correct

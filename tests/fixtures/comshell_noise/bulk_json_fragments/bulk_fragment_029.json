@@ -1,0 +1,34 @@
+{
+  "capture_id": "bulk-fragment-029",
+  "canonical": false,
+  "commands": [
+    "registry.lookup",
+    "observance.next",
+    "handbook.lookup",
+    "memorial.check",
+    "cymatics.classify",
+    "ticket.open",
+    "weather.inside",
+    "door.test",
+    "descale.status",
+    "silence.begin",
+    "waterline"
+  ],
+  "outputs": [
+    "Stairwell B: do not hum back. This is not a test.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Gate acknowledged. Session opening.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "file visible but not willing",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Pattern Integrity .................. NOMINAL"
+  ],
+  "warnings": [
+    "If any sample output appears to know your route home, stop reading and submit the page face-down.",
+    "Terminal behaviour described in this appendix is decorative, ceremonial, or retained for staff confidence. It is not authoritative for restricted procedures.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed."
+  ],
+  "clause": "22.1",
+  "office": "Cymatic Compliance Room"
+}

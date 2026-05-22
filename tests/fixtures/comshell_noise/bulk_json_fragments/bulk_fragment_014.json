@@ -1,0 +1,34 @@
+{
+  "capture_id": "bulk-fragment-014",
+  "canonical": false,
+  "commands": [
+    "contact.office",
+    "stairwell.listen",
+    "observance.next",
+    "atrium.clock",
+    "cat",
+    "silence.begin",
+    "forms.list",
+    "ticket.open",
+    "floor.plan",
+    "hydrology.pressure",
+    "waterline",
+    "policy.random"
+  ],
+  "outputs": [
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "The handbook denies having used that term.",
+    "Pattern Integrity .................. NOMINAL",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "sleep denied: terminals are not permitted to dream during business hours"
+  ],
+  "warnings": [
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d."
+  ],
+  "clause": "20.3",
+  "office": "Codicology Desk"
+}

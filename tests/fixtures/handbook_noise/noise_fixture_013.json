@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "memorial.check",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "room.query",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "codex.folia",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "badge.read",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "date",
+      "result": "mirror cover compliant; covered surface continues to behave like a window",
+      "action": "none"
+    },
+    {
+      "command": "contact.office",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "rank.list",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    },
+    {
+      "command": "memory.recall",
+      "result": "one reflection answered late; no disciplinary event is created by lateness alone",
+      "action": "none"
+    }
+  ]
+}

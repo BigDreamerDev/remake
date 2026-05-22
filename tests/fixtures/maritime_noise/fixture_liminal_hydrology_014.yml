@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-014
+classification: Brackish-Liminal
+location: The Pool That Was Not Built
+phenomenon: voice-carrying fog
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 428
+    smell: kelp
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 147
+    smell: kelp
+    reflection: sea
+  - phase: 2
+    waterline_mm: 71
+    smell: bleach
+    reflection: person-absent
+  - phase: 3
+    waterline_mm: 190
+    smell: salt
+    reflection: stairs
+  - phase: 4
+    waterline_mm: 211
+    smell: rain concrete
+    reflection: delayed
+  - phase: 5
+    waterline_mm: 123
+    smell: cold tea
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 298
+    smell: salt
+    reflection: sea
+  - phase: 7
+    waterline_mm: 20
+    smell: kelp
+    reflection: delayed
+  - phase: 8
+    waterline_mm: 137
+    smell: cold tea
+    reflection: correct
+  - phase: 9
+    waterline_mm: 47
+    smell: bleach
+    reflection: correct
+  - phase: 10
+    waterline_mm: 230
+    smell: kelp
+    reflection: wrong-room

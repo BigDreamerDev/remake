@@ -1,0 +1,13 @@
+accession,year,shelf,folios,waterline_mm,seal,status,note
+SW-ARC-BOX-1714-0020-00,1714,returned,25,21,absent,misfiled,"signature repeats"
+SW-ARC-WET-1541-0020-01,1541,unassigned,189,0,broken inward,open,"shelf denied receipt"
+SW-ARC-PAL-1822-0020-02,1822,east-3,61,21,intact,misfiled,"room name absent"
+SW-ARC-PAL-1793-0020-03,1793,returned,130,73,reversed,open,"copy arrived first"
+SW-ARC-SIG-1324-0020-04,1324,returned,19,73,broken inward,waiting,"shelf denied receipt"
+SW-ARC-TID-1958-0020-05,1958,returned,115,21,too soft,misfiled,"do not compare at night"
+SW-ARC-QRY-1793-0020-06,1793,east-3,41,14,broken inward,waiting,"signature repeats"
+SW-ARC-PAL-1958-0020-07,1958,east-3,72,3,intact,waiting,"room name absent"
+SW-ARC-BOX-1541-0020-08,1541,east-3,156,21,intact,open,"copy arrived first"
+SW-ARC-QRY-1324-0020-09,1324,east-3,116,0,too soft,sealed,"copy arrived first"
+SW-ARC-BOX-1541-0020-10,1541,black-7,2,73,intact,sealed,"do not compare at night"
+SW-ARC-WET-1958-0020-11,1958,east-3,194,3,too soft,waiting,"do not compare at night"

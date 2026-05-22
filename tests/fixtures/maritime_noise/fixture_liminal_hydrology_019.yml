@@ -1,0 +1,38 @@
+record: liminal-hydrology-fixture-019
+classification: Bell-Sink
+location: Lower Bell Marina
+phenomenon: reverse tide
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 471
+    smell: none
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 5
+    smell: salt
+    reflection: wrong-room
+  - phase: 2
+    waterline_mm: 410
+    smell: salt
+    reflection: sea
+  - phase: 3
+    waterline_mm: 386
+    smell: kelp
+    reflection: person-absent
+  - phase: 4
+    waterline_mm: 475
+    smell: bleach
+    reflection: delayed
+  - phase: 5
+    waterline_mm: 467
+    smell: bleach
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 72
+    smell: bleach
+    reflection: sea
+  - phase: 7
+    waterline_mm: 484
+    smell: none
+    reflection: sea

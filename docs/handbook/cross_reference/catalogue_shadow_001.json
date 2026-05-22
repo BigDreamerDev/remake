@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "descale.status",
+      "result": "result withheld because the witness had already gone home in a previous shift",
+      "action": "none"
+    },
+    {
+      "command": "waterline",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "rank.list",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    },
+    {
+      "command": "hydrology.depth",
+      "result": "mirror cover compliant; covered surface continues to behave like a window",
+      "action": "none"
+    },
+    {
+      "command": "forms.lookup",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "registry.lookup",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "cymatics.scan",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    },
+    {
+      "command": "cymatics.scan",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "floor.plan",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "maintenance.window",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "contact.office",
+      "result": "one reflection answered late; no disciplinary event is created by lateness alone",
+      "action": "none"
+    },
+    {
+      "command": "window.cover",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "lights.status",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "orange.when",
+      "result": "all clocks agree with themselves; no statement is made regarding each other",
+      "action": "none"
+    },
+    {
+      "command": "observance.next",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "silence.begin",
+      "result": "standing water found above the label but below the room name",
+      "action": "none"
+    }
+  ]
+}

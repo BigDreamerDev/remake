@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5033",
+  "record_type": "maritime_anomaly_index",
+  "location": "Ashen Ferry Terminal",
+  "phenomenon": "wet footprints arriving before personnel",
+  "classification": "Bell-Sink",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 694,
+    "salinity_ppt": 23.97,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "do not match this with command output"
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5037",
+  "record_type": "maritime_anomaly_index",
+  "location": "North Glass Shoal",
+  "phenomenon": "mirror water",
+  "classification": "Quiet-Water",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 439,
+    "salinity_ppt": 4.42,
+    "audio": "surf",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "watch for corridor length change"
+}

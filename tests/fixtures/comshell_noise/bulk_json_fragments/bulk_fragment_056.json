@@ -1,0 +1,35 @@
+{
+  "capture_id": "bulk-fragment-056",
+  "canonical": false,
+  "commands": [
+    "memorial.check",
+    "floor.plan",
+    "cafeteria.menu",
+    "atrium.clock",
+    "policy.random",
+    "notice.roll",
+    "stairwell.listen",
+    "hex.decode",
+    "silence.begin",
+    "node.trace",
+    "codex.quire",
+    "registry.lookup",
+    "echo",
+    "archive.status",
+    "weather.inside",
+    "badge.read"
+  ],
+  "outputs": [
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Pattern Integrity .................. NOMINAL",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Clock C: [removed pending apology]"
+  ],
+  "warnings": [
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "If any sample output appears to know your route home, stop reading and submit the page face-down.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent."
+  ],
+  "clause": "11.3",
+  "office": "Office of Inherited Silences"
+}

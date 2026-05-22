@@ -1,0 +1,30 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-011-000,Grey Buoy Field,brass tag,827,inside,gulls,do not revisit alone
+SS-011-001,The Pool That Was Not Built,blue tape,1014,inside,none,ordinary until midnight
+SS-011-002,Lighthouse 7,salt nail,1163,below,pipe breath,distance changed while writing
+SS-011-003,Ashen Ferry Terminal,unmarked,797,below,gulls,marker dry
+SS-011-004,Observation Deck 4,brass tag,51,721,gulls,do not revisit alone
+SS-011-005,Crescent Breakwater,brass tag,389,same as yesterday,gulls,do not revisit alone
+SS-011-006,The Third Jetty,wet chalk,680,below,pipe breath,marker wet
+SS-011-007,Lower Bell Marina,unmarked,560,416,none,marker wet
+SS-011-008,Crescent Breakwater,unmarked,536,same as yesterday,none,distance changed while writing
+SS-011-009,Lower Bell Marina,brass tag,181,below,none,do not revisit alone
+SS-011-010,Below-Stairs Reservoir,blue tape,1062,not returned,gulls,marker dry
+SS-011-011,Undertow Corridor,brass tag,1113,below,gulls,marker wet
+SS-011-012,Crescent Breakwater,white rope,843,inside,none,distance changed while writing
+SS-011-013,Blackwater Pier,salt nail,88,below,rain inside,distance changed while writing
+SS-011-014,West Sluice Door,brass tag,17,below,bell,marker dry
+SS-011-015,Crescent Breakwater,white rope,601,inside,gulls,ordinary until midnight
+SS-011-016,The Third Jetty,salt nail,249,below,none,marker dry
+SS-011-017,Lower Bell Marina,blue tape,325,not returned,bell,ordinary until midnight
+SS-011-018,Oyster Stair,white rope,185,inside,gulls,distance changed while writing
+SS-011-019,Mirrorpool Basin,unmarked,243,inside,bell,distance changed while writing
+SS-011-020,Old Bathing Pavilion,unmarked,634,same as yesterday,gulls,marker wet
+SS-011-021,Undertow Corridor,white rope,666,not returned,none,marker dry
+SS-011-022,West Sluice Door,white rope,799,same as yesterday,gulls,marker dry
+SS-011-023,Ashen Ferry Terminal,unmarked,986,same as yesterday,surf,do not revisit alone
+SS-011-024,Rain Room 11,brass tag,1167,same as yesterday,none,marker dry
+SS-011-025,Lower Bell Marina,unmarked,309,same as yesterday,gulls,marker dry
+SS-011-026,Grey Buoy Field,salt nail,18,below,pipe breath,do not revisit alone
+SS-011-027,Grey Buoy Field,blue tape,543,same as yesterday,gulls,do not revisit alone
+SS-011-028,Canteen Tidewell,unmarked,230,same as yesterday,gulls,ordinary until midnight

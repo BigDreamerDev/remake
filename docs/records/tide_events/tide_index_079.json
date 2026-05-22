@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5079",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Pool That Was Not Built",
+  "phenomenon": "choral hum under pipes",
+  "classification": "Undertow",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 175,
+    "salinity_ppt": 12.15,
+    "audio": "pipe-hum",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "archive only; not an instruction"
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5054",
+  "record_type": "maritime_anomaly_index",
+  "location": "Below-Stairs Reservoir",
+  "phenomenon": "standing wave",
+  "classification": "Low-Swell",
+  "status": "awaiting tide",
+  "sensor_summary": {
+    "max_depth_mm": 308,
+    "salinity_ppt": 14.95,
+    "audio": "pipe-hum",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "archive only; not an instruction"
+}

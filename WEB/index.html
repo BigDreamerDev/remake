@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>comShell v4.9.1 — STILLWATER FOUNDATION</title>
+  <link rel="stylesheet" href="terminal.css">
+  <script src="stillwater.js" defer></script>
+</head>
+<body>
+
+<!-- ── boot overlay ──────────────────────────────────────── -->
+<div id="boot-overlay" aria-hidden="true">
+  <div id="boot-logo">STILLWATER FOUNDATION</div>
+  <div id="boot-bar-wrap"><div id="boot-bar"></div></div>
+  <div id="boot-status">establishing session…</div>
+</div>
+
+<!-- ── terminal ──────────────────────────────────────────── -->
+<div id="terminal-wrap" role="main">
+
+  <header id="terminal-header" aria-label="Terminal status bar">
+    <span class="title">comShell v4.9.1</span>
+    <span class="meta">
+      <span id="status-dot" title="server status"></span>
+      <span id="server-status-label">connecting</span>
+    </span>
+    <span class="meta">INTERNAL USE ONLY</span>
+  </header>
+
+  <!-- cold-start notice — shown when server is waking up -->
+  <div id="cold-warning">
+    ⚠ &nbsp;server instance is waking — first command may take up to 30 seconds
+  </div>
+
+  <div id="output" aria-live="polite" aria-label="Terminal output" tabindex="0"></div>
+
+  <div id="input-row">
+    <span id="prompt-label" aria-hidden="true">stillwater@comShell:~$&nbsp;</span>
+    <input
+      id="cmd-input"
+      type="text"
+      autocomplete="off"
+      autocorrect="off"
+      autocapitalize="none"
+      spellcheck="false"
+      aria-label="Enter command"
+      disabled
+    >
+  </div>
+
+</div>
+
+<script>
+  // ── DOM refs ───────────────────────────────────────────────
+  const outputEl    = document.getElementById("output");
+  const inputEl     = document.getElementById("cmd-input");
+  const overlay     = document.getElementById("boot-overlay");
+  const bootBar     = document.getElementById("boot-bar");
+  const bootStatus  = document.getElementById("boot-status");
+  const statusDot   = document.getElementById("status-dot");
+  const statusLabel = document.getElementById("server-status-label");
+  const coldWarning = document.getElementById("cold-warning");
+
+  const PROMPT = "stillwater@comShell:~$";
+  const history = [];
+  let histIdx = -1;
+  let serverAlive = false;
+  let coldStartShown = false;
+
+  // ── helpers ────────────────────────────────────────────────
+  function esc(str) {
+    return String(str)
+      .replace(/&/g, "&amp;")
+      .replace(/</g, "&lt;")
+      .replace(/>/g, "&gt;");
+  }
+
+  function appendLine(text, cls) {
+    const el = document.createElement("span");
+    el.className = "line " + (cls || "line-output");
+    el.textContent = text;
+    el.appendChild(document.createTextNode("\n"));
+    outputEl.appendChild(el);
+  }
+
+  function appendBlank() {
+    const el = document.createElement("span");
+    el.className = "line-blank";
+    outputEl.appendChild(el);
+  }
+
+  function scrollBottom() {
+    outputEl.scrollTop = outputEl.scrollHeight;
+  }
+
+  function setServerStatus(alive) {
+    serverAlive = alive;
+    statusDot.className = alive ? "" : "offline";
+    statusLabel.textContent = alive ? "online" : "standby";
+  }
+
+  // ── terminal actions ───────────────────────────────────────
+  function printBanner() {
+    appendLine(SW.banner(), "line-banner");
+    appendBlank();
+    scrollBottom();
+  }
+
+  function clearTerminal() {
+    outputEl.innerHTML = "";
+    printBanner();
+  }
+
+  function doExit() {
+    const msgs = [
+      " Session terminated.",
+      " Session lowered into archive state.",
+      " Session closed; remaining echoes reassigned.",
+    ];
+    appendLine(msgs[Math.floor(Math.random() * msgs.length)], "line-exit");
+    appendLine(` Session ${SW.session().session_id} archived.`, "line-exit");
+    appendBlank();
+    scrollBottom();
+    inputEl.disabled = true;
+    inputEl.placeholder = "session closed";
+    setServerStatus(false);
+  }
+
+  async function runCommand(raw) {
+    // echo what was typed
+    appendLine(PROMPT + " " + raw, "line-prompt");
+
+    if (!raw.trim()) {
+      appendBlank();
+      scrollBottom();
+      return;
+    }
+
+    // local intercepts
+    const low = raw.trim().toLowerCase();
+    if (low === "clear" || low === "cls") { clearTerminal(); return; }
+    if (low === "exit"  || low === "quit") { doExit(); return; }
+
+    // show a "connecting" line if cold start might be happening
+    let connectingEl = null;
+    const slowTimer = setTimeout(() => {
+      connectingEl = document.createElement("span");
+      connectingEl.className = "line line-connecting";
+      connectingEl.textContent = " …waiting for server node";
+      outputEl.appendChild(connectingEl);
+      if (!coldStartShown) {
+        coldWarning.classList.add("visible");
+        coldStartShown = true;
+      }
+      scrollBottom();
+    }, 2500);
+
+    try {
+      const result = await SW.run(raw);
+      clearTimeout(slowTimer);
+      if (connectingEl) connectingEl.remove();
+      coldWarning.classList.remove("visible");
+
+      setServerStatus(true);
+
+      if (result === "__CLEAR__") { clearTerminal(); return; }
+      if (result === "__EXIT__")  { doExit(); return; }
+
+      if (result && result.trim()) {
+        appendLine(result, "line-output");
+      }
+    } catch (err) {
+      clearTimeout(slowTimer);
+      if (connectingEl) connectingEl.remove();
+      setServerStatus(false);
+      appendLine(
+        ` Network error: ${err.message}\n The terminal cannot reach the repository node.\n Pattern Integrity has not responded.`,
+        "line-error"
+      );
+    }
+
+    appendBlank();
+    scrollBottom();
+  }
+
+  // ── input handling ─────────────────────────────────────────
+  inputEl.addEventListener("keydown", e => {
+    if (e.key === "Enter") {
+      const raw = inputEl.value;
+      inputEl.value = "";
+      histIdx = -1;
+      if (raw.trim()) history.unshift(raw);
+      runCommand(raw);
+    } else if (e.key === "ArrowUp") {
+      e.preventDefault();
+      if (histIdx < history.length - 1) {
+        histIdx++;
+        inputEl.value = history[histIdx];
+        setTimeout(() => inputEl.setSelectionRange(9999, 9999), 0);
+      }
+    } else if (e.key === "ArrowDown") {
+      e.preventDefault();
+      if (histIdx > 0) { histIdx--; inputEl.value = history[histIdx]; }
+      else { histIdx = -1; inputEl.value = ""; }
+    } else if (e.key === "l" && e.ctrlKey) {
+      e.preventDefault();
+      clearTerminal();
+    }
+  });
+
+  // click anywhere → focus input
+  document.getElementById("terminal-wrap").addEventListener("click", () => inputEl.focus());
+
+  // ── animated boot sequence ─────────────────────────────────
+  const BOOT_STEPS = [
+    [10,  "loading corridor index…"],
+    [25,  "mounting archive layer…"],
+    [42,  "checking pattern integrity…"],
+    [58,  "requesting session from node…"],
+    [74,  "verifying roster…"],
+    [88,  "establishing comShell channel…"],
+    [100, "ready."],
+  ];
+
+  async function runBoot() {
+    // kick off server warm-up in parallel (don't await)
+    SW.warmUp();
+
+    for (const [pct, msg] of BOOT_STEPS) {
+      bootBar.style.width = pct + "%";
+      bootStatus.textContent = msg;
+      await new Promise(r => setTimeout(r, pct === 100 ? 300 : 180 + Math.random() * 120));
+    }
+
+    // fetch real session from server
+    await SW.initSession();
+
+    // fade out overlay
+    overlay.style.opacity = "0";
+    await new Promise(r => setTimeout(r, 500));
+    overlay.style.display = "none";
+
+    // render banner and enable input
+    printBanner();
+    inputEl.disabled = false;
+    inputEl.focus();
+
+    // quick health check to set server status indicator
+    try {
+      const res = await fetch(
+        (SW.session().api_base || "https://stillwater-comshell.onrender.com") + "/health",
+        { signal: AbortSignal.timeout(6000) }
+      );
+      setServerStatus(res.ok);
+    } catch (_) {
+      setServerStatus(false);
+    }
+  }
+
+  window.addEventListener("load", runBoot);
+</script>
+</body>
+</html>

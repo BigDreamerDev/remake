@@ -1,0 +1,71 @@
+# Sealed Supplement 012
+
+**Stillwater Foundation handbook fragment:** sealed supplement copy
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Administrative Absences Desk
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 27.6.7
+
+This fragment describes ordinary conduct around the sodium-lit archive tray. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 06:00 | West Stair / lift | Return path found but rejected because it arrived before the departure. | filed damp |
+| 17:00 | Δ-04 / stairwell | Return path found but rejected because it arrived before the departure. | filed damp |
+| 11:11 | ྾2 / mailroom shutter | Badge echo delayed by 2.1 seconds; temporary absence preserved. | non-actionable |
+| 02:00 | ྾2 / floor map | Form accepted in damp condition; drying would change the filing date. | retained |
+| 00:00 | Canteen rear / photocopier | Handbook clause relocated after citation; use the printed copy facing away from glass. | no escalation |
+| 17:00 | Δ-04 / corridor | The queue moved while unobserved and returned with one extra place. | retained |
+| 17:00 | ྾2 / photocopier | The staircase returned a sample resembling the last thing typed by the operator. | retained |
+| 23:00 | ྾2 / printer throat | Standing water found above the label but below the room name. | copied by hand |
+
+## Staff conduct requirements
+
+1. Do not read a chalkboard that begins reading you first. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+2. Do not synchronise breathing with nearby terminals. When in doubt, continue walking until the next posted map contradicts itself.
+3. Do not read a chalkboard that begins reading you first. Use Form S-00 for silence received, silence withheld, or silence returned warm.
+4. Do not count empty chairs twice. File as non-actionable unless the room repeats the observation in writing.
+5. Do not remove wet floor signs from dry floors. File as non-actionable unless the room repeats the observation in writing.
+6. Do not dry paper that arrived damp around a name. File as non-actionable unless the room repeats the observation in writing.
+7. Do not synchronise breathing with nearby terminals. Destroy no copies. The duplicate may be the one that remembers the route.
+
+## Related forms
+
+- **Form T-37/wet:** chair excess; submit only if the form is present before you look for it.
+- **Form C-50b:** standing-water apology; submit only if the form is present before you look for it.
+- **Form T-71-old:** silence received; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 15.4.9, Clause 17.3.0, Clause 27.8.6, Clause 28.5.0, Clause 8.0.1, Clause 1.4.3, Clause 13.9.6, Clause 21.5.7, Clause 8.8.4, Clause 3.1.7, Clause 25.7.2, Clause 8.3.4, Clause 12.3.4, Clause 24.3.0, Clause 13.8.9, Clause 4.4.8
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Margin note: ordinary returned returned [WITHHELD] non-actionable acknowledged [ROOM NAME OMITTED] ██████ acknowledged [ROOM NAME OMITTED] [ROOM NAME OMITTED] [ROOM NAME OMITTED] deferred
+- Printer scar: non-actionable deferred non-actionable ██████ non-actionable [NOT A SOLUTION] ██████ acknowledged [UNPRINTED] [NOT A SOLUTION] [UNPRINTED]
+- Unassigned annotation: [UNPRINTED] ordinary [WITHHELD] deferred non-actionable [WITHHELD] ordinary non-actionable non-actionable [UNPRINTED] non-actionable non-actionable [UNPRINTED] ██████
+- Printer scar: unwitnessed non-actionable [WET COPY] [NOT A SOLUTION] ordinary [WITHHELD] [NOT A SOLUTION] [ROUTE REFUSED] [ROUTE REFUSED] ██████ deferred ordinary [WET COPY] non-actionable
+
+> This file is retained because deletion has historically made the corridor more specific.

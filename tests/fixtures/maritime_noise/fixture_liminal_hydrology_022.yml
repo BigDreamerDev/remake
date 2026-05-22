@@ -1,0 +1,42 @@
+record: liminal-hydrology-fixture-022
+classification: Undertow
+location: The Dry Dock With Water In It
+phenomenon: coastal hallway recursion
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 469
+    smell: none
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 228
+    smell: none
+    reflection: wrong-room
+  - phase: 2
+    waterline_mm: 354
+    smell: cold tea
+    reflection: delayed
+  - phase: 3
+    waterline_mm: 494
+    smell: salt
+    reflection: delayed
+  - phase: 4
+    waterline_mm: 301
+    smell: bleach
+    reflection: wrong-room
+  - phase: 5
+    waterline_mm: 113
+    smell: cold tea
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 14
+    smell: salt
+    reflection: person-absent
+  - phase: 7
+    waterline_mm: 43
+    smell: bleach
+    reflection: delayed
+  - phase: 8
+    waterline_mm: 199
+    smell: bleach
+    reflection: wrong-room

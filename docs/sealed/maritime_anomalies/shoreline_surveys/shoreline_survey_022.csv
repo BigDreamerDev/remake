@@ -1,0 +1,24 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-022-000,Ward C Washroom,blue tape,723,not returned,gulls,distance changed while writing
+SS-022-001,Undertow Corridor,brass tag,642,below,pipe breath,distance changed while writing
+SS-022-002,Ward C Washroom,white rope,874,inside,pipe breath,distance changed while writing
+SS-022-003,Blackwater Pier,brass tag,737,below,pipe breath,distance changed while writing
+SS-022-004,Anchor Hall,white rope,267,921,surf,distance changed while writing
+SS-022-005,Below-Stairs Reservoir,unmarked,1005,not returned,none,marker wet
+SS-022-006,Salt Archive,blue tape,1151,inside,surf,marker dry
+SS-022-007,The Empty Aquarium,white rope,1106,below,gulls,do not revisit alone
+SS-022-008,The Third Jetty,salt nail,1,876,pipe breath,ordinary until midnight
+SS-022-009,Lower Bell Marina,blue tape,254,inside,pipe breath,do not revisit alone
+SS-022-010,Tide Elevator,wet chalk,396,797,none,ordinary until midnight
+SS-022-011,Lighthouse 7,white rope,1160,11,gulls,distance changed while writing
+SS-022-012,Mirrorpool Basin,white rope,435,not returned,rain inside,do not revisit alone
+SS-022-013,Room 0 Flood Annex,salt nail,418,492,gulls,marker dry
+SS-022-014,Grey Buoy Field,white rope,1075,same as yesterday,surf,ordinary until midnight
+SS-022-015,South Intake Tunnel,blue tape,526,not returned,bell,ordinary until midnight
+SS-022-016,Rain Room 11,blue tape,807,inside,gulls,ordinary until midnight
+SS-022-017,Grey Buoy Field,wet chalk,1180,below,gulls,ordinary until midnight
+SS-022-018,Canteen Tidewell,unmarked,654,not returned,pipe breath,distance changed while writing
+SS-022-019,Undertow Corridor,brass tag,910,not returned,pipe breath,marker dry
+SS-022-020,The Dry Dock With Water In It,wet chalk,378,not returned,rain inside,marker dry
+SS-022-021,The Dry Dock With Water In It,blue tape,1106,not returned,bell,marker wet
+SS-022-022,Blackwater Pier,white rope,1108,below,bell,ordinary until midnight

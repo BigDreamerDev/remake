@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5077",
+  "record_type": "maritime_anomaly_index",
+  "location": "Observation Deck 4",
+  "phenomenon": "coastal hallway recursion",
+  "classification": "Undertow",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 63,
+    "salinity_ppt": 22.95,
+    "audio": "surf",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

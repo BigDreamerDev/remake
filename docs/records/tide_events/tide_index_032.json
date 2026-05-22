@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5032",
+  "record_type": "maritime_anomaly_index",
+  "location": "Crescent Breakwater",
+  "phenomenon": "mirror water",
+  "classification": "Brackish-Liminal",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 249,
+    "salinity_ppt": 33.96,
+    "audio": "pipe-hum",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "no access material recorded"
+}

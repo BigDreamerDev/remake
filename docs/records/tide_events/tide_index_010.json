@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5010",
+  "record_type": "maritime_anomaly_index",
+  "location": "Undertow Corridor",
+  "phenomenon": "unlit lighthouse beam",
+  "classification": "Night-Surf",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 489,
+    "salinity_ppt": 28.66,
+    "audio": "pipe-hum",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "no access material recorded"
+}

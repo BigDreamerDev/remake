@@ -1,0 +1,30 @@
+record: liminal-hydrology-fixture-017
+classification: Low-Swell
+location: North Glass Shoal
+phenomenon: indoor swell
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 129
+    smell: kelp
+    reflection: delayed
+  - phase: 1
+    waterline_mm: 445
+    smell: bleach
+    reflection: delayed
+  - phase: 2
+    waterline_mm: 29
+    smell: cold tea
+    reflection: sea
+  - phase: 3
+    waterline_mm: 30
+    smell: salt
+    reflection: sea
+  - phase: 4
+    waterline_mm: 389
+    smell: cold tea
+    reflection: wrong-room
+  - phase: 5
+    waterline_mm: 345
+    smell: salt
+    reflection: person-absent

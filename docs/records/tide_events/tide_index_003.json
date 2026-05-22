@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5003",
+  "record_type": "maritime_anomaly_index",
+  "location": "Crescent Breakwater",
+  "phenomenon": "floor-level surf",
+  "classification": "Salt-Mirror",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 495,
+    "salinity_ppt": 17.54,
+    "audio": "surf",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "archive only; not an instruction"
+}

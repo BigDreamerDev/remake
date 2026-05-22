@@ -1,0 +1,32 @@
+{
+  "capture_id": "bulk-fragment-046",
+  "canonical": false,
+  "commands": [
+    "archive.request",
+    "cat",
+    "node.trace",
+    "hex.encode",
+    "version",
+    "echo",
+    "handbook.random",
+    "inventory.sample",
+    "codex.quire",
+    "observance.next",
+    "name.check",
+    "atrium.clock",
+    "silence.begin"
+  ],
+  "outputs": [
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "file visible but not willing"
+  ],
+  "warnings": [
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review."
+  ],
+  "clause": "20.0",
+  "office": "Corridor Reconciliation Subcommittee"
+}

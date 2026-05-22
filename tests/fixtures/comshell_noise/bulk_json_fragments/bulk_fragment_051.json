@@ -1,0 +1,30 @@
+{
+  "capture_id": "bulk-fragment-051",
+  "canonical": false,
+  "commands": [
+    "waterline",
+    "forms.list",
+    "room.query",
+    "version",
+    "cymatics.classify",
+    "hex.encode",
+    "handbook.lookup",
+    "handbook.random",
+    "return.path",
+    "sleep"
+  ],
+  "outputs": [
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "The handbook denies having used that term.",
+    "Gate acknowledged. Session opening.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9"
+  ],
+  "warnings": [
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing."
+  ],
+  "clause": "12.6",
+  "office": "Hydrology Desk"
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5030",
+  "record_type": "maritime_anomaly_index",
+  "location": "Observation Deck 4",
+  "phenomenon": "black foam",
+  "classification": "Quiet-Water",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 719,
+    "salinity_ppt": 30.35,
+    "audio": "bell",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "archive only; not an instruction"
+}

@@ -1,0 +1,30 @@
+{
+  "capture_id": "bulk-fragment-007",
+  "canonical": false,
+  "commands": [
+    "atrium.clock",
+    "policy.random",
+    "weather.inside",
+    "contact.office",
+    "audit.roll",
+    "registry.lookup",
+    "lift.status",
+    "hex.encode",
+    "silence.begin"
+  ],
+  "outputs": [
+    "file visible but not willing",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "The handbook denies having used that term.",
+    "Gate acknowledged. Session opening.",
+    "Clock C: [removed pending apology]",
+    "Pattern Integrity .................. NOMINAL"
+  ],
+  "warnings": [
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "A visible command name in a handbook appendix does not constitute a recommendation to use it near a lift, cafeteria queue, or still-water site."
+  ],
+  "clause": "9.7",
+  "office": "Codicology Desk"
+}

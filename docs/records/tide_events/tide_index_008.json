@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5008",
+  "record_type": "maritime_anomaly_index",
+  "location": "Lighthouse 7",
+  "phenomenon": "stairwell flood without source",
+  "classification": "Salt-Mirror",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 213,
+    "salinity_ppt": 31.76,
+    "audio": "none",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "archive only; not an instruction"
+}

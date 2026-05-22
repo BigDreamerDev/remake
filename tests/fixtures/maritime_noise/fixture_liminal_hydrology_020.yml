@@ -1,0 +1,26 @@
+record: liminal-hydrology-fixture-020
+classification: Undertow
+location: Anchor Hall
+phenomenon: reverse tide
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 254
+    smell: bleach
+    reflection: delayed
+  - phase: 1
+    waterline_mm: 258
+    smell: rain concrete
+    reflection: delayed
+  - phase: 2
+    waterline_mm: 305
+    smell: salt
+    reflection: person-absent
+  - phase: 3
+    waterline_mm: 295
+    smell: bleach
+    reflection: wrong-room
+  - phase: 4
+    waterline_mm: 113
+    smell: salt
+    reflection: correct

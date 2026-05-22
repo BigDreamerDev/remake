@@ -1,0 +1,42 @@
+record: liminal-hydrology-fixture-006
+classification: Salt-Mirror
+location: Room 0 Flood Annex
+phenomenon: coastal hallway recursion
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 77
+    smell: none
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 194
+    smell: kelp
+    reflection: delayed
+  - phase: 2
+    waterline_mm: 51
+    smell: kelp
+    reflection: correct
+  - phase: 3
+    waterline_mm: 255
+    smell: rain concrete
+    reflection: person-absent
+  - phase: 4
+    waterline_mm: 269
+    smell: rain concrete
+    reflection: delayed
+  - phase: 5
+    waterline_mm: 449
+    smell: salt
+    reflection: stairs
+  - phase: 6
+    waterline_mm: 181
+    smell: cold tea
+    reflection: sea
+  - phase: 7
+    waterline_mm: 256
+    smell: rain concrete
+    reflection: wrong-room
+  - phase: 8
+    waterline_mm: 304
+    smell: cold tea
+    reflection: person-absent

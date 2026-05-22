@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-044
+classification: Quiet-Water
+location: Grey Buoy Field
+phenomenon: memory brine
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 294
+    smell: cold tea
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 120
+    smell: none
+    reflection: person-absent
+  - phase: 2
+    waterline_mm: 446
+    smell: none
+    reflection: delayed
+  - phase: 3
+    waterline_mm: 467
+    smell: cold tea
+    reflection: delayed
+  - phase: 4
+    waterline_mm: 487
+    smell: rain concrete
+    reflection: stairs
+  - phase: 5
+    waterline_mm: 200
+    smell: cold tea
+    reflection: wrong-room
+  - phase: 6
+    waterline_mm: 40
+    smell: salt
+    reflection: correct
+  - phase: 7
+    waterline_mm: 214
+    smell: rain concrete
+    reflection: wrong-room
+  - phase: 8
+    waterline_mm: 252
+    smell: cold tea
+    reflection: delayed
+  - phase: 9
+    waterline_mm: 357
+    smell: rain concrete
+    reflection: delayed
+  - phase: 10
+    waterline_mm: 220
+    smell: rain concrete
+    reflection: stairs

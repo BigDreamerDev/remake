@@ -1,0 +1,70 @@
+# Sealed Supplement 014
+
+**Stillwater Foundation handbook fragment:** sealed supplement copy
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Administrative Absences Desk
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 28.2.3
+
+This fragment describes ordinary conduct around the sodium-lit corridor. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 04:04 | ྾2 / intercom | Return path found but rejected because it arrived before the departure. | folded |
+| 00:00 | Floor -3 / lift | The queue moved while unobserved and returned with one extra place. | returned unread |
+| 02:00 | West Stair / locker row | The queue moved while unobserved and returned with one extra place. | no escalation |
+| 11:11 | ྾2 / stairwell | Mirror cover compliant; covered surface continues to behave like a window. | witness pending |
+| 06:00 | North Archive / service door | Return path found but rejected because it arrived before the departure. | witness pending |
+| 11:11 | Canteen rear / archive tray | Mirror cover compliant; covered surface continues to behave like a window. | non-actionable |
+| 23:00 | ྾2 / stairwell | One reflection answered late; no disciplinary event is created by lateness alone. | copied by hand |
+| 06:00 | West Stair / mirror cover | The queue moved while unobserved and returned with one extra place. | folded |
+
+## Staff conduct requirements
+
+1. Do not thank the stairwell, even if it waits. When in doubt, continue walking until the next posted map contradicts itself.
+2. Do not remove wet floor signs from dry floors. Destroy no copies. The duplicate may be the one that remembers the route.
+3. Do not use your archived name in a reflected terminal. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+4. Do not answer from inside the pause. Cross-reference the nearest clause that does not face the window.
+5. Do not press further lift buttons during the delay. Retain for orientation only; do not escalate beyond Quiet-Water unless glass is uncovered.
+6. Do not thank the stairwell, even if it waits. Retain for orientation only; do not escalate beyond Quiet-Water unless glass is uncovered.
+7. Do not file apologies under maintenance unless they are mechanical. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+
+## Related forms
+
+- **Form T-35/wet:** dry cup inventory; submit only if the form is present before you look for it.
+- **Form QW-45/wet:** returned route; submit only if the form is present before you look for it.
+- **Form D-88b:** silence received; submit only if the form is present before you look for it.
+- **Form V-31-old:** dry cup inventory; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 28.8.6, Clause 24.6.1, Clause 2.0.6, Clause 28.5.8, Clause 31.9.0, Clause 30.1.2, Clause 3.6.5, Clause 8.6.2, Clause 27.3.9
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Unassigned annotation: [WITHHELD] deferred noted returned [UNPRINTED] returned acknowledged [ROUTE REFUSED] [ROOM NAME OMITTED]
+- Printer scar: [WITHHELD] [UNPRINTED] deferred ██████ [UNPRINTED] [WITHHELD] unwitnessed [WET COPY]
+
+> This file is retained because deletion has historically made the corridor more specific.

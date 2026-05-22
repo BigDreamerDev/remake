@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5069",
+  "record_type": "maritime_anomaly_index",
+  "location": "Old Bathing Pavilion",
+  "phenomenon": "memory brine",
+  "classification": "Brackish-Liminal",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 39,
+    "salinity_ppt": 27.0,
+    "audio": "pipe-hum",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "no access material recorded"
+}

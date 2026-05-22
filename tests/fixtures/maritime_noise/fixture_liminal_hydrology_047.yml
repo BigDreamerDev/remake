@@ -1,0 +1,54 @@
+record: liminal-hydrology-fixture-047
+classification: Salt-Mirror
+location: Rain Room 11
+phenomenon: floor-level surf
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 207
+    smell: cold tea
+    reflection: correct
+  - phase: 1
+    waterline_mm: 466
+    smell: salt
+    reflection: person-absent
+  - phase: 2
+    waterline_mm: 256
+    smell: salt
+    reflection: wrong-room
+  - phase: 3
+    waterline_mm: 313
+    smell: rain concrete
+    reflection: sea
+  - phase: 4
+    waterline_mm: 319
+    smell: bleach
+    reflection: correct
+  - phase: 5
+    waterline_mm: 213
+    smell: salt
+    reflection: correct
+  - phase: 6
+    waterline_mm: 208
+    smell: rain concrete
+    reflection: sea
+  - phase: 7
+    waterline_mm: 494
+    smell: cold tea
+    reflection: sea
+  - phase: 8
+    waterline_mm: 187
+    smell: kelp
+    reflection: stairs
+  - phase: 9
+    waterline_mm: 210
+    smell: kelp
+    reflection: wrong-room
+  - phase: 10
+    waterline_mm: 160
+    smell: bleach
+    reflection: person-absent
+  - phase: 11
+    waterline_mm: 427
+    smell: kelp
+    reflection: correct

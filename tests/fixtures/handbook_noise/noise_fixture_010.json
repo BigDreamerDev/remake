@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "stairwell.listen",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "lamp.replace",
+      "result": "mirror cover compliant; covered surface continues to behave like a window",
+      "action": "none"
+    },
+    {
+      "command": "weather.inside",
+      "result": "form accepted in damp condition; drying would change the filing date",
+      "action": "none"
+    },
+    {
+      "command": "log.tail",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    },
+    {
+      "command": "lights.status",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    },
+    {
+      "command": "version",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    },
+    {
+      "command": "hydrology.depth",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "paper.dry",
+      "result": "the archive declined to distinguish the duplicate from the original",
+      "action": "none"
+    }
+  ]
+}

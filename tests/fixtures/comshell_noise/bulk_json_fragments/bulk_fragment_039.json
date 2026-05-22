@@ -1,0 +1,29 @@
+{
+  "capture_id": "bulk-fragment-039",
+  "canonical": false,
+  "commands": [
+    "version",
+    "handbook.lookup",
+    "notice.roll",
+    "maintenance.window",
+    "sleep",
+    "archive.request",
+    "silence.status",
+    "handbook.random",
+    "atrium.clock",
+    "report.anomaly"
+  ],
+  "outputs": [
+    "Mirror audit complete: one reflection late, none missing.",
+    "Stairwell B: do not hum back. This is not a test.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa"
+  ],
+  "warnings": [
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review."
+  ],
+  "clause": "22.1",
+  "office": "Codicology Desk"
+}

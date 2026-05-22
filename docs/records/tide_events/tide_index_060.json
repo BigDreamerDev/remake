@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5060",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Empty Aquarium",
+  "phenomenon": "waterline displacement",
+  "classification": "Night-Surf",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 52,
+    "salinity_ppt": 11.93,
+    "audio": "bell",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "no access material recorded"
+}

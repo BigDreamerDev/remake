@@ -1,0 +1,30 @@
+record: liminal-hydrology-fixture-037
+classification: Harbour-Black
+location: Old Bathing Pavilion
+phenomenon: impossible depth
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 311
+    smell: bleach
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 87
+    smell: none
+    reflection: sea
+  - phase: 2
+    waterline_mm: 204
+    smell: kelp
+    reflection: stairs
+  - phase: 3
+    waterline_mm: 236
+    smell: salt
+    reflection: stairs
+  - phase: 4
+    waterline_mm: 387
+    smell: cold tea
+    reflection: person-absent
+  - phase: 5
+    waterline_mm: 485
+    smell: kelp
+    reflection: delayed

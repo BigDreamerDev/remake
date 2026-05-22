@@ -1,0 +1,42 @@
+record: liminal-hydrology-fixture-004
+classification: Tide-Locked
+location: Mirrorpool Basin
+phenomenon: memory brine
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 480
+    smell: kelp
+    reflection: stairs
+  - phase: 1
+    waterline_mm: 210
+    smell: bleach
+    reflection: delayed
+  - phase: 2
+    waterline_mm: 291
+    smell: none
+    reflection: correct
+  - phase: 3
+    waterline_mm: 239
+    smell: none
+    reflection: correct
+  - phase: 4
+    waterline_mm: 313
+    smell: salt
+    reflection: correct
+  - phase: 5
+    waterline_mm: 286
+    smell: none
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 344
+    smell: none
+    reflection: person-absent
+  - phase: 7
+    waterline_mm: 46
+    smell: salt
+    reflection: person-absent
+  - phase: 8
+    waterline_mm: 309
+    smell: bleach
+    reflection: wrong-room

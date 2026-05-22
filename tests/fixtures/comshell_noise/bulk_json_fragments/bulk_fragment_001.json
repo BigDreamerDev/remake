@@ -1,0 +1,38 @@
+{
+  "capture_id": "bulk-fragment-001",
+  "canonical": false,
+  "commands": [
+    "corridor.map",
+    "weather.inside",
+    "sleep",
+    "forms.lookup",
+    "notice.roll",
+    "badge.read",
+    "descale.status",
+    "floor.plan",
+    "forms.list",
+    "cafeteria.menu",
+    "stairwell.listen",
+    "atrium.clock",
+    "handbook.lookup",
+    "cat",
+    "orange.when"
+  ],
+  "outputs": [
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Gate acknowledged. Session opening.",
+    "Pattern Integrity .................. NOMINAL",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Stairwell B: do not hum back. This is not a test."
+  ],
+  "warnings": [
+    "Where the command appears to answer a question not asked, attach the transcript to the nearest related form and do not ask the terminal to clarify itself.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent."
+  ],
+  "clause": "4.4",
+  "office": "Corridor Reconciliation Subcommittee"
+}

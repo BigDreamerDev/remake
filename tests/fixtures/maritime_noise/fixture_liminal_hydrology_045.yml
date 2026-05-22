@@ -1,0 +1,26 @@
+record: liminal-hydrology-fixture-045
+classification: Low-Swell
+location: The Empty Aquarium
+phenomenon: choral hum under pipes
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 480
+    smell: kelp
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 256
+    smell: rain concrete
+    reflection: correct
+  - phase: 2
+    waterline_mm: 430
+    smell: bleach
+    reflection: sea
+  - phase: 3
+    waterline_mm: 371
+    smell: none
+    reflection: person-absent
+  - phase: 4
+    waterline_mm: 370
+    smell: rain concrete
+    reflection: wrong-room

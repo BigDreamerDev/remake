@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5052",
+  "record_type": "maritime_anomaly_index",
+  "location": "Sublevel K Drainage",
+  "phenomenon": "indoor swell",
+  "classification": "Undertow",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 583,
+    "salinity_ppt": 7.52,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

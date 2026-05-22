@@ -1,0 +1,22 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-008-000,The Dry Dock With Water In It,salt nail,639,262,rain inside,ordinary until midnight
+SS-008-001,The Third Jetty,salt nail,322,788,gulls,do not revisit alone
+SS-008-002,North Glass Shoal,white rope,409,same as yesterday,rain inside,marker dry
+SS-008-003,Crescent Breakwater,blue tape,469,inside,bell,ordinary until midnight
+SS-008-004,West Sluice Door,wet chalk,64,same as yesterday,gulls,do not revisit alone
+SS-008-005,Blue Door Quay,brass tag,655,same as yesterday,none,marker dry
+SS-008-006,Canteen Tidewell,salt nail,532,inside,gulls,marker wet
+SS-008-007,Room 0 Flood Annex,salt nail,457,inside,pipe breath,do not revisit alone
+SS-008-008,The Pool That Was Not Built,blue tape,941,below,bell,marker wet
+SS-008-009,Lower Bell Marina,white rope,894,below,bell,marker wet
+SS-008-010,Canteen Tidewell,blue tape,869,inside,bell,do not revisit alone
+SS-008-011,Anchor Hall,wet chalk,187,805,none,do not revisit alone
+SS-008-012,Lower Bell Marina,brass tag,42,below,rain inside,marker wet
+SS-008-013,Rain Room 11,salt nail,737,below,bell,do not revisit alone
+SS-008-014,The Third Jetty,white rope,454,below,rain inside,do not revisit alone
+SS-008-015,Blackwater Pier,wet chalk,927,below,none,marker dry
+SS-008-016,Blue Door Quay,wet chalk,299,same as yesterday,gulls,marker dry
+SS-008-017,Mirrorpool Basin,brass tag,745,below,rain inside,marker wet
+SS-008-018,Mirrorpool Basin,wet chalk,894,below,pipe breath,marker dry
+SS-008-019,The Third Jetty,white rope,918,inside,none,distance changed while writing
+SS-008-020,The Pool That Was Not Built,brass tag,1171,629,surf,marker wet

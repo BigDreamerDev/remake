@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5063",
+  "record_type": "maritime_anomaly_index",
+  "location": "Anchor Hall",
+  "phenomenon": "language in condensation",
+  "classification": "Low-Swell",
+  "status": "awaiting tide",
+  "sensor_summary": {
+    "max_depth_mm": 87,
+    "salinity_ppt": 4.63,
+    "audio": "surf",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "watch for corridor length change"
+}

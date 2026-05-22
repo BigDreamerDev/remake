@@ -1,0 +1,11 @@
+accession,year,shelf,folios,waterline_mm,seal,status,note
+SW-ARC-WET-1822-0148-00,1822,black-6,59,21,broken inward,waiting,"do not compare at night"
+SW-ARC-RET-1958-0148-01,1958,returned,84,7,absent,waiting,"room name absent"
+SW-ARC-QRY-1822-0148-02,1822,unassigned,107,0,broken inward,sealed,"do not compare at night"
+SW-ARC-VLM-1714-0148-03,1714,east-3,130,0,too soft,misfiled,"signature repeats"
+SW-ARC-DIP-1714-0148-04,1714,east-3,98,7,broken inward,waiting,"room name absent"
+SW-ARC-ACC-1541-0148-05,1541,east-3,210,3,intact,open,"copy arrived first"
+SW-ARC-FOL-1324-0148-06,1324,black-7,136,21,broken inward,waiting,"do not compare at night"
+SW-ARC-DIP-1793-0148-07,1793,lower-2,152,3,too soft,drying,"room name absent"
+SW-ARC-ACC-1324-0148-08,1324,black-7,180,21,reversed,waiting,"signature repeats"
+SW-ARC-MGR-1907-0148-09,1907,unassigned,35,44,broken inward,open,"signature repeats"

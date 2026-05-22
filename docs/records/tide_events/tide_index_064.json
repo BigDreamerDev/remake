@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5064",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Dry Dock With Water In It",
+  "phenomenon": "impossible depth",
+  "classification": "Salt-Mirror",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 520,
+    "salinity_ppt": 27.36,
+    "audio": "bell",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "watch for corridor length change"
+}

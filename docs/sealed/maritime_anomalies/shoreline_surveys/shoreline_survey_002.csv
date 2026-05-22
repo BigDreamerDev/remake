@@ -1,0 +1,41 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-002-000,Tide Elevator,wet chalk,353,285,bell,ordinary until midnight
+SS-002-001,Grey Buoy Field,brass tag,444,below,pipe breath,ordinary until midnight
+SS-002-002,The Third Jetty,blue tape,963,663,surf,distance changed while writing
+SS-002-003,Lower Bell Marina,white rope,966,227,rain inside,distance changed while writing
+SS-002-004,Undertow Corridor,unmarked,578,356,pipe breath,ordinary until midnight
+SS-002-005,Lighthouse 7,salt nail,112,inside,pipe breath,do not revisit alone
+SS-002-006,The Third Jetty,unmarked,994,inside,pipe breath,marker wet
+SS-002-007,Ashen Ferry Terminal,brass tag,511,same as yesterday,none,marker dry
+SS-002-008,South Intake Tunnel,blue tape,1064,same as yesterday,none,do not revisit alone
+SS-002-009,Rain Room 11,salt nail,190,same as yesterday,surf,marker dry
+SS-002-010,Lighthouse 7,blue tape,544,inside,surf,marker dry
+SS-002-011,Oyster Stair,wet chalk,232,inside,surf,distance changed while writing
+SS-002-012,Oyster Stair,blue tape,327,same as yesterday,bell,ordinary until midnight
+SS-002-013,The Pool That Was Not Built,brass tag,1142,not returned,bell,marker dry
+SS-002-014,Blue Door Quay,brass tag,723,inside,bell,distance changed while writing
+SS-002-015,Ward C Washroom,white rope,1091,same as yesterday,bell,distance changed while writing
+SS-002-016,Lighthouse 7,salt nail,897,inside,pipe breath,do not revisit alone
+SS-002-017,Canteen Tidewell,brass tag,482,same as yesterday,rain inside,ordinary until midnight
+SS-002-018,Room 0 Flood Annex,blue tape,558,not returned,none,do not revisit alone
+SS-002-019,Undertow Corridor,brass tag,972,931,surf,marker wet
+SS-002-020,South Intake Tunnel,blue tape,963,not returned,gulls,do not revisit alone
+SS-002-021,The Pool That Was Not Built,brass tag,959,not returned,surf,do not revisit alone
+SS-002-022,The Empty Aquarium,wet chalk,420,same as yesterday,gulls,marker dry
+SS-002-023,Ward C Washroom,wet chalk,922,same as yesterday,pipe breath,do not revisit alone
+SS-002-024,Blackwater Pier,unmarked,1172,not returned,gulls,marker wet
+SS-002-025,Tide Elevator,blue tape,4,94,none,do not revisit alone
+SS-002-026,Below-Stairs Reservoir,blue tape,111,same as yesterday,pipe breath,do not revisit alone
+SS-002-027,North Glass Shoal,wet chalk,74,below,surf,distance changed while writing
+SS-002-028,Crescent Breakwater,wet chalk,225,below,surf,distance changed while writing
+SS-002-029,Blackwater Pier,white rope,445,not returned,bell,marker wet
+SS-002-030,Room 0 Flood Annex,unmarked,662,same as yesterday,pipe breath,marker wet
+SS-002-031,Mirrorpool Basin,salt nail,616,inside,gulls,do not revisit alone
+SS-002-032,Oyster Stair,salt nail,704,same as yesterday,gulls,marker dry
+SS-002-033,Salt Archive,blue tape,1135,not returned,pipe breath,marker wet
+SS-002-034,Lighthouse 7,blue tape,963,inside,pipe breath,do not revisit alone
+SS-002-035,The Pool That Was Not Built,salt nail,1033,not returned,surf,distance changed while writing
+SS-002-036,Old Bathing Pavilion,unmarked,792,same as yesterday,pipe breath,marker wet
+SS-002-037,Oyster Stair,brass tag,641,same as yesterday,none,distance changed while writing
+SS-002-038,Ward C Washroom,unmarked,688,inside,none,ordinary until midnight
+SS-002-039,South Intake Tunnel,unmarked,507,322,surf,do not revisit alone

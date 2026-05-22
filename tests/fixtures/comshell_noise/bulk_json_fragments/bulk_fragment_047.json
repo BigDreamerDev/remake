@@ -1,0 +1,36 @@
+{
+  "capture_id": "bulk-fragment-047",
+  "canonical": false,
+  "commands": [
+    "orange.when",
+    "silence.status",
+    "codex.quire",
+    "hex.encode",
+    "cymatics.scan",
+    "sleep",
+    "codex.folia",
+    "forms.list",
+    "seal.verify",
+    "name.check",
+    "corridor.map",
+    "cafeteria.menu",
+    "notice.roll",
+    "hydrology.pressure"
+  ],
+  "outputs": [
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Pattern Integrity .................. NOMINAL",
+    "The handbook denies having used that term.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Clock C: [removed pending apology]"
+  ],
+  "warnings": [
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original."
+  ],
+  "clause": "11.3",
+  "office": "Corridor Reconciliation Subcommittee"
+}

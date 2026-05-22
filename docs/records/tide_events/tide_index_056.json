@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5056",
+  "record_type": "maritime_anomaly_index",
+  "location": "Below-Stairs Reservoir",
+  "phenomenon": "wet footprints arriving before personnel",
+  "classification": "Salt-Mirror",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 76,
+    "salinity_ppt": 8.18,
+    "audio": "none",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "archive only; not an instruction"
+}

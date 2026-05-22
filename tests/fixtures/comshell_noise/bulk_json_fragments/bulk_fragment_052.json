@@ -1,0 +1,27 @@
+{
+  "capture_id": "bulk-fragment-052",
+  "canonical": false,
+  "commands": [
+    "policy.random",
+    "hydrology.depth",
+    "lights.status",
+    "report.anomaly",
+    "sleep",
+    "hex.decode",
+    "codex.quire",
+    "descale.status"
+  ],
+  "outputs": [
+    "The handbook denies having used that term.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9"
+  ],
+  "warnings": [
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent.",
+    "Terminal behaviour described in this appendix is decorative, ceremonial, or retained for staff confidence. It is not authoritative for restricted procedures.",
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review."
+  ],
+  "clause": "25.0",
+  "office": "Office of Inherited Silences"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "mailroom.check",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    },
+    {
+      "command": "cafeteria.menu",
+      "result": "standing water found above the label but below the room name",
+      "action": "none"
+    },
+    {
+      "command": "maintenance.window",
+      "result": "mirror cover compliant; covered surface continues to behave like a window",
+      "action": "none"
+    },
+    {
+      "command": "window.cover",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "forms.lookup",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    },
+    {
+      "command": "stairwell.listen",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    },
+    {
+      "command": "silence.status",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "motd",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    }
+  ]
+}

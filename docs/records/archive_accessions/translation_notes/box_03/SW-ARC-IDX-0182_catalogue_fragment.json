@@ -1,0 +1,50 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-QRY-1822-0182-00",
+      "date_recorded": "1822",
+      "type": "ward admission slip",
+      "condition": "corners remember being folded",
+      "location": "Building \u0394",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-BOX-1958-0182-01",
+      "date_recorded": "1958",
+      "type": "railway notice",
+      "condition": "pages smell faintly of low tide",
+      "location": "Room \u0fbe2-A",
+      "instruction": "copies made after sunset must be returned face down",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1488-0182-02",
+      "date_recorded": "1488",
+      "type": "glass-plate caption",
+      "condition": "corners remember being folded",
+      "location": "Pondroom",
+      "instruction": "do not index a blank folio by the sound it makes",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-QRY-1666-0182-03",
+      "date_recorded": "1666",
+      "type": "minutes book",
+      "condition": "reverse side warmer than front",
+      "location": "Locked Reading Room",
+      "instruction": "the original is not to be requested unless the copy asks first",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-BOX-1907-0182-04",
+      "date_recorded": "1907",
+      "type": "sanatorium visitor book",
+      "condition": "witness marks do not agree with index",
+      "location": "Driftmoor",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

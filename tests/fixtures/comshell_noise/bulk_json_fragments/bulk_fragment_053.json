@@ -1,0 +1,29 @@
+{
+  "capture_id": "bulk-fragment-053",
+  "canonical": false,
+  "commands": [
+    "motd",
+    "floor.plan",
+    "log.tail",
+    "waterline",
+    "return.path",
+    "weather.inside",
+    "report.anomaly",
+    "inventory.sample"
+  ],
+  "outputs": [
+    "Stairwell B: do not hum back. This is not a test.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Clock C: [removed pending apology]",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "The handbook denies having used that term.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice."
+  ],
+  "warnings": [
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review.",
+    "A visible command name in a handbook appendix does not constitute a recommendation to use it near a lift, cafeteria queue, or still-water site."
+  ],
+  "clause": "11.3",
+  "office": "Meal Substitution Review"
+}

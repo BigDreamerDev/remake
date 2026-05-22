@@ -1,0 +1,54 @@
+export_id: SW-LOW-0018
+clearance: low
+canonical: false
+commands:
+  - name: seal.verify
+    clause: "2.8"
+    classification: training
+    sample: "seal is probably still deciding"
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: node.trace
+    clause: "10.4"
+    classification: compatibility
+    sample: "corridor-cache / repeated"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: lift.status
+    clause: "25.0"
+    classification: ceremonial
+    sample: "Lift D: never installed; do not wait inside it"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: cymatics.classify
+    clause: "19.0"
+    classification: transcript-noise
+    sample: "frequency : 44.1 Hz | band : Class-I"
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."
+  - name: version
+    clause: "14.2"
+    classification: ceremonial
+    sample: "comShell v4.8.0 / public terminal build | schema ring: liminal-stable"
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: rank.list
+    clause: "20.0"
+    classification: training
+    sample: "Trainee | Junior | Senior | Limonology"
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: cymatics.scan
+    clause: "2.8"
+    classification: ceremonial
+    sample: "Cymatic scan complete. | Note: terminal microphone not calibrated for doors that breathe."
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: atrium.clock
+    clause: "21.2"
+    classification: ceremonial
+    sample: "Clock C: [removed pending apology]"
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."
+  - name: node.quarantine
+    clause: "16.8"
+    classification: compatibility
+    sample: "status: advisory only at current rank"
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: room.query
+    clause: "2.8"
+    classification: training
+    sample: "available only to staff already inside"
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."

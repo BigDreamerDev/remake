@@ -1,0 +1,29 @@
+{
+  "capture_id": "bulk-fragment-045",
+  "canonical": false,
+  "commands": [
+    "lift.status",
+    "orange.when",
+    "handbook.random",
+    "seal.verify",
+    "handbook.lookup",
+    "cafeteria.menu",
+    "atrium.clock",
+    "cymatics.classify",
+    "rank.required",
+    "report.anomaly"
+  ],
+  "outputs": [
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice."
+  ],
+  "warnings": [
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed."
+  ],
+  "clause": "9.7",
+  "office": "Hydrology Desk"
+}

@@ -1,0 +1,39 @@
+{
+  "capture_id": "bulk-fragment-004",
+  "canonical": false,
+  "commands": [
+    "memorial.check",
+    "cymatics.scan",
+    "report.anomaly",
+    "mailroom.check",
+    "codex.quire",
+    "lift.status",
+    "policy.random",
+    "notice.roll",
+    "orange.when",
+    "descale.status",
+    "hydrology.depth",
+    "waterline",
+    "audit.roll",
+    "door.test",
+    "forms.list",
+    "corridor.map"
+  ],
+  "outputs": [
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Pattern Integrity .................. NOMINAL",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Stairwell B: do not hum back. This is not a test.",
+    "The handbook denies having used that term.",
+    "Gate acknowledged. Session opening.",
+    "file visible but not willing",
+    "Clock C: [removed pending apology]"
+  ],
+  "warnings": [
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall."
+  ],
+  "clause": "20.3",
+  "office": "Codicology Desk"
+}

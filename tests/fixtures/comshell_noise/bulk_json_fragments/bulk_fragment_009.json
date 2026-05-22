@@ -1,0 +1,32 @@
+{
+  "capture_id": "bulk-fragment-009",
+  "canonical": false,
+  "commands": [
+    "codex.folia",
+    "archive.request",
+    "inventory.sample",
+    "version",
+    "return.path",
+    "node.trace",
+    "echo",
+    "seal.verify",
+    "orange.when",
+    "hex.decode",
+    "rank.required"
+  ],
+  "outputs": [
+    "Mirror audit complete: one reflection late, none missing.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Pattern Integrity .................. NOMINAL",
+    "Clock C: [removed pending apology]",
+    "The water in the west stairwell has passed inspection. It should not be thanked."
+  ],
+  "warnings": [
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original."
+  ],
+  "clause": "10.4",
+  "office": "Meal Substitution Review"
+}

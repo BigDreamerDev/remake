@@ -1,0 +1,70 @@
+# Sealed Supplement 003
+
+**Stillwater Foundation handbook fragment:** sealed supplement copy
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Pattern Integrity Working Group
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 15.8.5
+
+This fragment describes ordinary conduct around the after-hours canteen queue. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 14:14 | West Stair / stairwell | The cup is empty, facing away, and therefore compliant for today. | returned unread |
+| 11:11 | ྾2 / return path | One reflection answered late; no disciplinary event is created by lateness alone. | copied by hand |
+| 00:00 | Δ-04 / mailroom shutter | Return path found but rejected because it arrived before the departure. | returned unread |
+| 06:00 | North Archive / locker row | The staircase returned a sample resembling the last thing typed by the operator. | returned unread |
+| 00:00 | Δ-04 / visitor ledger | The cup is empty, facing away, and therefore compliant for today. | no escalation |
+
+## Staff conduct requirements
+
+1. Do not file apologies under maintenance unless they are mechanical. File as non-actionable unless the room repeats the observation in writing.
+2. Do not count empty chairs twice. Use Form S-00 for silence received, silence withheld, or silence returned warm.
+3. Do not count empty chairs twice. When in doubt, continue walking until the next posted map contradicts itself.
+4. Do not dry paper that arrived damp around a name. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+5. Do not dry paper that arrived damp around a name. File as non-actionable unless the room repeats the observation in writing.
+6. Do not thank the stairwell, even if it waits. Cross-reference the nearest clause that does not face the window.
+7. Do not synchronise breathing with nearby terminals. If the entry appears useful, it is probably administrative residue and should be copied by hand.
+8. Do not use your archived name in a reflected terminal. Use Form S-00 for silence received, silence withheld, or silence returned warm.
+
+## Related forms
+
+- **Form R-35b:** pre-echo report; submit only if the form is present before you look for it.
+- **Form C-28/wet:** silence received; submit only if the form is present before you look for it.
+- **Form QW-98/wet:** chair excess; submit only if the form is present before you look for it.
+- **Form QW-08:** room reclassification; submit only if the form is present before you look for it.
+- **Form S-59:** standing-water apology; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 27.0.8, Clause 16.3.8, Clause 11.7.3, Clause 4.0.4, Clause 7.2.9, Clause 10.6.5, Clause 1.9.4, Clause 24.3.7, Clause 30.0.3, Clause 14.6.6, Clause 4.9.6
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Wet-copy offset: [UNPRINTED] deferred folded acknowledged deferred folded noted ██████ acknowledged [WET COPY] folded [ROUTE REFUSED] ██████ ordinary
+- Printer scar: [ROOM NAME OMITTED] ordinary acknowledged ██████ ██████ acknowledged folded ordinary unwitnessed [ROOM NAME OMITTED] [ROOM NAME OMITTED]
+- Wet-copy offset: [NOT A SOLUTION] non-actionable [WET COPY] returned [WITHHELD] [ROUTE REFUSED] [ROOM NAME OMITTED] [WITHHELD] non-actionable [ROUTE REFUSED] deferred
+
+> This file is retained because deletion has historically made the corridor more specific.

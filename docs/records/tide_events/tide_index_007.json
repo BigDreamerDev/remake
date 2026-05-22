@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5007",
+  "record_type": "maritime_anomaly_index",
+  "location": "Oyster Stair",
+  "phenomenon": "waterline displacement",
+  "classification": "Night-Surf",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 500,
+    "salinity_ppt": 20.83,
+    "audio": "surf",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "archive only; not an instruction"
+}

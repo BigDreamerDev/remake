@@ -1,0 +1,29 @@
+export_id: SW-LOW-0001
+clearance: low
+canonical: false
+commands:
+  - name: cat
+    clause: "21.2"
+    classification: compatibility
+    sample: "file visible but not willing"
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: policy.random
+    clause: "19.0"
+    classification: training
+    sample: "Clause 25.0: Silence is daily, but not always at the same minute."
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."
+  - name: room.query
+    clause: "2.8"
+    classification: training
+    sample: "available only to staff already inside"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: memorial.check
+    clause: "16.8"
+    classification: transcript-noise
+    sample: "You are not currently absent enough to be excused."
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."
+  - name: sleep
+    clause: "19.0"
+    classification: compatibility
+    sample: "terminals are not permitted to dream during business hours"
+    note: "Do not attempt to reconcile the output with eyewitness reports unless the eyewitness was present before the command was entered."

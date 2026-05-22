@@ -1,0 +1,28 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-013-000,South Intake Tunnel,brass tag,1007,below,pipe breath,marker dry
+SS-013-001,Lower Bell Marina,salt nail,469,inside,gulls,do not revisit alone
+SS-013-002,Lighthouse 7,white rope,271,same as yesterday,rain inside,ordinary until midnight
+SS-013-003,Blue Door Quay,salt nail,31,inside,bell,marker wet
+SS-013-004,Below-Stairs Reservoir,brass tag,44,not returned,bell,marker dry
+SS-013-005,The Dry Dock With Water In It,wet chalk,813,below,rain inside,marker wet
+SS-013-006,Observation Deck 4,unmarked,245,same as yesterday,pipe breath,marker wet
+SS-013-007,Lighthouse 7,brass tag,296,same as yesterday,gulls,marker wet
+SS-013-008,North Glass Shoal,blue tape,972,below,bell,marker wet
+SS-013-009,Grey Buoy Field,blue tape,161,inside,surf,marker wet
+SS-013-010,South Intake Tunnel,unmarked,905,844,surf,marker dry
+SS-013-011,Undertow Corridor,unmarked,216,909,bell,do not revisit alone
+SS-013-012,West Sluice Door,blue tape,1104,same as yesterday,rain inside,do not revisit alone
+SS-013-013,Ashen Ferry Terminal,unmarked,1,not returned,pipe breath,do not revisit alone
+SS-013-014,Blue Door Quay,white rope,798,below,gulls,marker wet
+SS-013-015,Salt Archive,white rope,900,below,gulls,marker wet
+SS-013-016,Blackwater Pier,salt nail,1148,below,bell,marker wet
+SS-013-017,Oyster Stair,salt nail,1044,same as yesterday,bell,marker dry
+SS-013-018,Oyster Stair,salt nail,1154,994,pipe breath,ordinary until midnight
+SS-013-019,Room 0 Flood Annex,brass tag,788,same as yesterday,pipe breath,do not revisit alone
+SS-013-020,Tide Elevator,white rope,43,not returned,rain inside,marker dry
+SS-013-021,Lighthouse 7,blue tape,819,380,bell,ordinary until midnight
+SS-013-022,Canteen Tidewell,wet chalk,717,inside,none,marker wet
+SS-013-023,Anchor Hall,salt nail,454,below,pipe breath,distance changed while writing
+SS-013-024,Rain Room 11,wet chalk,784,inside,pipe breath,distance changed while writing
+SS-013-025,Blackwater Pier,unmarked,342,220,rain inside,distance changed while writing
+SS-013-026,Undertow Corridor,wet chalk,367,inside,rain inside,do not revisit alone

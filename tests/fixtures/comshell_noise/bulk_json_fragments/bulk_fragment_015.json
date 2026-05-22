@@ -1,0 +1,28 @@
+{
+  "capture_id": "bulk-fragment-015",
+  "canonical": false,
+  "commands": [
+    "rank.required",
+    "floor.plan",
+    "audit.roll",
+    "hydrology.depth",
+    "sleep",
+    "echo",
+    "mailroom.check",
+    "version"
+  ],
+  "outputs": [
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "file visible but not willing",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Return path cannot be calculated while the route remembers you arriving."
+  ],
+  "warnings": [
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d."
+  ],
+  "clause": "5.1",
+  "office": "Meal Substitution Review"
+}

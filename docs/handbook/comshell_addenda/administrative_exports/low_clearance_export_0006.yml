@@ -1,0 +1,44 @@
+export_id: SW-LOW-0006
+clearance: low
+canonical: false
+commands:
+  - name: room.query
+    clause: "2.8"
+    classification: training
+    sample: "available only to staff already inside"
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: node.quarantine
+    clause: "16.8"
+    classification: compatibility
+    sample: "status: advisory only at current rank"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: handbook.lookup
+    clause: "7.7"
+    classification: low-clearance
+    sample: "Clause 7.2: Reflective Discipline | Full text: consult the handbook edition facing away from the window."
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: policy.random
+    clause: "19.0"
+    classification: training
+    sample: "Clause 25.0: Silence is daily, but not always at the same minute."
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: corridor.map
+    clause: "2.8"
+    classification: ceremonial
+    sample: "not all marked doors correspond to rooms"
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."
+  - name: door.test
+    clause: "9.7"
+    classification: low-clearance
+    sample: "Cafeteria rear door ........... ajar by policy, not by geometry"
+    note: "Commands listed in this appendix are ceremonial, compatibility-only, or maintained for cross-departmental habit rather than operational necessity."
+  - name: lift.status
+    clause: "25.0"
+    classification: ceremonial
+    sample: "Lift D: never installed; do not wait inside it"
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."
+  - name: observance.next
+    clause: "14.2"
+    classification: training
+    sample: "Silence begins when the lights stop agreeing."
+    note: "When in doubt, print the output, fold it away from yourself, and submit the folded side first."

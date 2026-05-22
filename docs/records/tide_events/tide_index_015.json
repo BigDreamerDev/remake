@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5015",
+  "record_type": "maritime_anomaly_index",
+  "location": "Lighthouse 7",
+  "phenomenon": "tidal duplication",
+  "classification": "Brackish-Liminal",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 96,
+    "salinity_ppt": 9.53,
+    "audio": "bell",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

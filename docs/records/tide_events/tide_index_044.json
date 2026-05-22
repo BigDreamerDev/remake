@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5044",
+  "record_type": "maritime_anomaly_index",
+  "location": "Canteen Tidewell",
+  "phenomenon": "stairwell flood without source",
+  "classification": "Undertow",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 176,
+    "salinity_ppt": 24.07,
+    "audio": "choir",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "watch for corridor length change"
+}

@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "window.cover",
+      "result": "one reflection answered late; no disciplinary event is created by lateness alone",
+      "action": "none"
+    },
+    {
+      "command": "rank.list",
+      "result": "standing water found above the label but below the room name",
+      "action": "none"
+    },
+    {
+      "command": "paper.dry",
+      "result": "result withheld because the witness had already gone home in a previous shift",
+      "action": "none"
+    },
+    {
+      "command": "id",
+      "result": "handbook clause relocated after citation; use the printed copy facing away from glass",
+      "action": "none"
+    },
+    {
+      "command": "cymatics.scan",
+      "result": "light remains on in rooms remembered as dark; maintenance closed the ticket anyway",
+      "action": "none"
+    },
+    {
+      "command": "silence.status",
+      "result": "badge echo delayed by 2.1 seconds; temporary absence preserved",
+      "action": "none"
+    },
+    {
+      "command": "node.quarantine",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "policy.random",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    }
+  ]
+}

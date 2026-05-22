@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5002",
+  "record_type": "maritime_anomaly_index",
+  "location": "Mirrorpool Basin",
+  "phenomenon": "eel-shaped shadow",
+  "classification": "Low-Swell",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 665,
+    "salinity_ppt": 24.88,
+    "audio": "rain",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "no access material recorded"
+}

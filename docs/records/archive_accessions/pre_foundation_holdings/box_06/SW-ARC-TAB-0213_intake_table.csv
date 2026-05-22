@@ -1,0 +1,10 @@
+accession,year,shelf,folios,waterline_mm,seal,status,note
+SW-ARC-PAL-1793-0213-00,1793,east-3,195,14,reversed,open,"signature repeats"
+SW-ARC-DIP-1541-0213-01,1541,east-3,57,0,broken inward,drying,"signature repeats"
+SW-ARC-RET-1488-0213-02,1488,lower-2,50,21,broken inward,sealed,"shelf denied receipt"
+SW-ARC-SIG-1996-0213-03,1996,black-6,62,7,too soft,misfiled,"do not compare at night"
+SW-ARC-SIG-1974-0213-04,1974,east-3,84,3,too soft,misfiled,"copy arrived first"
+SW-ARC-PAL-1488-0213-05,1488,unassigned,71,21,absent,misfiled,"copy arrived first"
+SW-ARC-TID-1488-0213-06,1488,unassigned,149,73,reversed,misfiled,"shelf denied receipt"
+SW-ARC-BOX-1666-0213-07,1666,lower-2,88,0,absent,misfiled,"signature repeats"
+SW-ARC-MGR-1931-0213-08,1931,lower-2,225,14,too soft,drying,"copy arrived first"

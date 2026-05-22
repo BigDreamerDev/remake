@@ -1,0 +1,44 @@
+export_id: SW-LOW-0003
+clearance: low
+canonical: false
+commands:
+  - name: silence.begin
+    clause: "11.3"
+    classification: ceremonial
+    sample: "The minute will end after sixty nonconsecutive seconds."
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."
+  - name: memory.recall
+    clause: "25.0"
+    classification: transcript-noise
+    sample: "Memory recall unavailable while the handbook is facing east."
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: log.tail
+    clause: "7.7"
+    classification: low-clearance
+    sample: "06:04:04 corridor: administrative merge completed twice"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: room.query
+    clause: "2.8"
+    classification: training
+    sample: "available only to staff already inside"
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: atrium.clock
+    clause: "21.2"
+    classification: ceremonial
+    sample: "Clock C: [removed pending apology]"
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: handbook.random
+    clause: "11.3"
+    classification: low-clearance
+    sample: "Random selection does not constitute authorisation."
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: cymatics.classify
+    clause: "19.0"
+    classification: transcript-noise
+    sample: "frequency : 44.1 Hz | band : Class-I"
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: waterline
+    clause: "25.0"
+    classification: training
+    sample: "Floor -4: not a floor in this edition of the handbook"
+    note: "A blank output is not a failure condition. A blank output may be a successful output witnessed from behind."

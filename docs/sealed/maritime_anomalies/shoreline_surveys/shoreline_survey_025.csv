@@ -1,0 +1,27 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-025-000,Undertow Corridor,brass tag,435,496,pipe breath,distance changed while writing
+SS-025-001,South Intake Tunnel,white rope,405,288,none,distance changed while writing
+SS-025-002,The Dry Dock With Water In It,unmarked,1102,inside,none,marker dry
+SS-025-003,The Dry Dock With Water In It,brass tag,503,not returned,rain inside,marker wet
+SS-025-004,Blue Door Quay,wet chalk,996,359,gulls,ordinary until midnight
+SS-025-005,The Pool That Was Not Built,blue tape,208,not returned,surf,marker dry
+SS-025-006,Rain Room 11,unmarked,1176,not returned,pipe breath,marker wet
+SS-025-007,Canteen Tidewell,wet chalk,1199,not returned,none,marker dry
+SS-025-008,Canteen Tidewell,unmarked,834,same as yesterday,pipe breath,ordinary until midnight
+SS-025-009,Room 0 Flood Annex,brass tag,309,inside,surf,marker wet
+SS-025-010,Ashen Ferry Terminal,unmarked,769,inside,none,marker wet
+SS-025-011,Blue Door Quay,unmarked,396,not returned,surf,ordinary until midnight
+SS-025-012,Old Bathing Pavilion,brass tag,289,inside,pipe breath,do not revisit alone
+SS-025-013,North Glass Shoal,brass tag,308,263,surf,ordinary until midnight
+SS-025-014,Undertow Corridor,salt nail,774,below,none,do not revisit alone
+SS-025-015,Mirrorpool Basin,blue tape,1032,same as yesterday,surf,marker dry
+SS-025-016,Blackwater Pier,brass tag,123,not returned,rain inside,marker wet
+SS-025-017,Salt Archive,salt nail,793,same as yesterday,rain inside,marker dry
+SS-025-018,Room 0 Flood Annex,white rope,5,below,pipe breath,do not revisit alone
+SS-025-019,Lower Bell Marina,salt nail,115,822,surf,marker dry
+SS-025-020,Crescent Breakwater,salt nail,192,not returned,gulls,ordinary until midnight
+SS-025-021,Anchor Hall,salt nail,973,inside,surf,ordinary until midnight
+SS-025-022,Observation Deck 4,unmarked,81,same as yesterday,bell,marker wet
+SS-025-023,Ward C Washroom,salt nail,1164,inside,rain inside,ordinary until midnight
+SS-025-024,North Glass Shoal,wet chalk,697,343,bell,marker wet
+SS-025-025,Grey Buoy Field,brass tag,252,below,pipe breath,do not revisit alone

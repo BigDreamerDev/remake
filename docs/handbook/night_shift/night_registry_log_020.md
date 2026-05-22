@@ -1,0 +1,71 @@
+# Night Registry Log 020
+
+**Stillwater Foundation handbook fragment:** night-shift handover
+**Circulation:** Low-clearance / copied from damp master / do not laminate
+**Responsible office:** Administrative Absences Desk
+**Review state:** active until contradicted by a newer silence
+**Local clause reference:** 8.7.7
+
+This fragment describes ordinary conduct around the unnumbered visitor ledger. It is
+intentionally over-specific because the Foundation has learned that vague instructions
+give rooms too much space to improvise. Staff should read the section once, then again
+from the reflection of the page if authorised, and then behave as if only the second
+reading was official.
+
+The procedure is not a containment instruction and is not an emergency instruction. It
+is a way to keep the building from noticing the difference between an employee who
+understands and an employee who is only passing through. The difference matters to the
+building, though it must not be discussed in corridors with carpet older than the
+reader.
+
+Some records in this section appear to refer to commands, rooms, or forms that do not
+appear elsewhere. This is expected. Handbook editions preserve obsolete interfaces so
+that obsolete interfaces do not attempt to preserve themselves in staff behaviour.
+
+If this text appears to be pointing at a single answer, close the file and check the
+nearest clock. A useful-looking line is often a line trying to be followed. A followed
+line is a corridor. Corridors are not permitted to supervise Trainee personnel.
+
+## Observation ledger
+
+| Time | Location | Observation | Disposition |
+|---|---|---|---|
+| 17:00 | Room 0 / return path | Mirror cover compliant; covered surface continues to behave like a window. | returned unread |
+| 17:00 | Floor -3 / window film | Mirror cover compliant; covered surface continues to behave like a window. | non-actionable |
+| 06:00 | Room 0 / descaling sink | Handbook clause relocated after citation; use the printed copy facing away from glass. | witness pending |
+| 14:14 | West Stair / canteen queue | The queue moved while unobserved and returned with one extra place. | no escalation |
+| 19:00 | West Stair / conference room | Light remains on in rooms remembered as dark; maintenance closed the ticket anyway. | no escalation |
+| 02:00 | Δ-04 / intercom | Return path found but rejected because it arrived before the departure. | witness pending |
+| 23:00 | North Archive / visitor ledger | One reflection answered late; no disciplinary event is created by lateness alone. | retained |
+| 06:00 | Room 0 / return path | Return path found but rejected because it arrived before the departure. | retained |
+
+## Staff conduct requirements
+
+1. Do not read a chalkboard that begins reading you first. When in doubt, continue walking until the next posted map contradicts itself.
+2. Do not count empty chairs twice. Retain for orientation only; do not escalate beyond Quiet-Water unless glass is uncovered.
+3. Do not file apologies under maintenance unless they are mechanical. Cross-reference the nearest clause that does not face the window.
+4. Do not file apologies under maintenance unless they are mechanical. Destroy no copies. The duplicate may be the one that remembers the route.
+5. Do not answer from inside the pause. Cross-reference the nearest clause that does not face the window.
+
+## Related forms
+
+- **Form T-55/wet:** silence received; submit only if the form is present before you look for it.
+- **Form T-44-old:** returned route; submit only if the form is present before you look for it.
+- **Form R-88b:** dry cup inventory; submit only if the form is present before you look for it.
+- **Form S-99-old:** returned route; submit only if the form is present before you look for it.
+- **Form QW-39b:** returned route; submit only if the form is present before you look for it.
+
+## Cross-references
+
+Clause 4.1.1, Clause 30.7.8, Clause 11.0.5, Clause 22.0.9, Clause 9.7.5, Clause 14.5.3, Clause 30.1.1, Clause 24.5.3, Clause 25.5.6, Clause 20.5.4, Clause 12.5.9
+
+> If two references disagree, prefer the one printed on paper that refuses to dry.
+
+## Copy condition
+
+- Wet-copy offset: folded acknowledged [UNPRINTED] [NOT A SOLUTION] ordinary folded deferred acknowledged acknowledged [ROUTE REFUSED] [WITHHELD] [ROUTE REFUSED] ordinary
+- Printer scar: noted [UNPRINTED] acknowledged [NOT A SOLUTION] [WITHHELD] [WET COPY] acknowledged deferred [ROOM NAME OMITTED] [WET COPY] unwitnessed unwitnessed ordinary non-actionable
+- Margin note: [WET COPY] [WET COPY] ordinary [NOT A SOLUTION] folded ██████ [WET COPY] unwitnessed acknowledged
+- Unassigned annotation: acknowledged [ROOM NAME OMITTED] ordinary non-actionable [WET COPY] ██████ ordinary [UNPRINTED] ordinary ordinary [WITHHELD] folded [ROOM NAME OMITTED] ordinary noted
+
+> This file is retained because deletion has historically made the corridor more specific.

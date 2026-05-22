@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5041",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Empty Aquarium",
+  "phenomenon": "salt apparition",
+  "classification": "Fathom-Null",
+  "status": "awaiting tide",
+  "sensor_summary": {
+    "max_depth_mm": 730,
+    "salinity_ppt": 13.26,
+    "audio": "choir",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

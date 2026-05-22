@@ -1,0 +1,25 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-020-000,Blackwater Pier,salt nail,669,145,surf,ordinary until midnight
+SS-020-001,South Intake Tunnel,wet chalk,124,not returned,pipe breath,distance changed while writing
+SS-020-002,Room 0 Flood Annex,brass tag,1185,same as yesterday,rain inside,marker dry
+SS-020-003,Tide Elevator,blue tape,989,907,none,distance changed while writing
+SS-020-004,Lighthouse 7,salt nail,107,below,rain inside,do not revisit alone
+SS-020-005,South Intake Tunnel,blue tape,513,not returned,none,marker dry
+SS-020-006,The Third Jetty,wet chalk,6,same as yesterday,surf,marker wet
+SS-020-007,The Dry Dock With Water In It,unmarked,312,below,gulls,distance changed while writing
+SS-020-008,Blackwater Pier,white rope,868,same as yesterday,surf,marker dry
+SS-020-009,Observation Deck 4,brass tag,1048,inside,none,marker dry
+SS-020-010,Old Bathing Pavilion,white rope,216,inside,none,marker wet
+SS-020-011,Room 0 Flood Annex,unmarked,982,below,bell,marker wet
+SS-020-012,Grey Buoy Field,unmarked,682,not returned,bell,marker wet
+SS-020-013,Ashen Ferry Terminal,brass tag,1086,inside,pipe breath,ordinary until midnight
+SS-020-014,Canteen Tidewell,wet chalk,588,below,pipe breath,distance changed while writing
+SS-020-015,Observation Deck 4,blue tape,957,254,none,marker wet
+SS-020-016,Mirrorpool Basin,brass tag,1073,same as yesterday,gulls,marker dry
+SS-020-017,South Intake Tunnel,wet chalk,207,inside,rain inside,marker dry
+SS-020-018,The Dry Dock With Water In It,salt nail,617,not returned,bell,marker wet
+SS-020-019,Undertow Corridor,salt nail,123,inside,none,ordinary until midnight
+SS-020-020,Sublevel K Drainage,wet chalk,38,same as yesterday,gulls,marker wet
+SS-020-021,West Sluice Door,wet chalk,978,inside,bell,do not revisit alone
+SS-020-022,Sublevel K Drainage,salt nail,877,below,surf,do not revisit alone
+SS-020-023,Lower Bell Marina,white rope,924,877,surf,ordinary until midnight

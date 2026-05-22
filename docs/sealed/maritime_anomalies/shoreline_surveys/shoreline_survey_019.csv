@@ -1,0 +1,21 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-019-000,Anchor Hall,white rope,7,below,surf,do not revisit alone
+SS-019-001,North Glass Shoal,unmarked,694,1137,surf,do not revisit alone
+SS-019-002,Blackwater Pier,brass tag,438,inside,bell,do not revisit alone
+SS-019-003,Oyster Stair,brass tag,254,inside,surf,do not revisit alone
+SS-019-004,South Intake Tunnel,unmarked,297,same as yesterday,rain inside,ordinary until midnight
+SS-019-005,North Glass Shoal,wet chalk,751,not returned,bell,marker wet
+SS-019-006,Room 0 Flood Annex,salt nail,97,same as yesterday,none,ordinary until midnight
+SS-019-007,Tide Elevator,brass tag,377,below,gulls,marker wet
+SS-019-008,Lighthouse 7,white rope,698,same as yesterday,pipe breath,distance changed while writing
+SS-019-009,West Sluice Door,salt nail,318,inside,pipe breath,marker wet
+SS-019-010,Ward C Washroom,unmarked,389,not returned,pipe breath,marker wet
+SS-019-011,The Dry Dock With Water In It,blue tape,959,not returned,pipe breath,distance changed while writing
+SS-019-012,West Sluice Door,white rope,447,below,surf,do not revisit alone
+SS-019-013,Lower Bell Marina,wet chalk,432,191,none,marker dry
+SS-019-014,The Empty Aquarium,salt nail,1063,below,surf,do not revisit alone
+SS-019-015,Anchor Hall,brass tag,39,same as yesterday,pipe breath,do not revisit alone
+SS-019-016,The Third Jetty,blue tape,899,below,pipe breath,distance changed while writing
+SS-019-017,South Intake Tunnel,white rope,596,809,surf,ordinary until midnight
+SS-019-018,Oyster Stair,salt nail,849,inside,none,do not revisit alone
+SS-019-019,Mirrorpool Basin,salt nail,976,same as yesterday,pipe breath,marker dry

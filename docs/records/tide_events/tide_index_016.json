@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5016",
+  "record_type": "maritime_anomaly_index",
+  "location": "Observation Deck 4",
+  "phenomenon": "mirror water",
+  "classification": "Fathom-Null",
+  "status": "sealed",
+  "sensor_summary": {
+    "max_depth_mm": 549,
+    "salinity_ppt": 33.39,
+    "audio": "bell",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "no access material recorded"
+}

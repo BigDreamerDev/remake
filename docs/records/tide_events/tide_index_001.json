@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5001",
+  "record_type": "maritime_anomaly_index",
+  "location": "Oyster Stair",
+  "phenomenon": "submerged office",
+  "classification": "Fathom-Null",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 232,
+    "salinity_ppt": 8.25,
+    "audio": "rain",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "watch for corridor length change"
+}

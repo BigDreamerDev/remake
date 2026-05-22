@@ -1,0 +1,46 @@
+{
+  "status": "retained",
+  "note": "non-actionable terminal residue",
+  "entries": [
+    {
+      "command": "rank.list",
+      "result": "standing water found above the label but below the room name",
+      "action": "none"
+    },
+    {
+      "command": "waterline",
+      "result": "the staircase returned a sample resembling the last thing typed by the operator",
+      "action": "none"
+    },
+    {
+      "command": "weather.inside",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "codex.folia",
+      "result": "the corridor accepted the request and then changed which side the door was on",
+      "action": "none"
+    },
+    {
+      "command": "notice.roll",
+      "result": "return path found but rejected because it arrived before the departure",
+      "action": "none"
+    },
+    {
+      "command": "window.cover",
+      "result": "the cup is empty, facing away, and therefore compliant for today",
+      "action": "none"
+    },
+    {
+      "command": "mirror.audit",
+      "result": "result withheld because the witness had already gone home in a previous shift",
+      "action": "none"
+    },
+    {
+      "command": "codex.quire",
+      "result": "the queue moved while unobserved and returned with one extra place",
+      "action": "none"
+    }
+  ]
+}

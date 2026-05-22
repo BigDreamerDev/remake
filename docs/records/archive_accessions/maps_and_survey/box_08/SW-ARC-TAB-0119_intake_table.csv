@@ -1,0 +1,11 @@
+accession,year,shelf,folios,waterline_mm,seal,status,note
+SW-ARC-VLM-1822-0119-00,1822,black-6,115,44,intact,misfiled,"signature repeats"
+SW-ARC-SIG-1324-0119-01,1324,east-3,74,0,intact,drying,"shelf denied receipt"
+SW-ARC-QRY-1869-0119-02,1869,east-3,43,21,absent,sealed,"shelf denied receipt"
+SW-ARC-DIP-1869-0119-03,1869,unassigned,242,14,absent,drying,"shelf denied receipt"
+SW-ARC-WET-1974-0119-04,1974,returned,37,44,broken inward,sealed,"signature repeats"
+SW-ARC-QRY-1869-0119-05,1869,unassigned,203,44,too soft,open,"do not compare at night"
+SW-ARC-QRY-1822-0119-06,1822,lower-2,138,14,reversed,drying,"do not compare at night"
+SW-ARC-QRY-1179-0119-07,1179,black-6,9,14,reversed,misfiled,"shelf denied receipt"
+SW-ARC-SIG-1488-0119-08,1488,black-6,200,7,broken inward,open,"room name absent"
+SW-ARC-WET-1541-0119-09,1541,unassigned,236,73,too soft,waiting,"do not compare at night"

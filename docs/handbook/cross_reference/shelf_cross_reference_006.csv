@@ -1,0 +1,21 @@
+time,location,observation,disposition
+11:11,lift,the archive declined to distinguish the duplicate from the original,folded
+06:00,locker row,the corridor accepted the request and then changed which side the door was on,non-actionable
+11:11,descaling sink,the corridor accepted the request and then changed which side the door was on,folded
+11:11,cup rack,one reflection answered late; no disciplinary event is created by lateness alone,retained
+02:00,mailroom shutter,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,folded
+02:00,floor map,form accepted in damp condition; drying would change the filing date,folded
+14:14,clock face,handbook clause relocated after citation; use the printed copy facing away from glass,non-actionable
+06:00,clock face,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,retained
+04:04,service door,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,folded
+11:11,vestibule,all clocks agree with themselves; no statement is made regarding each other,non-actionable
+14:14,window film,the queue moved while unobserved and returned with one extra place,non-actionable
+11:11,handrail,result withheld because the witness had already gone home in a previous shift,folded
+02:00,return path,all clocks agree with themselves; no statement is made regarding each other,retained
+04:04,service door,the cup is empty; facing away; and therefore compliant for today,non-actionable
+06:00,mirror cover,form accepted in damp condition; drying would change the filing date,non-actionable
+11:11,intercom,the staircase returned a sample resembling the last thing typed by the operator,folded
+04:04,cup rack,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,non-actionable
+06:00,cup rack,result withheld because the witness had already gone home in a previous shift,non-actionable
+11:11,stairwell,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,folded
+02:00,handrail,result withheld because the witness had already gone home in a previous shift,retained

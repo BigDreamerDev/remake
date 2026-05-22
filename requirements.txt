@@ -1,0 +1,5 @@
+# Stillwater Foundation internal libraries — runtime requirements.
+# All dependencies are stdlib; no external packages required beyond the below.
+flask>=3.0
+flask-cors>=4.0
+gunicorn>=21.0

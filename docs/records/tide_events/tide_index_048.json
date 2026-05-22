@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5048",
+  "record_type": "maritime_anomaly_index",
+  "location": "Sublevel K Drainage",
+  "phenomenon": "salt apparition",
+  "classification": "Tide-Locked",
+  "status": "moved indoors",
+  "sensor_summary": {
+    "max_depth_mm": 227,
+    "salinity_ppt": 2.69,
+    "audio": "rain",
+    "reflection_integrity": "absent"
+  },
+  "operator_note": "watch for corridor length change"
+}

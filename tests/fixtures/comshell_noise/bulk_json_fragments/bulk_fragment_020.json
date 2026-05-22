@@ -1,0 +1,37 @@
+{
+  "capture_id": "bulk-fragment-020",
+  "canonical": false,
+  "commands": [
+    "return.path",
+    "archive.request",
+    "node.trace",
+    "contact.office",
+    "rank.list",
+    "cat",
+    "floor.plan",
+    "lights.status",
+    "hydrology.depth",
+    "maintenance.window",
+    "motd",
+    "hydrology.pressure",
+    "atrium.clock",
+    "codex.folia",
+    "lift.status"
+  ],
+  "outputs": [
+    "file visible but not willing",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Stairwell B: do not hum back. This is not a test.",
+    "Clock C: [removed pending apology]",
+    "Gate acknowledged. Session opening.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9"
+  ],
+  "warnings": [
+    "When a command returns silence, the silence should be treated as a complete sentence for the purpose of audit review.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing."
+  ],
+  "clause": "20.0",
+  "office": "Pattern Integrity Working Group"
+}

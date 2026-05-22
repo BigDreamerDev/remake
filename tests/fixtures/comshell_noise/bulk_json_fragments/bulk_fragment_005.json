@@ -1,0 +1,33 @@
+{
+  "capture_id": "bulk-fragment-005",
+  "canonical": false,
+  "commands": [
+    "hydrology.pressure",
+    "report.anomaly",
+    "mirror.audit",
+    "memorial.check",
+    "descale.status",
+    "lights.status",
+    "motd",
+    "ticket.open",
+    "mailroom.check",
+    "cymatics.classify",
+    "atrium.clock",
+    "codex.folia"
+  ],
+  "outputs": [
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "file visible but not willing",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Clock C: [removed pending apology]"
+  ],
+  "warnings": [
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "If any sample output appears to know your route home, stop reading and submit the page face-down."
+  ],
+  "clause": "7.7",
+  "office": "Pattern Integrity Working Group"
+}

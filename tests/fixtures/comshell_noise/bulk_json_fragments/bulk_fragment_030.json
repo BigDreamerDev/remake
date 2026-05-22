@@ -1,0 +1,33 @@
+{
+  "capture_id": "bulk-fragment-030",
+  "canonical": false,
+  "commands": [
+    "silence.status",
+    "weather.inside",
+    "contact.office",
+    "codex.folia",
+    "memory.recall",
+    "room.query",
+    "seal.verify",
+    "hydrology.depth",
+    "cymatics.classify",
+    "hex.decode",
+    "return.path"
+  ],
+  "outputs": [
+    "Mirror audit complete: one reflection late, none missing.",
+    "The handbook denies having used that term.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Pattern Integrity .................. NOMINAL",
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "file visible but not willing",
+    "Stairwell B: do not hum back. This is not a test."
+  ],
+  "warnings": [
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "Where the command appears to answer a question not asked, attach the transcript to the nearest related form and do not ask the terminal to clarify itself.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall."
+  ],
+  "clause": "16.8",
+  "office": "Memorial Attendance Clerk"
+}

@@ -1,0 +1,29 @@
+{
+  "capture_id": "bulk-fragment-049",
+  "canonical": false,
+  "commands": [
+    "policy.random",
+    "atrium.clock",
+    "contact.office",
+    "mirror.audit",
+    "sleep",
+    "report.anomaly",
+    "notice.roll",
+    "waterline",
+    "ticket.open",
+    "rank.list"
+  ],
+  "outputs": [
+    "Pattern Integrity .................. NOMINAL",
+    "Clock C: [removed pending apology]",
+    "Stairwell B: do not hum back. This is not a test.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice."
+  ],
+  "warnings": [
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall."
+  ],
+  "clause": "11.3",
+  "office": "Pattern Integrity Working Group"
+}

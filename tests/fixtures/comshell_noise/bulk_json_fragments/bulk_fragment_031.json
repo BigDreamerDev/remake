@@ -1,0 +1,30 @@
+{
+  "capture_id": "bulk-fragment-031",
+  "canonical": false,
+  "commands": [
+    "return.path",
+    "node.trace",
+    "orange.when",
+    "cat",
+    "motd",
+    "audit.roll",
+    "memorial.check",
+    "node.quarantine",
+    "room.query"
+  ],
+  "outputs": [
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Gate acknowledged. Session opening.",
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Clock C: [removed pending apology]",
+    "Stairwell B: do not hum back. This is not a test."
+  ],
+  "warnings": [
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall."
+  ],
+  "clause": "4.4",
+  "office": "Office of Inherited Silences"
+}

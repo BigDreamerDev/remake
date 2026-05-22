@@ -1,0 +1,21 @@
+time,location,observation,disposition
+14:14,handrail,badge echo delayed by 2.1 seconds; temporary absence preserved,folded
+02:00,archive tray,the staircase returned a sample resembling the last thing typed by the operator,non-actionable
+04:04,descaling sink,badge echo delayed by 2.1 seconds; temporary absence preserved,retained
+11:11,lamp housing,the queue moved while unobserved and returned with one extra place,folded
+11:11,return path,mirror cover compliant; covered surface continues to behave like a window,folded
+14:14,descaling sink,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,folded
+06:00,intercom,mirror cover compliant; covered surface continues to behave like a window,folded
+11:11,clock face,the archive declined to distinguish the duplicate from the original,retained
+04:04,printer throat,mirror cover compliant; covered surface continues to behave like a window,retained
+14:14,cup rack,the corridor accepted the request and then changed which side the door was on,retained
+14:14,cup rack,the staircase returned a sample resembling the last thing typed by the operator,folded
+14:14,lift,the corridor accepted the request and then changed which side the door was on,folded
+04:04,corridor,all clocks agree with themselves; no statement is made regarding each other,folded
+11:11,intercom,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,folded
+14:14,wet floor sign,the archive declined to distinguish the duplicate from the original,non-actionable
+11:11,visitor ledger,return path found but rejected because it arrived before the departure,folded
+14:14,vestibule,result withheld because the witness had already gone home in a previous shift,folded
+14:14,window film,return path found but rejected because it arrived before the departure,non-actionable
+02:00,visitor ledger,handbook clause relocated after citation; use the printed copy facing away from glass,non-actionable
+06:00,wet floor sign,result withheld because the witness had already gone home in a previous shift,non-actionable

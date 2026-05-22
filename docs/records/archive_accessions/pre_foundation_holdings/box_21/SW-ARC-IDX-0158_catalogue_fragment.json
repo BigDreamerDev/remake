@@ -1,0 +1,86 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-RET-1958-0158-00",
+      "date_recorded": "1958",
+      "type": "navigation chart",
+      "condition": "ink blooms inward from gutter",
+      "location": "Black Shelf",
+      "instruction": "do not index a blank folio by the sound it makes",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1822-0158-01",
+      "date_recorded": "1822",
+      "type": "lighthouse memorandum",
+      "condition": "ink blooms inward from gutter",
+      "location": "East Wing",
+      "instruction": "records addressed to the seventh shelf are to be placed on the sixth",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-DIP-1907-0158-02",
+      "date_recorded": "1907",
+      "type": "customs warrant",
+      "condition": "reverse side warmer than front",
+      "location": "Lower Switchboard",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-PAL-1907-0158-03",
+      "date_recorded": "1907",
+      "type": "parish register",
+      "condition": "witness marks do not agree with index",
+      "location": "East Wing",
+      "instruction": "if the room number appears in pencil, do not erase it",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-ACC-1793-0158-04",
+      "date_recorded": "1793",
+      "type": "ward admission slip",
+      "condition": "pagination continues beyond final folio",
+      "location": "Sublevel 5",
+      "instruction": "copies made after sunset must be returned face down",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-RET-1488-0158-05",
+      "date_recorded": "1488",
+      "type": "navigation chart",
+      "condition": "waterline visible at lower margin",
+      "location": "Locked Reading Room",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1666-0158-06",
+      "date_recorded": "1666",
+      "type": "estate ledger",
+      "condition": "reverse side warmer than front",
+      "location": "Building \u0394",
+      "instruction": "records addressed to the seventh shelf are to be placed on the sixth",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-VLM-1996-0158-07",
+      "date_recorded": "1996",
+      "type": "glass-plate caption",
+      "condition": "witness marks do not agree with index",
+      "location": "Room \u0fbe2-A",
+      "instruction": "ink that refuses ultraviolet inspection should be filed under patience",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-BOX-1179-0158-08",
+      "date_recorded": "1179",
+      "type": "dock manifest",
+      "condition": "pagination continues beyond final folio",
+      "location": "Lower Switchboard",
+      "instruction": "ink that refuses ultraviolet inspection should be filed under patience",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-012-000,Observation Deck 4,salt nail,775,1167,none,marker dry
+SS-012-001,The Third Jetty,unmarked,428,inside,gulls,do not revisit alone
+SS-012-002,Observation Deck 4,salt nail,693,inside,pipe breath,distance changed while writing
+SS-012-003,Crescent Breakwater,unmarked,888,below,none,marker wet
+SS-012-004,Salt Archive,salt nail,295,same as yesterday,surf,distance changed while writing
+SS-012-005,Lighthouse 7,salt nail,949,inside,surf,marker wet
+SS-012-006,Ward C Washroom,white rope,52,same as yesterday,rain inside,do not revisit alone
+SS-012-007,The Dry Dock With Water In It,wet chalk,17,inside,rain inside,marker dry
+SS-012-008,Ashen Ferry Terminal,salt nail,204,below,surf,ordinary until midnight
+SS-012-009,Lighthouse 7,brass tag,47,inside,pipe breath,do not revisit alone
+SS-012-010,Grey Buoy Field,brass tag,276,not returned,rain inside,ordinary until midnight
+SS-012-011,Undertow Corridor,wet chalk,268,below,gulls,do not revisit alone
+SS-012-012,Tide Elevator,wet chalk,169,same as yesterday,rain inside,distance changed while writing
+SS-012-013,West Sluice Door,brass tag,1109,same as yesterday,pipe breath,marker wet
+SS-012-014,Ward C Washroom,white rope,884,not returned,none,ordinary until midnight
+SS-012-015,Tide Elevator,salt nail,915,inside,surf,ordinary until midnight
+SS-012-016,Ward C Washroom,white rope,59,below,none,marker dry
+SS-012-017,Oyster Stair,unmarked,669,not returned,bell,distance changed while writing
+SS-012-018,Anchor Hall,unmarked,20,below,surf,ordinary until midnight
+SS-012-019,Sublevel K Drainage,blue tape,665,1038,gulls,ordinary until midnight

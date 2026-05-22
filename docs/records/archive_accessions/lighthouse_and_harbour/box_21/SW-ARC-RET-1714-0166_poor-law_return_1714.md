@@ -1,0 +1,41 @@
+# 1714 Poor-Law Return — Navigation Deposition
+
+**Accession:** SW-ARC-RET-1714-0166
+**Custody:** Codicology Wing
+**Current Location:** Pondroom
+**Material:** waxed linen
+**Hand:** brown ink hand
+**Status:** unreadable after noon
+
+## Catalogue Note
+
+The item was received as a poor-law return and is treated as a historical document for the purposes of Codicology review. The recorded date is 1714, though the document has been known to prefer adjacent years when stored in damp shelving.
+
+Condition on intake: signature duplicated after drying.
+
+The document should not be cleaned, flattened, warmed, sung near, or compared directly against any recollection supplied by the donor.
+
+## Historical Summary
+
+Two folios use the same page number. Both have been treated as the original for different audits.
+
+The item has been requested by a reading room that is not currently open to staff.
+
+A witness named in the margin appears in two separate centuries of the archive without change of address.
+
+A docket note refers to the seventh shelf. This may be administrative noise.
+
+## Handling
+
+- Records addressed to the seventh shelf are to be placed on the sixth.
+- File copies separately from originals even when the original insists there is no copy.
+- If the record becomes heavier after transcription, stop weighing it.
+- Do not move this item to a brighter shelf to prove that the ink is ordinary.
+
+## Extract
+
+> The parish bell was heard beneath the paper. No bell is listed in the parish account.
+
+## Archive Decision
+
+Retain under routine historical accessions. No further action unless the item requests comparison.

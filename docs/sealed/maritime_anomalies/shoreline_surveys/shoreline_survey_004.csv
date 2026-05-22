@@ -1,0 +1,44 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-004-000,North Glass Shoal,wet chalk,548,inside,bell,do not revisit alone
+SS-004-001,Anchor Hall,brass tag,795,not returned,pipe breath,distance changed while writing
+SS-004-002,Old Bathing Pavilion,salt nail,129,same as yesterday,none,marker dry
+SS-004-003,Mirrorpool Basin,unmarked,898,inside,none,do not revisit alone
+SS-004-004,Rain Room 11,unmarked,825,1023,gulls,marker wet
+SS-004-005,Blackwater Pier,unmarked,876,below,gulls,ordinary until midnight
+SS-004-006,Ward C Washroom,brass tag,328,204,none,distance changed while writing
+SS-004-007,Ward C Washroom,white rope,830,not returned,none,marker dry
+SS-004-008,The Pool That Was Not Built,blue tape,721,same as yesterday,bell,distance changed while writing
+SS-004-009,West Sluice Door,white rope,453,below,pipe breath,distance changed while writing
+SS-004-010,Observation Deck 4,brass tag,494,inside,pipe breath,marker dry
+SS-004-011,Anchor Hall,unmarked,860,same as yesterday,surf,do not revisit alone
+SS-004-012,Room 0 Flood Annex,unmarked,398,same as yesterday,bell,ordinary until midnight
+SS-004-013,Tide Elevator,brass tag,1028,not returned,surf,marker dry
+SS-004-014,Crescent Breakwater,unmarked,869,below,rain inside,distance changed while writing
+SS-004-015,Room 0 Flood Annex,unmarked,1119,201,none,marker dry
+SS-004-016,Mirrorpool Basin,salt nail,588,inside,bell,distance changed while writing
+SS-004-017,Old Bathing Pavilion,brass tag,438,not returned,rain inside,marker wet
+SS-004-018,The Pool That Was Not Built,brass tag,380,705,bell,do not revisit alone
+SS-004-019,The Empty Aquarium,wet chalk,1017,282,surf,do not revisit alone
+SS-004-020,Mirrorpool Basin,wet chalk,290,inside,gulls,do not revisit alone
+SS-004-021,Crescent Breakwater,white rope,264,1037,gulls,marker wet
+SS-004-022,Below-Stairs Reservoir,blue tape,442,inside,none,ordinary until midnight
+SS-004-023,Crescent Breakwater,blue tape,199,below,rain inside,do not revisit alone
+SS-004-024,The Third Jetty,white rope,305,187,pipe breath,marker wet
+SS-004-025,The Pool That Was Not Built,wet chalk,269,1118,none,distance changed while writing
+SS-004-026,Oyster Stair,unmarked,305,inside,bell,distance changed while writing
+SS-004-027,Blackwater Pier,wet chalk,345,not returned,bell,marker dry
+SS-004-028,Blackwater Pier,brass tag,65,inside,pipe breath,distance changed while writing
+SS-004-029,Blackwater Pier,unmarked,449,714,none,marker dry
+SS-004-030,Ward C Washroom,brass tag,514,below,pipe breath,ordinary until midnight
+SS-004-031,Crescent Breakwater,brass tag,390,below,surf,distance changed while writing
+SS-004-032,Sublevel K Drainage,brass tag,592,below,rain inside,marker dry
+SS-004-033,Undertow Corridor,unmarked,0,inside,surf,distance changed while writing
+SS-004-034,The Third Jetty,salt nail,548,not returned,bell,do not revisit alone
+SS-004-035,Observation Deck 4,unmarked,720,inside,bell,marker dry
+SS-004-036,Mirrorpool Basin,wet chalk,196,same as yesterday,pipe breath,marker wet
+SS-004-037,The Empty Aquarium,wet chalk,717,same as yesterday,surf,marker dry
+SS-004-038,Lighthouse 7,white rope,463,inside,pipe breath,ordinary until midnight
+SS-004-039,North Glass Shoal,unmarked,73,inside,none,marker wet
+SS-004-040,Blue Door Quay,brass tag,45,same as yesterday,rain inside,distance changed while writing
+SS-004-041,The Third Jetty,salt nail,1183,same as yesterday,gulls,do not revisit alone
+SS-004-042,Tide Elevator,brass tag,610,below,gulls,marker dry

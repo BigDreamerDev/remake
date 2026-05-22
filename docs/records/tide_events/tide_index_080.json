@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5080",
+  "record_type": "maritime_anomaly_index",
+  "location": "South Intake Tunnel",
+  "phenomenon": "mirror water",
+  "classification": "Low-Swell",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 372,
+    "salinity_ppt": 27.82,
+    "audio": "pipe-hum",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

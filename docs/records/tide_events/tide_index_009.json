@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5009",
+  "record_type": "maritime_anomaly_index",
+  "location": "Grey Buoy Field",
+  "phenomenon": "unassigned lifeboat",
+  "classification": "Undertow",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 633,
+    "salinity_ppt": 5.98,
+    "audio": "choir",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "do not match this with command output"
+}

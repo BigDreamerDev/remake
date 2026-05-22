@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5043",
+  "record_type": "maritime_anomaly_index",
+  "location": "Oyster Stair",
+  "phenomenon": "stairwell flood without source",
+  "classification": "Undertow",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 474,
+    "salinity_ppt": 35.17,
+    "audio": "none",
+    "reflection_integrity": "incorrect"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

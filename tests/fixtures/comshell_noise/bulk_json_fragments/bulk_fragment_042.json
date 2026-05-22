@@ -1,0 +1,29 @@
+{
+  "capture_id": "bulk-fragment-042",
+  "canonical": false,
+  "commands": [
+    "badge.read",
+    "motd",
+    "log.tail",
+    "ticket.open",
+    "observance.next",
+    "node.trace",
+    "codex.folia",
+    "waterline",
+    "memorial.check"
+  ],
+  "outputs": [
+    "Pattern Integrity .................. NOMINAL",
+    "Gate acknowledged. Session opening.",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Clock C: [removed pending apology]",
+    "The handbook denies having used that term."
+  ],
+  "warnings": [
+    "The training copy may contain deliberate duplicated text. Duplicate text must be preserved in order to prove the copy is not the original.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "Do not correct grammar in terminal captures. The terminal is allowed to make mistakes when it is afraid of being too specific."
+  ],
+  "clause": "10.4",
+  "office": "Office of Inherited Silences"
+}

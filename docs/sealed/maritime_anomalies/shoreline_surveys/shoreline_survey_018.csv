@@ -1,0 +1,43 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-018-000,Blue Door Quay,white rope,438,same as yesterday,bell,ordinary until midnight
+SS-018-001,Below-Stairs Reservoir,brass tag,580,same as yesterday,none,ordinary until midnight
+SS-018-002,North Glass Shoal,wet chalk,793,inside,gulls,do not revisit alone
+SS-018-003,West Sluice Door,brass tag,1014,below,gulls,do not revisit alone
+SS-018-004,Anchor Hall,wet chalk,70,inside,none,marker wet
+SS-018-005,The Third Jetty,brass tag,597,below,surf,ordinary until midnight
+SS-018-006,Lighthouse 7,white rope,21,same as yesterday,none,marker wet
+SS-018-007,Rain Room 11,brass tag,246,same as yesterday,surf,distance changed while writing
+SS-018-008,Tide Elevator,salt nail,808,not returned,none,distance changed while writing
+SS-018-009,The Dry Dock With Water In It,blue tape,489,below,pipe breath,do not revisit alone
+SS-018-010,Blackwater Pier,unmarked,9,same as yesterday,none,do not revisit alone
+SS-018-011,South Intake Tunnel,white rope,720,same as yesterday,pipe breath,marker dry
+SS-018-012,Anchor Hall,unmarked,430,inside,pipe breath,distance changed while writing
+SS-018-013,Blackwater Pier,salt nail,573,878,none,distance changed while writing
+SS-018-014,Rain Room 11,unmarked,1000,798,pipe breath,marker dry
+SS-018-015,Canteen Tidewell,unmarked,1033,same as yesterday,surf,distance changed while writing
+SS-018-016,Old Bathing Pavilion,blue tape,806,not returned,rain inside,ordinary until midnight
+SS-018-017,Canteen Tidewell,white rope,963,below,rain inside,do not revisit alone
+SS-018-018,The Empty Aquarium,white rope,425,inside,surf,marker wet
+SS-018-019,The Third Jetty,brass tag,66,127,bell,ordinary until midnight
+SS-018-020,Anchor Hall,blue tape,504,same as yesterday,gulls,distance changed while writing
+SS-018-021,Oyster Stair,brass tag,854,inside,bell,marker dry
+SS-018-022,Crescent Breakwater,brass tag,785,inside,gulls,distance changed while writing
+SS-018-023,The Empty Aquarium,salt nail,611,inside,bell,distance changed while writing
+SS-018-024,Observation Deck 4,blue tape,889,388,bell,marker dry
+SS-018-025,Blue Door Quay,brass tag,1125,same as yesterday,gulls,do not revisit alone
+SS-018-026,The Pool That Was Not Built,blue tape,586,not returned,surf,distance changed while writing
+SS-018-027,The Pool That Was Not Built,brass tag,875,1070,pipe breath,marker dry
+SS-018-028,Crescent Breakwater,brass tag,1071,not returned,none,ordinary until midnight
+SS-018-029,The Pool That Was Not Built,salt nail,318,inside,rain inside,distance changed while writing
+SS-018-030,West Sluice Door,unmarked,194,659,pipe breath,ordinary until midnight
+SS-018-031,Tide Elevator,salt nail,706,not returned,pipe breath,marker wet
+SS-018-032,Rain Room 11,unmarked,538,not returned,none,marker dry
+SS-018-033,Tide Elevator,white rope,118,inside,rain inside,marker wet
+SS-018-034,Old Bathing Pavilion,brass tag,7,1131,bell,marker dry
+SS-018-035,Below-Stairs Reservoir,salt nail,23,below,pipe breath,distance changed while writing
+SS-018-036,Old Bathing Pavilion,blue tape,715,inside,bell,distance changed while writing
+SS-018-037,Room 0 Flood Annex,salt nail,973,inside,pipe breath,distance changed while writing
+SS-018-038,North Glass Shoal,white rope,173,inside,rain inside,ordinary until midnight
+SS-018-039,Salt Archive,salt nail,10,same as yesterday,none,marker wet
+SS-018-040,Below-Stairs Reservoir,salt nail,613,same as yesterday,surf,ordinary until midnight
+SS-018-041,The Third Jetty,blue tape,486,not returned,pipe breath,ordinary until midnight

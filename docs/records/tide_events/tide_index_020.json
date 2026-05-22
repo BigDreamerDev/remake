@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5020",
+  "record_type": "maritime_anomaly_index",
+  "location": "South Intake Tunnel",
+  "phenomenon": "reverse tide",
+  "classification": "Salt-Mirror",
+  "status": "awaiting tide",
+  "sensor_summary": {
+    "max_depth_mm": 642,
+    "salinity_ppt": 16.4,
+    "audio": "choir",
+    "reflection_integrity": "delayed"
+  },
+  "operator_note": "archive only; not an instruction"
+}

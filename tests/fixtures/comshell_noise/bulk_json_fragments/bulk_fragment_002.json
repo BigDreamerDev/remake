@@ -1,0 +1,35 @@
+{
+  "capture_id": "bulk-fragment-002",
+  "canonical": false,
+  "commands": [
+    "waterline",
+    "codex.quire",
+    "archive.status",
+    "hex.encode",
+    "contact.office",
+    "memory.recall",
+    "policy.random",
+    "name.check",
+    "forms.lookup",
+    "orange.when",
+    "observance.next",
+    "sleep",
+    "echo",
+    "inventory.sample"
+  ],
+  "outputs": [
+    "Mirror audit complete: one reflection late, none missing.",
+    "file visible but not willing",
+    "sleep denied: terminals are not permitted to dream during business hours",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Pattern Integrity .................. NOMINAL",
+    "Clock C: [removed pending apology]"
+  ],
+  "warnings": [
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "Do not infer a password, route, endpoint, person, or appointment from this entry. Those categories are maintained elsewhere and are not improved by guessing.",
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement."
+  ],
+  "clause": "2.8",
+  "office": "Corridor Reconciliation Subcommittee"
+}

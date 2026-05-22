@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5005",
+  "record_type": "maritime_anomaly_index",
+  "location": "North Glass Shoal",
+  "phenomenon": "sleeping bell",
+  "classification": "Low-Swell",
+  "status": "observed",
+  "sensor_summary": {
+    "max_depth_mm": 691,
+    "salinity_ppt": 8.65,
+    "audio": "surf",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "archive only; not an instruction"
+}

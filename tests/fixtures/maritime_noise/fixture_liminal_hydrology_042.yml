@@ -1,0 +1,50 @@
+record: liminal-hydrology-fixture-042
+classification: Low-Swell
+location: Crescent Breakwater
+phenomenon: standing wave
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 373
+    smell: kelp
+    reflection: sea
+  - phase: 1
+    waterline_mm: 208
+    smell: salt
+    reflection: sea
+  - phase: 2
+    waterline_mm: 246
+    smell: bleach
+    reflection: correct
+  - phase: 3
+    waterline_mm: 3
+    smell: none
+    reflection: delayed
+  - phase: 4
+    waterline_mm: 319
+    smell: none
+    reflection: wrong-room
+  - phase: 5
+    waterline_mm: 277
+    smell: rain concrete
+    reflection: stairs
+  - phase: 6
+    waterline_mm: 272
+    smell: bleach
+    reflection: sea
+  - phase: 7
+    waterline_mm: 342
+    smell: salt
+    reflection: wrong-room
+  - phase: 8
+    waterline_mm: 300
+    smell: none
+    reflection: wrong-room
+  - phase: 9
+    waterline_mm: 298
+    smell: bleach
+    reflection: correct
+  - phase: 10
+    waterline_mm: 237
+    smell: rain concrete
+    reflection: stairs

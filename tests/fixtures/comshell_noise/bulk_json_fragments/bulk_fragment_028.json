@@ -1,0 +1,28 @@
+{
+  "capture_id": "bulk-fragment-028",
+  "canonical": false,
+  "commands": [
+    "sleep",
+    "codex.folia",
+    "node.quarantine",
+    "waterline",
+    "forms.lookup",
+    "return.path",
+    "hex.decode",
+    "version",
+    "door.test"
+  ],
+  "outputs": [
+    "Return path cannot be calculated while the route remembers you arriving.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Pattern Integrity .................. NOMINAL",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa"
+  ],
+  "warnings": [
+    "The operator should read the output only once. A second reading may produce a different room but the same filing requirement.",
+    "Staff who experience nostalgia while reading a terminal output should record the sensation under routine environmental discomfort, not memory recall.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent."
+  ],
+  "clause": "21.2",
+  "office": "Meal Substitution Review"
+}

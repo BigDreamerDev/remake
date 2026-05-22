@@ -1,0 +1,46 @@
+record: liminal-hydrology-fixture-018
+classification: Undertow
+location: The Empty Aquarium
+phenomenon: tidal duplication
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 438
+    smell: none
+    reflection: correct
+  - phase: 1
+    waterline_mm: 259
+    smell: cold tea
+    reflection: delayed
+  - phase: 2
+    waterline_mm: 87
+    smell: kelp
+    reflection: correct
+  - phase: 3
+    waterline_mm: 236
+    smell: rain concrete
+    reflection: sea
+  - phase: 4
+    waterline_mm: 419
+    smell: bleach
+    reflection: person-absent
+  - phase: 5
+    waterline_mm: 20
+    smell: rain concrete
+    reflection: sea
+  - phase: 6
+    waterline_mm: 163
+    smell: cold tea
+    reflection: person-absent
+  - phase: 7
+    waterline_mm: 458
+    smell: cold tea
+    reflection: stairs
+  - phase: 8
+    waterline_mm: 26
+    smell: rain concrete
+    reflection: delayed
+  - phase: 9
+    waterline_mm: 81
+    smell: cold tea
+    reflection: person-absent

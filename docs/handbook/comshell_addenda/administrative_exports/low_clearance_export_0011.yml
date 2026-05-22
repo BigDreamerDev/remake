@@ -1,0 +1,49 @@
+export_id: SW-LOW-0011
+clearance: low
+canonical: false
+commands:
+  - name: notice.roll
+    clause: "7.2"
+    classification: transcript-noise
+    sample: "Notice 7-F: The suggestion box is not accepting apologies this quarter."
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."
+  - name: forms.list
+    clause: "2.8"
+    classification: transcript-noise
+    sample: "Known forms: | Form D-17(b) | Form PI-3"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: hydrology.depth
+    clause: "9.7"
+    classification: training
+    sample: "classification : shallow | do not disturb still water that contains corridor light"
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: memory.recall
+    clause: "25.0"
+    classification: transcript-noise
+    sample: "Memory recall unavailable while the handbook is facing east."
+    note: "Do not use these outputs to infer restricted endpoints, personnel rank, or sealed room assignments."
+  - name: silence.status
+    clause: "2.8"
+    classification: training
+    sample: "Unsynchronised variance within accepted limits."
+    note: "Repeated use during quiet hours may cause the prompt to appear further away than the keyboard."
+  - name: descale.status
+    clause: "10.4"
+    classification: compatibility
+    sample: "Do not enter if you hear someone finishing your sentence."
+    note: "If the output mentions water, mirrors, clocks, or chairs, treat the phrase as a facilities note unless separately escalated through approved forms."
+  - name: node.quarantine
+    clause: "16.8"
+    classification: compatibility
+    sample: "status: advisory only at current rank"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: seal.verify
+    clause: "2.8"
+    classification: training
+    sample: "seal is probably still deciding"
+    note: "Where a command returns contradictory states, staff should preserve both copies and avoid deciding which one is standing nearer to the door."
+  - name: handbook.lookup
+    clause: "7.7"
+    classification: low-clearance
+    sample: "Clause 7.2: Reflective Discipline | Full text: consult the handbook edition facing away from the window."
+    note: "The handbook recognises that terminals sometimes answer questions that were typed by the room rather than by the operator."

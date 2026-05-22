@@ -1,0 +1,21 @@
+time,location,observation,disposition
+11:11,service door,return path found but rejected because it arrived before the departure,non-actionable
+02:00,cup rack,the cup is empty; facing away; and therefore compliant for today,retained
+11:11,locker row,standing water found above the label but below the room name,retained
+04:04,window film,the staircase returned a sample resembling the last thing typed by the operator,folded
+14:14,intercom,the queue moved while unobserved and returned with one extra place,retained
+14:14,service door,all clocks agree with themselves; no statement is made regarding each other,folded
+02:00,vestibule,all clocks agree with themselves; no statement is made regarding each other,non-actionable
+04:04,vestibule,all clocks agree with themselves; no statement is made regarding each other,folded
+14:14,intercom,the staircase returned a sample resembling the last thing typed by the operator,non-actionable
+02:00,wet floor sign,the corridor accepted the request and then changed which side the door was on,folded
+04:04,floor map,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,retained
+14:14,floor map,badge echo delayed by 2.1 seconds; temporary absence preserved,retained
+06:00,wet floor sign,the archive declined to distinguish the duplicate from the original,retained
+06:00,intercom,all clocks agree with themselves; no statement is made regarding each other,retained
+11:11,basin,handbook clause relocated after citation; use the printed copy facing away from glass,retained
+11:11,descaling sink,mirror cover compliant; covered surface continues to behave like a window,non-actionable
+06:00,wet floor sign,handbook clause relocated after citation; use the printed copy facing away from glass,non-actionable
+14:14,intercom,the corridor accepted the request and then changed which side the door was on,folded
+02:00,mirror cover,one reflection answered late; no disciplinary event is created by lateness alone,retained
+14:14,return path,light remains on in rooms remembered as dark; maintenance closed the ticket anyway,folded

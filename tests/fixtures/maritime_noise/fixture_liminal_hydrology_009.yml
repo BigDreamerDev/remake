@@ -1,0 +1,34 @@
+record: liminal-hydrology-fixture-009
+classification: Tide-Locked
+location: Oyster Stair
+phenomenon: memory brine
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 246
+    smell: cold tea
+    reflection: delayed
+  - phase: 1
+    waterline_mm: 332
+    smell: cold tea
+    reflection: sea
+  - phase: 2
+    waterline_mm: 125
+    smell: rain concrete
+    reflection: correct
+  - phase: 3
+    waterline_mm: 409
+    smell: cold tea
+    reflection: correct
+  - phase: 4
+    waterline_mm: 184
+    smell: bleach
+    reflection: correct
+  - phase: 5
+    waterline_mm: 290
+    smell: cold tea
+    reflection: wrong-room
+  - phase: 6
+    waterline_mm: 186
+    smell: cold tea
+    reflection: stairs

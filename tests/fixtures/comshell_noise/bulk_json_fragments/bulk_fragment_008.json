@@ -1,0 +1,31 @@
+{
+  "capture_id": "bulk-fragment-008",
+  "canonical": false,
+  "commands": [
+    "contact.office",
+    "cat",
+    "memorial.check",
+    "forms.list",
+    "node.trace",
+    "descale.status",
+    "weather.inside",
+    "report.anomaly"
+  ],
+  "outputs": [
+    "Room 19.0: booked by Office of Inherited Silences until previous notice.",
+    "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "Known forms: Form D-17(b), Form PI-3, Form HA-9",
+    "Pattern Integrity .................. NOMINAL",
+    "Gate acknowledged. Session opening.",
+    "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "Mirror audit complete: one reflection late, none missing.",
+    "Stairwell B: do not hum back. This is not a test."
+  ],
+  "warnings": [
+    "If the response includes water, assume facilities jurisdiction unless the water is standing in a room that has been administratively removed.",
+    "The phrase \u201clow-clearance\u201d here means \u201csafe to see\u201d, not \u201cuseful to solve anything\u201d.",
+    "If the response includes a clock, preserve the printed hour but do not compare it with wall time unless all nearby clocks consent."
+  ],
+  "clause": "22.1",
+  "office": "Memorial Attendance Clerk"
+}

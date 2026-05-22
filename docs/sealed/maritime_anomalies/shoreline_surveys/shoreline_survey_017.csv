@@ -1,0 +1,31 @@
+survey_id,location,marker,expected_distance_m,observed_distance_m,water_sound,notes
+SS-017-000,Ward C Washroom,salt nail,137,same as yesterday,none,do not revisit alone
+SS-017-001,Grey Buoy Field,salt nail,233,same as yesterday,bell,do not revisit alone
+SS-017-002,Rain Room 11,wet chalk,189,inside,none,marker wet
+SS-017-003,West Sluice Door,brass tag,1009,867,none,marker wet
+SS-017-004,Salt Archive,salt nail,426,same as yesterday,rain inside,marker dry
+SS-017-005,South Intake Tunnel,brass tag,1119,same as yesterday,none,marker dry
+SS-017-006,West Sluice Door,blue tape,239,not returned,bell,marker dry
+SS-017-007,Blue Door Quay,salt nail,225,inside,bell,marker wet
+SS-017-008,The Dry Dock With Water In It,white rope,934,751,gulls,ordinary until midnight
+SS-017-009,Rain Room 11,brass tag,859,same as yesterday,pipe breath,ordinary until midnight
+SS-017-010,Observation Deck 4,blue tape,90,not returned,none,marker dry
+SS-017-011,Old Bathing Pavilion,blue tape,0,below,none,marker wet
+SS-017-012,The Third Jetty,unmarked,229,same as yesterday,none,do not revisit alone
+SS-017-013,Salt Archive,wet chalk,595,not returned,pipe breath,marker dry
+SS-017-014,Ashen Ferry Terminal,white rope,1000,not returned,none,marker wet
+SS-017-015,The Dry Dock With Water In It,salt nail,659,not returned,rain inside,distance changed while writing
+SS-017-016,Below-Stairs Reservoir,white rope,634,106,surf,do not revisit alone
+SS-017-017,Below-Stairs Reservoir,white rope,525,inside,pipe breath,distance changed while writing
+SS-017-018,Observation Deck 4,white rope,961,not returned,surf,do not revisit alone
+SS-017-019,Blackwater Pier,wet chalk,164,below,surf,marker dry
+SS-017-020,Oyster Stair,white rope,188,not returned,surf,do not revisit alone
+SS-017-021,The Empty Aquarium,unmarked,177,not returned,pipe breath,marker wet
+SS-017-022,Anchor Hall,unmarked,943,inside,none,distance changed while writing
+SS-017-023,Canteen Tidewell,blue tape,1040,not returned,pipe breath,distance changed while writing
+SS-017-024,Anchor Hall,blue tape,1135,not returned,none,marker wet
+SS-017-025,Room 0 Flood Annex,wet chalk,52,same as yesterday,surf,marker wet
+SS-017-026,Lighthouse 7,wet chalk,241,not returned,none,do not revisit alone
+SS-017-027,The Empty Aquarium,white rope,552,same as yesterday,gulls,distance changed while writing
+SS-017-028,The Empty Aquarium,wet chalk,210,not returned,gulls,ordinary until midnight
+SS-017-029,North Glass Shoal,white rope,93,same as yesterday,bell,do not revisit alone

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5070",
+  "record_type": "maritime_anomaly_index",
+  "location": "North Glass Shoal",
+  "phenomenon": "mirror water",
+  "classification": "Salt-Mirror",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 268,
+    "salinity_ppt": 10.0,
+    "audio": "rain",
+    "reflection_integrity": "stable"
+  },
+  "operator_note": "do not match this with command output"
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5011",
+  "record_type": "maritime_anomaly_index",
+  "location": "Undertow Corridor",
+  "phenomenon": "black foam",
+  "classification": "Undertow",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 379,
+    "salinity_ppt": 34.25,
+    "audio": "bell",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "watch for corridor length change"
+}

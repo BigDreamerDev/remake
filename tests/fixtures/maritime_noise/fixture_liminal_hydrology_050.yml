@@ -1,0 +1,30 @@
+record: liminal-hydrology-fixture-050
+classification: Harbour-Black
+location: Mirrorpool Basin
+phenomenon: unlit lighthouse beam
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 331
+    smell: none
+    reflection: correct
+  - phase: 1
+    waterline_mm: 341
+    smell: kelp
+    reflection: person-absent
+  - phase: 2
+    waterline_mm: 266
+    smell: rain concrete
+    reflection: sea
+  - phase: 3
+    waterline_mm: 473
+    smell: none
+    reflection: stairs
+  - phase: 4
+    waterline_mm: 76
+    smell: salt
+    reflection: wrong-room
+  - phase: 5
+    waterline_mm: 203
+    smell: salt
+    reflection: correct

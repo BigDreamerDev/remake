@@ -1,0 +1,50 @@
+{
+  "series": "archive_accessions",
+  "entries": [
+    {
+      "accession": "SW-ARC-RET-1179-0141-00",
+      "date_recorded": "1179",
+      "type": "bridge inspection",
+      "condition": "witness marks do not agree with index",
+      "location": "Saltmarsh",
+      "instruction": "all salt damage is to be treated as prior witness",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-RET-1822-0141-01",
+      "date_recorded": "1822",
+      "type": "minutes book",
+      "condition": "waterline visible at lower margin",
+      "location": "Cresswell Quay",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-TID-1714-0141-02",
+      "date_recorded": "1714",
+      "type": "dock manifest",
+      "condition": "signature duplicated after drying",
+      "location": "Lower Switchboard",
+      "instruction": "where a page names the reader, end the review",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-BOX-1974-0141-03",
+      "date_recorded": "1974",
+      "type": "bridge inspection",
+      "condition": "pages smell faintly of low tide",
+      "location": "Cresswell Quay",
+      "instruction": "a document that arrives dry may still belong to Hydrology",
+      "public_note": "Historical holding. No operational value confirmed."
+    },
+    {
+      "accession": "SW-ARC-MGR-1324-0141-04",
+      "date_recorded": "1324",
+      "type": "land survey",
+      "condition": "pagination continues beyond final folio",
+      "location": "Room \u0fbe2-A",
+      "instruction": "ink that refuses ultraviolet inspection should be filed under patience",
+      "public_note": "Historical holding. No operational value confirmed."
+    }
+  ]
+}

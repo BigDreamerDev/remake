@@ -1,0 +1,458 @@
+[
+  {
+    "id": "cmd-noise-001",
+    "command": "version",
+    "classification": "ceremonial",
+    "sample_output": "comShell v4.8.0 / public terminal build | schema ring: liminal-stable",
+    "canonical": false,
+    "clause": "14.2"
+  },
+  {
+    "id": "cmd-noise-002",
+    "command": "motd",
+    "classification": "ceremonial",
+    "sample_output": "The water in the west stairwell has passed inspection. It should not be thanked.",
+    "canonical": false,
+    "clause": "14.2"
+  },
+  {
+    "id": "cmd-noise-003",
+    "command": "notice.roll",
+    "classification": "transcript-noise",
+    "sample_output": "Notice 7-F: The suggestion box is not accepting apologies this quarter.",
+    "canonical": false,
+    "clause": "7.2"
+  },
+  {
+    "id": "cmd-noise-004",
+    "command": "handbook.lookup",
+    "classification": "low-clearance",
+    "sample_output": "Clause 7.2: Reflective Discipline | Full text: consult the handbook edition facing away from the window.",
+    "canonical": false,
+    "clause": "7.7"
+  },
+  {
+    "id": "cmd-noise-005",
+    "command": "handbook.random",
+    "classification": "low-clearance",
+    "sample_output": "Random selection does not constitute authorisation.",
+    "canonical": false,
+    "clause": "11.3"
+  },
+  {
+    "id": "cmd-noise-006",
+    "command": "forms.list",
+    "classification": "transcript-noise",
+    "sample_output": "Known forms: | Form D-17(b) | Form PI-3",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-007",
+    "command": "forms.lookup",
+    "classification": "ceremonial",
+    "sample_output": "audible_anomaly \u2192 Form HA-9",
+    "canonical": false,
+    "clause": "20.0"
+  },
+  {
+    "id": "cmd-noise-008",
+    "command": "rank.required",
+    "classification": "compatibility",
+    "sample_output": "Restricted invocation rank requirement: | This does not open a restricted command by itself.",
+    "canonical": false,
+    "clause": "16.8"
+  },
+  {
+    "id": "cmd-noise-009",
+    "command": "rank.list",
+    "classification": "training",
+    "sample_output": "Trainee | Junior | Senior | Limonology",
+    "canonical": false,
+    "clause": "20.0"
+  },
+  {
+    "id": "cmd-noise-010",
+    "command": "cymatics.classify",
+    "classification": "transcript-noise",
+    "sample_output": "frequency : 44.1 Hz | band : Class-I",
+    "canonical": false,
+    "clause": "19.0"
+  },
+  {
+    "id": "cmd-noise-011",
+    "command": "cymatics.scan",
+    "classification": "ceremonial",
+    "sample_output": "Cymatic scan complete. | Note: terminal microphone not calibrated for doors that breathe.",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-012",
+    "command": "hydrology.depth",
+    "classification": "training",
+    "sample_output": "classification : shallow | do not disturb still water that contains corridor light",
+    "canonical": false,
+    "clause": "9.7"
+  },
+  {
+    "id": "cmd-noise-013",
+    "command": "hydrology.pressure",
+    "classification": "training",
+    "sample_output": "hydrostatic pressure at 0.6 m: 5883.83 Pa",
+    "canonical": false,
+    "clause": "7.7"
+  },
+  {
+    "id": "cmd-noise-014",
+    "command": "codex.folia",
+    "classification": "ceremonial",
+    "sample_output": "55 pages \u2192 28 folia",
+    "canonical": false,
+    "clause": "19.0"
+  },
+  {
+    "id": "cmd-noise-015",
+    "command": "codex.quire",
+    "classification": "ceremonial",
+    "sample_output": "incomplete quires sometimes continue on the shelf behind them",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-016",
+    "command": "hex.encode",
+    "classification": "low-clearance",
+    "sample_output": "encoded text is administrative, not evidentiary",
+    "canonical": false,
+    "clause": "7.2"
+  },
+  {
+    "id": "cmd-noise-017",
+    "command": "hex.decode",
+    "classification": "transcript-noise",
+    "sample_output": "decode failed or produced silence",
+    "canonical": false,
+    "clause": "10.4"
+  },
+  {
+    "id": "cmd-noise-018",
+    "command": "archive.status",
+    "classification": "low-clearance",
+    "sample_output": "incoming crates .............. 11 | palimpsest review ............. pending",
+    "canonical": false,
+    "clause": "7.2"
+  },
+  {
+    "id": "cmd-noise-019",
+    "command": "archive.request",
+    "classification": "training",
+    "sample_output": "Retrieval window: within the current quarter",
+    "canonical": false,
+    "clause": "11.3"
+  },
+  {
+    "id": "cmd-noise-020",
+    "command": "mirror.audit",
+    "classification": "compatibility",
+    "sample_output": "Mirror audit complete: one reflection late, none missing.",
+    "canonical": false,
+    "clause": "20.0"
+  },
+  {
+    "id": "cmd-noise-021",
+    "command": "stairwell.listen",
+    "classification": "training",
+    "sample_output": "Stairwell B: do not hum back. This is not a test.",
+    "canonical": false,
+    "clause": "14.2"
+  },
+  {
+    "id": "cmd-noise-022",
+    "command": "cafeteria.menu",
+    "classification": "transcript-noise",
+    "sample_output": "Today: all items discontinued except the queue.",
+    "canonical": false,
+    "clause": "25.0"
+  },
+  {
+    "id": "cmd-noise-023",
+    "command": "policy.random",
+    "classification": "training",
+    "sample_output": "Clause 25.0: Silence is daily, but not always at the same minute.",
+    "canonical": false,
+    "clause": "19.0"
+  },
+  {
+    "id": "cmd-noise-024",
+    "command": "memory.recall",
+    "classification": "transcript-noise",
+    "sample_output": "Memory recall unavailable while the handbook is facing east.",
+    "canonical": false,
+    "clause": "25.0"
+  },
+  {
+    "id": "cmd-noise-025",
+    "command": "audit.roll",
+    "classification": "compatibility",
+    "sample_output": "present, present, absent, present, [blank], present",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-026",
+    "command": "log.tail",
+    "classification": "low-clearance",
+    "sample_output": "06:04:04 corridor: administrative merge completed twice",
+    "canonical": false,
+    "clause": "7.7"
+  },
+  {
+    "id": "cmd-noise-027",
+    "command": "lights.status",
+    "classification": "low-clearance",
+    "sample_output": "Room 19.0 ..................... no fixture assigned",
+    "canonical": false,
+    "clause": "25.0"
+  },
+  {
+    "id": "cmd-noise-028",
+    "command": "door.test",
+    "classification": "low-clearance",
+    "sample_output": "Cafeteria rear door ........... ajar by policy, not by geometry",
+    "canonical": false,
+    "clause": "9.7"
+  },
+  {
+    "id": "cmd-noise-029",
+    "command": "badge.read",
+    "classification": "ceremonial",
+    "sample_output": "Magnetic stripe contains 0 approved corridors and 1 remembered corridor.",
+    "canonical": false,
+    "clause": "20.0"
+  },
+  {
+    "id": "cmd-noise-030",
+    "command": "descale.status",
+    "classification": "compatibility",
+    "sample_output": "Do not enter if you hear someone finishing your sentence.",
+    "canonical": false,
+    "clause": "10.4"
+  },
+  {
+    "id": "cmd-noise-031",
+    "command": "atrium.clock",
+    "classification": "ceremonial",
+    "sample_output": "Clock C: [removed pending apology]",
+    "canonical": false,
+    "clause": "21.2"
+  },
+  {
+    "id": "cmd-noise-032",
+    "command": "observance.next",
+    "classification": "training",
+    "sample_output": "Silence begins when the lights stop agreeing.",
+    "canonical": false,
+    "clause": "14.2"
+  },
+  {
+    "id": "cmd-noise-033",
+    "command": "orange.when",
+    "classification": "compatibility",
+    "sample_output": "orange is a time, not a colour, during audits.",
+    "canonical": false,
+    "clause": "7.2"
+  },
+  {
+    "id": "cmd-noise-034",
+    "command": "weather.inside",
+    "classification": "low-clearance",
+    "sample_output": "precipitation: observed only under covered areas",
+    "canonical": false,
+    "clause": "20.0"
+  },
+  {
+    "id": "cmd-noise-035",
+    "command": "waterline",
+    "classification": "training",
+    "sample_output": "Floor -4: not a floor in this edition of the handbook",
+    "canonical": false,
+    "clause": "25.0"
+  },
+  {
+    "id": "cmd-noise-036",
+    "command": "mailroom.check",
+    "classification": "ceremonial",
+    "sample_output": "One envelope contains only the sound of opening it.",
+    "canonical": false,
+    "clause": "16.8"
+  },
+  {
+    "id": "cmd-noise-037",
+    "command": "maintenance.window",
+    "classification": "ceremonial",
+    "sample_output": "04:04\u201304:04 west corridor reconciliation",
+    "canonical": false,
+    "clause": "19.0"
+  },
+  {
+    "id": "cmd-noise-038",
+    "command": "memorial.check",
+    "classification": "transcript-noise",
+    "sample_output": "You are not currently absent enough to be excused.",
+    "canonical": false,
+    "clause": "16.8"
+  },
+  {
+    "id": "cmd-noise-039",
+    "command": "silence.begin",
+    "classification": "ceremonial",
+    "sample_output": "The minute will end after sixty nonconsecutive seconds.",
+    "canonical": false,
+    "clause": "11.3"
+  },
+  {
+    "id": "cmd-noise-040",
+    "command": "silence.status",
+    "classification": "training",
+    "sample_output": "Unsynchronised variance within accepted limits.",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-041",
+    "command": "contact.office",
+    "classification": "training",
+    "sample_output": "Codicology ................. knock twice, then document the third knock",
+    "canonical": false,
+    "clause": "9.7"
+  },
+  {
+    "id": "cmd-noise-042",
+    "command": "return.path",
+    "classification": "compatibility",
+    "sample_output": "Return path cannot be calculated while the route remembers you arriving.",
+    "canonical": false,
+    "clause": "7.2"
+  },
+  {
+    "id": "cmd-noise-043",
+    "command": "corridor.map",
+    "classification": "ceremonial",
+    "sample_output": "not all marked doors correspond to rooms",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-044",
+    "command": "lift.status",
+    "classification": "ceremonial",
+    "sample_output": "Lift D: never installed; do not wait inside it",
+    "canonical": false,
+    "clause": "25.0"
+  },
+  {
+    "id": "cmd-noise-045",
+    "command": "room.query",
+    "classification": "training",
+    "sample_output": "available only to staff already inside",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-046",
+    "command": "node.trace",
+    "classification": "compatibility",
+    "sample_output": "corridor-cache / repeated",
+    "canonical": false,
+    "clause": "10.4"
+  },
+  {
+    "id": "cmd-noise-047",
+    "command": "node.quarantine",
+    "classification": "compatibility",
+    "sample_output": "status: advisory only at current rank",
+    "canonical": false,
+    "clause": "16.8"
+  },
+  {
+    "id": "cmd-noise-048",
+    "command": "report.anomaly",
+    "classification": "compatibility",
+    "sample_output": "A representative may contact you before the event that produced the report.",
+    "canonical": false,
+    "clause": "14.2"
+  },
+  {
+    "id": "cmd-noise-049",
+    "command": "ticket.open",
+    "classification": "transcript-noise",
+    "sample_output": "waiting for a department to admit jurisdiction",
+    "canonical": false,
+    "clause": "11.3"
+  },
+  {
+    "id": "cmd-noise-050",
+    "command": "inventory.sample",
+    "classification": "training",
+    "sample_output": "covered mirror | receipt for an unopened door",
+    "canonical": false,
+    "clause": "9.7"
+  },
+  {
+    "id": "cmd-noise-051",
+    "command": "floor.plan",
+    "classification": "training",
+    "sample_output": "a floor omitted from a plan may still support weight",
+    "canonical": false,
+    "clause": "21.2"
+  },
+  {
+    "id": "cmd-noise-052",
+    "command": "registry.lookup",
+    "classification": "low-clearance",
+    "sample_output": "term may have been filed under the sound it made",
+    "canonical": false,
+    "clause": "9.7"
+  },
+  {
+    "id": "cmd-noise-053",
+    "command": "seal.verify",
+    "classification": "training",
+    "sample_output": "seal is probably still deciding",
+    "canonical": false,
+    "clause": "2.8"
+  },
+  {
+    "id": "cmd-noise-054",
+    "command": "name.check",
+    "classification": "transcript-noise",
+    "sample_output": "write it once, then cover the page",
+    "canonical": false,
+    "clause": "10.4"
+  },
+  {
+    "id": "cmd-noise-055",
+    "command": "echo",
+    "classification": "low-clearance",
+    "sample_output": "input may be repeated in reverse under corridor echo conditions",
+    "canonical": false,
+    "clause": "20.0"
+  },
+  {
+    "id": "cmd-noise-056",
+    "command": "cat",
+    "classification": "compatibility",
+    "sample_output": "file visible but not willing",
+    "canonical": false,
+    "clause": "21.2"
+  },
+  {
+    "id": "cmd-noise-057",
+    "command": "sleep",
+    "classification": "compatibility",
+    "sample_output": "terminals are not permitted to dream during business hours",
+    "canonical": false,
+    "clause": "19.0"
+  }
+]

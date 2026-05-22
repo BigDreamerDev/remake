@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5027",
+  "record_type": "maritime_anomaly_index",
+  "location": "Ashen Ferry Terminal",
+  "phenomenon": "language in condensation",
+  "classification": "Bell-Sink",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 471,
+    "salinity_ppt": 28.16,
+    "audio": "choir",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "paperwork retained for atmospheric cross-contamination"
+}

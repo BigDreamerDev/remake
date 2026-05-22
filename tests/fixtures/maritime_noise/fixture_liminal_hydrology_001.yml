@@ -1,0 +1,42 @@
+record: liminal-hydrology-fixture-001
+classification: Quiet-Water
+location: South Intake Tunnel
+phenomenon: floor-level surf
+fixture_use: atmospheric test data only
+readings:
+  - phase: 0
+    waterline_mm: 21
+    smell: none
+    reflection: wrong-room
+  - phase: 1
+    waterline_mm: 251
+    smell: kelp
+    reflection: correct
+  - phase: 2
+    waterline_mm: 10
+    smell: salt
+    reflection: sea
+  - phase: 3
+    waterline_mm: 443
+    smell: bleach
+    reflection: wrong-room
+  - phase: 4
+    waterline_mm: 279
+    smell: salt
+    reflection: person-absent
+  - phase: 5
+    waterline_mm: 410
+    smell: none
+    reflection: delayed
+  - phase: 6
+    waterline_mm: 254
+    smell: cold tea
+    reflection: stairs
+  - phase: 7
+    waterline_mm: 31
+    smell: bleach
+    reflection: person-absent
+  - phase: 8
+    waterline_mm: 300
+    smell: none
+    reflection: correct

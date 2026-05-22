@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5012",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Empty Aquarium",
+  "phenomenon": "sleeping bell",
+  "classification": "Bell-Sink",
+  "status": "recurring",
+  "sensor_summary": {
+    "max_depth_mm": 461,
+    "salinity_ppt": 9.07,
+    "audio": "pipe-hum",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "false positive until water chooses a name"
+}

@@ -1,0 +1,15 @@
+{
+  "record_id": "SW-MAR-5038",
+  "record_type": "maritime_anomaly_index",
+  "location": "The Third Jetty",
+  "phenomenon": "submerged office",
+  "classification": "Bell-Sink",
+  "status": "inactive",
+  "sensor_summary": {
+    "max_depth_mm": 314,
+    "salinity_ppt": 10.88,
+    "audio": "choir",
+    "reflection_integrity": "inverted"
+  },
+  "operator_note": "false positive until water chooses a name"
+}
