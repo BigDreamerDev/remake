@@ -184,7 +184,7 @@ def cmd_auth(args: list[str]) -> None:
         SESSION["auth_level"] = 2
         SESSION["auth_key"] = submitted
         print(random.choice([" Authentication accepted.", " Authentication accepted after corridor comparison.", " Authentication accepted. Do not celebrate near uncovered glass."]))
-        print(" Rank elevated: Limonology")
+        print(" Rank elevated: Halcyon")
         print(random.choice([" Restricted commands now available.", " Restricted invocation gate opened quietly.", " Restricted command ledger has stopped pretending not to see you."]))
     else:
         print(random.choice([" Authentication denied.", " Authentication denied; submitted code lacks a witness.", " Authentication denied; the handbook disagrees with your pronunciation.", " Authentication denied; rank echo did not resolve."]))

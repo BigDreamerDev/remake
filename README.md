@@ -29,7 +29,7 @@ The `PCT90156` command is reserved. Invocation requires an authentication code; 
 
 * All servers are down until the `4E6F72646C616E64` (See employee handbook, Clause: 6.19 Subsection: Titan-Class) event at 0600 on Bcy 28, 3192 YOLD.
 
-* Employees are reminded not to call the `PCT90156` command within comShell until the Server-wide Restart PiP to all internal Nodes within buildings Δ and ྾2. Access is reserved to Employees of Rank Limonology. The High reminds all users to not contact the Pattern Integrity Working Group until the date of the `4E6F72646C616E64` event. (See employee handbook, Clause: 11.3 Subsection: Restricted Invocations.)
+* Employees are reminded not to call the `PCT90156` command within comShell until the Server-wide Restart PiP to all internal Nodes within buildings Δ and ྾2. Access is reserved to Employees of Rank '48616c63796f6e'. The High reminds all users to not contact the Pattern Integrity Working Group until the date of the `4E6F72646C616E64` event. (See employee handbook, Clause: 11.3 Subsection: Restricted Invocations.)
 
 * The cafeteria on Floor -3 will be closed from 02:00 to 04:00 daily for routine descaling. Employees of Rank Codicology and above may request meal substitutions via Form S-44b. Do not enter the cafeteria during these hours, **even if you hear voices you recognise**. (See employee handbook, Clause: 7.7 Subsection: Acoustic Persistence.)
 
