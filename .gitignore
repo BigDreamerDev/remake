@@ -24,3 +24,8 @@ env/
 .pi-cache/
 .sealed/
 inherited-silences/
+
+# Secrets
+.env
+.env.local
+.env.*.local

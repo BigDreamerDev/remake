@@ -8,6 +8,10 @@ import sys
 import time
 from typing import Callable
 
+from dotenv import load_dotenv
+
+load_dotenv()
+
 from stillwater import auth, comshell_extra, debrief, egress, forms, nodes, pattern_integrity, senion_verify, senion_verify
 from stillwater._internal import repository
 

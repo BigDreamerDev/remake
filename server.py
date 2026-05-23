@@ -2,8 +2,11 @@ from __future__ import annotations
 import json
 import random
 import os
+from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_cors import CORS
+
+load_dotenv()
 
 from stillwater import auth, comshell_extra, debrief, egress, forms, nodes, pattern_integrity, senion_verify
 from stillwater._internal import repository
@@ -53,6 +56,23 @@ def command():
 @app.route("/api/session", methods=["GET"])
 def new_session():
     return jsonify(make_session())
+
+
+@app.route("/api/senion/begin", methods=["POST"])
+def senion_begin():
+    data = request.get_json(force=True) or {}
+    session = data.get("session") or make_session()
+    return jsonify(senion_verify.begin(session))
+
+
+@app.route("/api/senion/answer", methods=["POST"])
+def senion_answer():
+    data = request.get_json(force=True) or {}
+    session = data.get("session") or make_session()
+    submitted = data.get("answer", "")
+    if not isinstance(submitted, str):
+        submitted = str(submitted)
+    return jsonify(senion_verify.answer(session, submitted))
 
 
 @app.route("/health", methods=["GET"])
@@ -230,7 +250,12 @@ def cmd_pct90156(args, session):
     return out
 
 def cmd_senion(args, session):
-    return senion_verify.run(args, session)
+    return (
+        "Senion verification has been moved to a dedicated gate-by-gate API.\n"
+        "Begin a sequence: POST /api/senion/begin  (body: {\"session\": ...})\n"
+        "Submit each answer: POST /api/senion/answer  (body: {\"session\": ..., \"answer\": ...})\n"
+        "The terminal cannot conduct the rite in a single response."
+    )
 
 def cmd_contact_office(args, session):
     if args and args[0].lower() in {"codicology","codicology-wing","archive","archive-integrity"}:
