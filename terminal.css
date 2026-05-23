@@ -1028,32 +1028,399 @@ body::after {
     var(--bg);
 }
 
-/* ── markdown-rendered docs (github-markdown-css dark) ───── */
+/* ── markdown-rendered docs (Stillwater palette) ─────────── */
 .reader-md-body.markdown-body {
-  /* github-markdown-css sets its own background & color; we just give it
-     the page padding, width cap, and play nice with the SCP scrollbar. */
   box-sizing: border-box;
-  min-width: 200px;
-  max-width: 980px;
+  max-width: 820px;
   margin: 0 auto;
-  padding: 32px 44px 56px;
+  padding: 38px 52px 68px;
+  background: transparent;
+  font-family: var(--font-mono);
+  font-size: 14px;
+  line-height: 1.75;
+  color: var(--ink);
+  word-wrap: break-word;
+}
+
+.reader-md-body > :first-child { margin-top: 0; }
+.reader-md-body > :last-child  { margin-bottom: 0; }
+
+/* ── paragraphs / inline ─────────────────────────────────── */
+.reader-md-body p {
+  margin: 0 0 1.1em;
+}
+
+.reader-md-body strong,
+.reader-md-body b {
+  color: var(--ink-bright);
+  font-weight: bold;
+}
+
+.reader-md-body em,
+.reader-md-body i {
+  color: var(--ink);
+  font-style: italic;
+}
+
+.reader-md-body del,
+.reader-md-body s,
+.reader-md-body strike {
+  color: var(--ink-dim);
+  text-decoration: line-through;
+  text-decoration-color: var(--red-dim);
+  text-decoration-thickness: 2px;
+}
+
+.reader-md-body mark {
+  background: rgba(200, 154, 58, 0.18);
+  color: var(--ink-bright);
+  padding: 0 0.2em;
+}
+
+.reader-md-body small,
+.reader-md-body sub,
+.reader-md-body sup {
+  color: var(--ink-mid);
+  font-size: 0.8em;
+}
+
+/* ── headings — stamped section markers ──────────────────── */
+.reader-md-body h1 {
+  font-family: var(--font-stamp);
+  font-weight: normal;
+  font-size: 1.85em;
+  line-height: 1.25;
+  color: var(--ink-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 0 0 0.7em;
+  padding-bottom: 0.4em;
+  border-bottom: 2px double var(--red-dim);
+}
+
+.reader-md-body h2 {
+  font-family: var(--font-stamp);
+  font-weight: normal;
+  font-size: 1.4em;
+  line-height: 1.3;
+  color: var(--ink-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  margin: 2em 0 0.7em;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid var(--amber-dim);
+}
+
+.reader-md-body h3 {
+  font-family: var(--font-mono);
+  font-weight: bold;
+  font-size: 1.15em;
+  color: var(--amber-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  margin: 1.7em 0 0.5em;
+}
+
+.reader-md-body h3::before {
+  content: "›  ";
+  color: var(--ink-dim);
+  font-weight: normal;
+}
+
+.reader-md-body h4 {
+  font-family: var(--font-mono);
+  font-weight: bold;
+  font-size: 1em;
+  color: var(--ink-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1.5em 0 0.4em;
+}
+
+.reader-md-body h5,
+.reader-md-body h6 {
+  font-family: var(--font-mono);
+  font-weight: bold;
+  font-size: 0.92em;
+  color: var(--ink-mid);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin: 1.3em 0 0.4em;
+}
+
+.reader-md-body h6 {
+  color: var(--ink-dim);
+  font-style: italic;
+}
+
+.reader-md-body h1 + p,
+.reader-md-body h2 + p,
+.reader-md-body h3 + p {
+  margin-top: 0.3em;
+}
+
+/* heading hash-link anchors (browser default) — strip blue */
+.reader-md-body :is(h1, h2, h3, h4, h5, h6) a {
+  color: inherit;
+  border-bottom: none;
+}
+
+/* ── lists ───────────────────────────────────────────────── */
+.reader-md-body ul {
+  list-style: none;
+  padding-left: 1.8em;
+  margin: 0 0 1.1em;
+}
+
+.reader-md-body ul > li {
+  position: relative;
+  margin: 0.25em 0;
+}
+
+.reader-md-body ul > li::before {
+  content: "▪";
+  position: absolute;
+  left: -1.4em;
+  top: 0.05em;
+  color: var(--amber);
+  font-size: 0.85em;
+}
+
+.reader-md-body ol {
+  list-style: none;
+  padding-left: 2.4em;
+  margin: 0 0 1.1em;
+  counter-reset: scp-li;
+}
+
+.reader-md-body ol > li {
+  position: relative;
+  counter-increment: scp-li;
+  margin: 0.25em 0;
+}
+
+.reader-md-body ol > li::before {
+  content: counter(scp-li, decimal-leading-zero) ".";
+  position: absolute;
+  left: -2.6em;
+  width: 2.2em;
+  text-align: right;
+  color: var(--amber-dim);
+  font-size: 0.9em;
+  letter-spacing: 0.04em;
+}
+
+.reader-md-body li > ul,
+.reader-md-body li > ol {
+  margin: 0.3em 0;
+}
+
+/* task lists (GFM) — replace bullet with a stamped checkbox */
+.reader-md-body li:has(> input[type="checkbox"])::before {
+  display: none;
+}
+
+.reader-md-body input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--ink-dim);
+  background: var(--bg-input);
+  margin: 0 8px 0 -1.6em;
+  vertical-align: -1px;
+  position: relative;
+  cursor: default;
+}
+
+.reader-md-body input[type="checkbox"]:checked::after {
+  content: "✕";
+  position: absolute;
+  inset: -3px 0 0 0;
+  color: var(--amber);
+  font-size: 13px;
+  line-height: 12px;
+  text-align: center;
+  display: block;
+}
+
+/* ── blockquotes — quoted memo style ─────────────────────── */
+.reader-md-body blockquote {
+  margin: 1.2em 0;
+  padding: 0.55em 1.2em;
+  border-left: 2px solid var(--amber-dim);
+  background: rgba(200, 154, 58, 0.04);
+  color: var(--ink-mid);
+  font-style: italic;
+}
+
+.reader-md-body blockquote > :last-child {
+  margin-bottom: 0;
+}
+
+.reader-md-body blockquote blockquote {
+  margin: 0.7em 0;
+  border-left-color: var(--red-dim);
+  background: rgba(160, 24, 24, 0.04);
+}
+
+/* ── inline code & code blocks ───────────────────────────── */
+.reader-md-body code {
+  font-family: var(--font-mono);
+  font-size: 0.93em;
+  padding: 0.1em 0.4em;
+  background: rgba(200, 154, 58, 0.09);
+  color: var(--amber-bright);
+  border: 1px solid transparent;
+}
+
+.reader-md-body pre {
+  margin: 1.2em 0;
+  padding: 14px 18px;
+  background: var(--bg-input);
+  border: 1px solid var(--rule-mid);
+  border-left: 3px solid var(--amber-dim);
+  overflow-x: auto;
+  font-size: 12.5px;
+  line-height: 1.55;
+}
+
+.reader-md-body pre code {
+  background: transparent;
+  padding: 0;
+  border: none;
+  color: var(--ink);
+  font-size: inherit;
+}
+
+.reader-md-body pre::-webkit-scrollbar { height: 6px; }
+.reader-md-body pre::-webkit-scrollbar-track { background: var(--bg-deep); }
+.reader-md-body pre::-webkit-scrollbar-thumb { background: var(--rule-mid); }
+
+/* ── horizontal rules — dashed with centre mark ──────────── */
+.reader-md-body hr {
+  border: none;
+  margin: 2.4em auto;
+  width: 78%;
+  height: 0;
+  border-top: 1px dashed var(--ink-dim);
+  position: relative;
+  overflow: visible;
+}
+
+.reader-md-body hr::after {
+  content: "§";
+  position: absolute;
+  top: -0.85em;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--bg);
+  padding: 0 0.6em;
+  color: var(--ink-dim);
   font-size: 14px;
 }
 
-.reader-md-body.markdown-body a {
+/* ── tables ──────────────────────────────────────────────── */
+.reader-md-body table {
+  border-collapse: collapse;
+  margin: 1.3em 0;
+  width: 100%;
+  font-size: 0.94em;
+  border: 1px solid var(--rule-mid);
+}
+
+.reader-md-body th,
+.reader-md-body td {
+  border: 1px solid var(--rule);
+  padding: 7px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.reader-md-body th {
+  background: var(--bg-elevated);
+  color: var(--ink-bright);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 0.9em;
+  font-weight: normal;
+  border-bottom: 1px solid var(--amber-dim);
+}
+
+.reader-md-body tr:nth-child(even) td {
+  background: rgba(184, 168, 116, 0.025);
+}
+
+/* ── links ───────────────────────────────────────────────── */
+.reader-md-body a {
+  color: var(--amber);
+  text-decoration: none;
+  border-bottom: 1px dotted var(--amber-dim);
   cursor: pointer;
+  transition: color 0.12s, border-color 0.12s, border-bottom-style 0.12s;
 }
 
-/* The github dark stylesheet uses its own --color-canvas-default; let it.
-   But the surrounding reader-doc pane should match that canvas so there's
-   no visible seam where padding ends. */
-.reader-doc {
-  background: var(--color-canvas-default, var(--bg));
+.reader-md-body a:hover {
+  color: var(--amber-bright);
+  border-bottom-style: solid;
+  border-bottom-color: var(--amber);
 }
 
-/* Keep the SCP doc header readable on top of the GH-dark canvas. */
-.reader-doc-header {
-  background: linear-gradient(to bottom, var(--bg-elevated) 0%, var(--bg-surface) 100%);
+.reader-md-body a:visited {
+  color: var(--amber-dim);
+}
+
+.reader-md-body a:visited:hover {
+  color: var(--amber-bright);
+}
+
+/* ── images — bordered like a print-out ──────────────────── */
+.reader-md-body img {
+  max-width: 100%;
+  display: block;
+  margin: 1.3em auto;
+  border: 1px solid var(--rule-mid);
+  padding: 6px;
+  background: var(--bg-input);
+}
+
+/* ── details / summary (collapsible memos) ───────────────── */
+.reader-md-body details {
+  margin: 1em 0;
+  padding: 0.55em 1em;
+  border: 1px dashed var(--ink-dim);
+  background: var(--bg-input);
+}
+
+.reader-md-body summary {
+  cursor: pointer;
+  color: var(--amber);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-size: 0.92em;
+  outline: none;
+}
+
+.reader-md-body details[open] summary {
+  border-bottom: 1px dashed var(--ink-dim);
+  padding-bottom: 0.4em;
+  margin-bottom: 0.6em;
+}
+
+/* ── keyboard / abbr ─────────────────────────────────────── */
+.reader-md-body kbd {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  padding: 1px 6px;
+  background: var(--bg-elevated);
+  color: var(--ink-bright);
+  border: 1px solid var(--rule-mid);
+  border-bottom-width: 2px;
+}
+
+.reader-md-body abbr[title] {
+  border-bottom: 1px dotted var(--ink-dim);
+  cursor: help;
 }
 
 .reader-footer {
