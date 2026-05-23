@@ -160,5 +160,31 @@ const SW = (() => {
     } catch (_) { /* silent */ }
   }
 
-  return { banner, run, initSession, warmUp, verifyComshell, isVerified, session: () => ({ ...SESSION }) };
+  // ── docs API (used by the visual archive reader) ──────────
+  function _sessionHeaders() {
+    return {
+      "X-Session-Id": SESSION.session_id || "",
+      "X-Session-Sig": SESSION.comshell_sig || "",
+    };
+  }
+
+  async function _getJson(url) {
+    const res = await fetch(url, { headers: _sessionHeaders() });
+    if (res.status === 403) {
+      const err = new Error("unverified");
+      err.code = "UNVERIFIED";
+      throw err;
+    }
+    if (!res.ok) throw new Error(`server returned ${res.status}`);
+    return res.json();
+  }
+
+  const docs = {
+    roots:  ()             => _getJson(`${API_BASE}/api/docs/roots`),
+    tree:   (path = "")    => _getJson(`${API_BASE}/api/docs/tree?path=${encodeURIComponent(path)}`),
+    file:   (path)         => _getJson(`${API_BASE}/api/docs/file?path=${encodeURIComponent(path)}`),
+    search: (q, limit = 25) => _getJson(`${API_BASE}/api/docs/search?q=${encodeURIComponent(q)}&limit=${limit}`),
+  };
+
+  return { banner, run, initSession, warmUp, verifyComshell, isVerified, docs, session: () => ({ ...SESSION }) };
 })();

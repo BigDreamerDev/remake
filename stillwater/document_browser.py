@@ -25,6 +25,7 @@ COMMANDS = (
     "docs.cat",
     "docs.head",
     "docs.ls",
+    "docs.open",
     "docs.random",
     "docs.read",
     "docs.roots",
@@ -39,6 +40,7 @@ COMMANDS = (
     "sealed.list",
     "sealed.read",
 )
+READER_MARKER = "__OPEN_DOC_READER__"
 VARIANCE = [
     "The archive returns what it is willing to admit exists.",
     "Some paths may have moved after being named.",
@@ -319,6 +321,125 @@ def _roots() -> str:
     return _join(lines)
 
 
+def _virtual_parent(path: Path) -> str | None:
+    """Return the virtual path of the parent dir, or None if going up would
+    escape every allowed root (i.e. we're already at the top of the archive)."""
+    resolved = path.resolve()
+    parent = path.parent.resolve()
+    if parent == resolved:
+        return None
+    if not any(_inside(parent, root) or parent == root for root in _allowed_roots()):
+        return None
+    return _virtual(parent) or None
+
+
+def roots_json() -> dict:
+    return {
+        "ok": True,
+        "roots": [
+            {"name": name, "exists": path.exists(), "virtual": name}
+            for name, path in sorted(ROOT_ALIASES.items())
+        ],
+    }
+
+
+def tree_json(path_arg: str | None = None) -> dict:
+    parts = [path_arg] if path_arg else []
+    path, error = _resolve(parts, "docs")
+    if error:
+        return {"ok": False, "error": error}
+    if not path or not path.exists():
+        return {"ok": False, "error": "Record not found. The index insists it was here this morning."}
+    if path.is_file():
+        return {"ok": False, "error": "Path resolves to a file; use the file endpoint."}
+    entries: list[dict] = []
+    for entry in sorted(path.iterdir(), key=lambda i: (i.is_file(), i.name.lower())):
+        if entry.is_dir():
+            entries.append({
+                "name": entry.name,
+                "type": "dir",
+                "virtual": _virtual(entry),
+            })
+        elif _visible_file(entry):
+            entries.append({
+                "name": entry.name,
+                "type": "file",
+                "virtual": _virtual(entry),
+                "size": entry.stat().st_size,
+            })
+    return {
+        "ok": True,
+        "virtual": _virtual(path),
+        "type": "dir",
+        "parent": _virtual_parent(path),
+        "entries": entries,
+        "note": random.choice(VARIANCE) if entries else random.choice(EMPTY),
+    }
+
+
+def file_json(path_arg: str) -> dict:
+    parts = [path_arg] if path_arg else []
+    path, error = _resolve(parts, "docs")
+    if error:
+        return {"ok": False, "error": error}
+    if not path or not path.exists():
+        return {"ok": False, "error": "Record not found. Do not ask the empty shelf a second time."}
+    if path.is_dir():
+        return {"ok": False, "error": "Path is a folder; use the tree endpoint."}
+    if not _visible_file(path):
+        return {"ok": False, "error": "Record withheld. The terminal will not read that format aloud."}
+    try:
+        text = path.read_text(encoding="utf-8", errors="replace")
+    except OSError as exc:
+        return {"ok": False, "error": f"Record unreadable: {exc}"}
+    return {
+        "ok": True,
+        "virtual": _virtual(path),
+        "type": "file",
+        "size": path.stat().st_size,
+        "lines": text.count("\n") + (0 if text.endswith("\n") else 1),
+        "content": text,
+        "parent": _virtual(path.parent),
+    }
+
+
+def search_json(query: str, limit: int = 25) -> dict:
+    query = (query or "").strip()
+    if len(query) < 2:
+        return {"ok": False, "error": "Search phrase too small. The archive refuses to index dust."}
+    limit = max(1, min(80, int(limit) if str(limit).isdigit() else 25))
+    needle = query.lower()
+    matches: list[dict] = []
+    roots = [ROOT_ALIASES["docs"], ROOT_ALIASES["notes"]]
+    for root in roots:
+        for path in _iter_files(root.resolve(), 4000):
+            try:
+                for number, line in enumerate(
+                    path.read_text(encoding="utf-8", errors="replace").splitlines(),
+                    start=1,
+                ):
+                    if needle in line.lower():
+                        snippet = line.strip()
+                        matches.append({
+                            "virtual": _virtual(path),
+                            "line": number,
+                            "snippet": snippet[:200] + ("…" if len(snippet) > 200 else ""),
+                        })
+                        break
+            except OSError:
+                continue
+            if len(matches) >= limit:
+                break
+        if len(matches) >= limit:
+            break
+    return {"ok": True, "query": query, "results": matches}
+
+
+def _open_marker(args: list[str]) -> str:
+    target = _clean_token(" ".join(args)) if args else ""
+    return f"{READER_MARKER}:{target}"
+
+
 def command_names() -> tuple[str, ...]:
     return tuple(sorted(COMMANDS))
 
@@ -326,6 +447,7 @@ def command_names() -> tuple[str, ...]:
 def help_text(show_all: bool = False) -> str:
     base = [
         "Archive/document commands:",
+        " docs.open [path]           Open the archive browser (visual reader)",
         " docs.roots                 List visible document roots",
         " docs.ls [path]             List a shelf or folder",
         " docs.tree [path] [limit]    Show a folded tree view",
@@ -353,6 +475,8 @@ def help_text(show_all: bool = False) -> str:
 
 def run(command: str, args: list[str], session: dict | None = None) -> str:
     cmd = command.lower()
+    if cmd == "docs.open":
+        return _open_marker(args)
     if cmd == "docs.roots":
         return _roots()
     if cmd == "docs.ls":

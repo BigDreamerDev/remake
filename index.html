@@ -40,6 +40,36 @@
   <div id="boot-status">establishing session…</div>
 </div>
 
+<!-- ── archive reader overlay ────────────────────────────── -->
+<div id="reader-overlay" role="dialog" aria-modal="true" aria-label="Archive browser" style="display:none">
+  <div class="reader-frame">
+    <header class="reader-header">
+      <div class="reader-stripe">// ARCHIVE BROWSER · OFFICE OF INHERITED SILENCES · READ-ONLY //</div>
+      <div class="reader-toolbar">
+        <button id="reader-home" class="reader-btn" title="back to roots">roots</button>
+        <button id="reader-up" class="reader-btn" title="parent shelf (Backspace)">up</button>
+        <nav id="reader-crumbs" class="reader-crumbs" aria-label="path"></nav>
+        <input id="reader-search" class="reader-search" type="search" placeholder="search archive…" aria-label="Search the archive">
+        <button id="reader-close" class="reader-btn reader-close-btn" title="close (Esc)">close</button>
+      </div>
+    </header>
+    <div class="reader-body">
+      <aside class="reader-tree" aria-label="Archive shelf">
+        <div id="reader-list" class="reader-list" tabindex="0"></div>
+      </aside>
+      <main class="reader-content" aria-label="Document">
+        <div id="reader-doc" class="reader-doc" tabindex="0">
+          <div class="reader-placeholder">// SELECT A RECORD //</div>
+        </div>
+      </main>
+    </div>
+    <footer class="reader-footer">
+      <span id="reader-meta" class="reader-meta">no record open</span>
+      <span class="reader-foot-note">witness required · clause 21.2</span>
+    </footer>
+  </div>
+</div>
+
 <!-- ── terminal ──────────────────────────────────────────── -->
 <div id="terminal-wrap" role="main">
 
@@ -190,6 +220,11 @@
 
       if (result === "__CLEAR__") { clearTerminal(); return; }
       if (result === "__EXIT__")  { doExit(); return; }
+      if (typeof result === "string" && result.startsWith("__OPEN_DOC_READER__")) {
+        const target = result.slice("__OPEN_DOC_READER__".length).replace(/^:/, "");
+        openReader(target);
+        return;
+      }
 
       if (result && result.trim()) {
         appendLine(result, "line-output");
@@ -326,6 +361,227 @@
     // pre-fetch a session so the HMAC has something to sign against
     try { await SW.initSession(); } catch (_) { /* fall back to local */ }
     authInput.focus();
+  });
+
+  // ── archive reader ────────────────────────────────────────
+  const readerOverlay = document.getElementById("reader-overlay");
+  const readerList    = document.getElementById("reader-list");
+  const readerDoc     = document.getElementById("reader-doc");
+  const readerCrumbs  = document.getElementById("reader-crumbs");
+  const readerMeta    = document.getElementById("reader-meta");
+  const readerSearch  = document.getElementById("reader-search");
+  const btnHome       = document.getElementById("reader-home");
+  const btnUp         = document.getElementById("reader-up");
+  const btnClose      = document.getElementById("reader-close");
+
+  // reader state
+  let readerCurrentDir  = "";        // virtual path of the open dir, "" = roots
+  let readerCurrentFile = null;      // virtual path of open file, or null
+  let readerParent      = null;      // virtual path of dir's parent, or null
+  let readerSearchTimer = null;
+
+  function readerEsc(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function openReader(target) {
+    readerOverlay.style.display = "";
+    requestAnimationFrame(() => readerOverlay.classList.add("open"));
+    inputEl.blur();
+    if (target && target.trim()) {
+      const t = target.trim();
+      // if it looks like a file (has an extension) try to load it; else list it
+      if (/\.[a-z0-9]{1,6}$/i.test(t)) {
+        loadDir(""); // load roots in tree pane
+        loadFile(t);
+      } else {
+        loadDir(t);
+      }
+    } else {
+      loadDir("");
+    }
+  }
+
+  function closeReader() {
+    readerOverlay.classList.remove("open");
+    setTimeout(() => { readerOverlay.style.display = "none"; }, 250);
+    inputEl.focus();
+  }
+
+  function setCrumbs(path) {
+    if (!path) {
+      readerCrumbs.innerHTML = `<span class="reader-crumb-root">// ROOTS //</span>`;
+      return;
+    }
+    const parts = path.split("/").filter(Boolean);
+    const links = parts.map((p, i) => {
+      const accumulated = parts.slice(0, i + 1).join("/");
+      return `<a href="#" data-path="${readerEsc(accumulated)}">${readerEsc(p)}</a>`;
+    });
+    readerCrumbs.innerHTML = `<span class="reader-crumb-root">// </span>` + links.join('<span class="reader-crumb-sep"> / </span>') + `<span class="reader-crumb-root"> //</span>`;
+    readerCrumbs.querySelectorAll("a").forEach(a => {
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        loadDir(a.dataset.path);
+      });
+    });
+  }
+
+  function renderEntries(data) {
+    const rows = [];
+    if (data.entries.length === 0) {
+      rows.push(`<div class="reader-empty">${readerEsc(data.note || "no visible entries")}</div>`);
+    } else {
+      for (const entry of data.entries) {
+        const mark = entry.type === "dir" ? "[DIR]" : "    ";
+        const size = entry.type === "file" ? `<span class="reader-size">${entry.size}b</span>` : "";
+        rows.push(
+          `<div class="reader-row reader-row-${entry.type}" data-type="${entry.type}" data-path="${readerEsc(entry.virtual)}" tabindex="0">` +
+            `<span class="reader-row-mark">${mark}</span>` +
+            `<span class="reader-row-name">${readerEsc(entry.name)}</span>` +
+            size +
+          `</div>`
+        );
+      }
+    }
+    readerList.innerHTML = rows.join("");
+    readerList.querySelectorAll(".reader-row").forEach(row => {
+      row.addEventListener("click", () => {
+        if (row.dataset.type === "dir") loadDir(row.dataset.path);
+        else loadFile(row.dataset.path);
+      });
+      row.addEventListener("keydown", e => {
+        if (e.key === "Enter") row.click();
+      });
+    });
+  }
+
+  function renderRoots(data) {
+    const rows = data.roots
+      .filter(r => r.exists)
+      .map(r =>
+        `<div class="reader-row reader-row-dir reader-row-root" data-type="dir" data-path="${readerEsc(r.virtual)}" tabindex="0">` +
+          `<span class="reader-row-mark">[ROOT]</span>` +
+          `<span class="reader-row-name">${readerEsc(r.name)}</span>` +
+        `</div>`
+      );
+    readerList.innerHTML = rows.join("") || `<div class="reader-empty">no roots mounted</div>`;
+    readerList.querySelectorAll(".reader-row").forEach(row => {
+      row.addEventListener("click", () => loadDir(row.dataset.path));
+      row.addEventListener("keydown", e => {
+        if (e.key === "Enter") row.click();
+      });
+    });
+  }
+
+  async function loadDir(path) {
+    readerCurrentDir = path || "";
+    readerList.innerHTML = `<div class="reader-loading">// reading shelf //</div>`;
+    setCrumbs(readerCurrentDir);
+    btnUp.disabled = !readerCurrentDir;
+
+    try {
+      if (!readerCurrentDir) {
+        const data = await SW.docs.roots();
+        readerParent = null;
+        renderRoots(data);
+      } else {
+        const data = await SW.docs.tree(readerCurrentDir);
+        if (!data.ok) {
+          readerList.innerHTML = `<div class="reader-empty">${readerEsc(data.error || "unknown error")}</div>`;
+          return;
+        }
+        readerParent = data.parent || null;
+        btnUp.disabled = !data.parent;
+        renderEntries(data);
+      }
+    } catch (err) {
+      readerList.innerHTML = `<div class="reader-empty">// channel refused: ${readerEsc(err.message)} //</div>`;
+    }
+  }
+
+  async function loadFile(path) {
+    readerCurrentFile = path;
+    readerDoc.innerHTML = `<div class="reader-loading">// drawing record //</div>`;
+    try {
+      const data = await SW.docs.file(path);
+      if (!data.ok) {
+        readerDoc.innerHTML = `<div class="reader-placeholder">${readerEsc(data.error || "unknown error")}</div>`;
+        readerMeta.textContent = `error · ${path}`;
+        return;
+      }
+      readerDoc.innerHTML =
+        `<div class="reader-doc-header">` +
+          `<div class="reader-doc-stamp">// ARCHIVAL COPY // READ-ONLY //</div>` +
+          `<div class="reader-doc-title">${readerEsc(data.virtual)}</div>` +
+        `</div>` +
+        `<pre class="reader-doc-body">${readerEsc(data.content)}</pre>`;
+      readerMeta.textContent = `${data.virtual}  ·  ${data.lines} lines  ·  ${data.size} b`;
+      readerDoc.scrollTop = 0;
+    } catch (err) {
+      readerDoc.innerHTML = `<div class="reader-placeholder">// channel refused: ${readerEsc(err.message)} //</div>`;
+    }
+  }
+
+  async function runReaderSearch(query) {
+    if (!query || query.length < 2) {
+      // restore directory listing
+      if (readerCurrentDir !== null) loadDir(readerCurrentDir);
+      return;
+    }
+    readerList.innerHTML = `<div class="reader-loading">// searching the archive //</div>`;
+    try {
+      const data = await SW.docs.search(query, 40);
+      if (!data.ok) {
+        readerList.innerHTML = `<div class="reader-empty">${readerEsc(data.error || "search failed")}</div>`;
+        return;
+      }
+      if (data.results.length === 0) {
+        readerList.innerHTML = `<div class="reader-empty">// no matches //</div>`;
+        return;
+      }
+      readerList.innerHTML = data.results.map(r =>
+        `<div class="reader-row reader-row-file reader-row-hit" data-type="file" data-path="${readerEsc(r.virtual)}" tabindex="0">` +
+          `<div class="reader-row-hit-path">${readerEsc(r.virtual)}<span class="reader-row-hit-line">:${r.line}</span></div>` +
+          `<div class="reader-row-hit-snippet">${readerEsc(r.snippet)}</div>` +
+        `</div>`
+      ).join("");
+      readerList.querySelectorAll(".reader-row").forEach(row => {
+        row.addEventListener("click", () => loadFile(row.dataset.path));
+        row.addEventListener("keydown", e => { if (e.key === "Enter") row.click(); });
+      });
+    } catch (err) {
+      readerList.innerHTML = `<div class="reader-empty">// channel refused: ${readerEsc(err.message)} //</div>`;
+    }
+  }
+
+  btnHome.addEventListener("click", () => { readerSearch.value = ""; loadDir(""); });
+  btnUp.addEventListener("click", () => {
+    if (readerParent !== null && readerParent !== undefined) loadDir(readerParent);
+    else loadDir("");
+  });
+  btnClose.addEventListener("click", closeReader);
+
+  readerSearch.addEventListener("input", () => {
+    clearTimeout(readerSearchTimer);
+    const q = readerSearch.value.trim();
+    readerSearchTimer = setTimeout(() => runReaderSearch(q), 250);
+  });
+
+  // keyboard navigation
+  document.addEventListener("keydown", (e) => {
+    if (readerOverlay.style.display === "none") return;
+    if (e.key === "Escape") { closeReader(); return; }
+    if (e.key === "Backspace" && document.activeElement !== readerSearch) {
+      e.preventDefault();
+      btnUp.click();
+      return;
+    }
+    if (e.key === "/" && document.activeElement !== readerSearch) {
+      e.preventDefault();
+      readerSearch.focus();
+      return;
+    }
   });
 </script>
 </body>

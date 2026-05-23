@@ -62,6 +62,18 @@ def _is_comshell_verified(session: dict) -> bool:
     return hmac.compare_digest(expected, sig)
 
 
+def _is_comshell_verified_query() -> bool:
+    """Verify a GET request using X-Session-Id / X-Session-Sig headers."""
+    session_id = request.headers.get("X-Session-Id", "")
+    sig = request.headers.get("X-Session-Sig", "")
+    if not session_id or not sig:
+        return False
+    expected = _comshell_sign(session_id)
+    if not expected:
+        return False
+    return hmac.compare_digest(expected, sig)
+
+
 def _unverified_response(payload: dict, status: int = 403):
     return jsonify(payload), status
 
@@ -107,6 +119,48 @@ def auth_comshell():
     session["comshell_verified"] = True
     session["comshell_sig"] = sig
     return jsonify({"ok": True, "session": session})
+
+
+@app.route("/api/docs/roots", methods=["GET"])
+def docs_roots():
+    if document_browser is None:
+        return jsonify({"ok": False, "error": "document browser unavailable."}), 503
+    if not _is_comshell_verified_query():
+        return _unverified_response({"ok": False, "error": "comShell access requires operator verification."})
+    return jsonify(document_browser.roots_json())
+
+
+@app.route("/api/docs/tree", methods=["GET"])
+def docs_tree():
+    if document_browser is None:
+        return jsonify({"ok": False, "error": "document browser unavailable."}), 503
+    if not _is_comshell_verified_query():
+        return _unverified_response({"ok": False, "error": "comShell access requires operator verification."})
+    return jsonify(document_browser.tree_json(request.args.get("path", "")))
+
+
+@app.route("/api/docs/file", methods=["GET"])
+def docs_file():
+    if document_browser is None:
+        return jsonify({"ok": False, "error": "document browser unavailable."}), 503
+    if not _is_comshell_verified_query():
+        return _unverified_response({"ok": False, "error": "comShell access requires operator verification."})
+    path = request.args.get("path", "")
+    if not path:
+        return jsonify({"ok": False, "error": "path required."}), 400
+    return jsonify(document_browser.file_json(path))
+
+
+@app.route("/api/docs/search", methods=["GET"])
+def docs_search():
+    if document_browser is None:
+        return jsonify({"ok": False, "error": "document browser unavailable."}), 503
+    if not _is_comshell_verified_query():
+        return _unverified_response({"ok": False, "error": "comShell access requires operator verification."})
+    return jsonify(document_browser.search_json(
+        request.args.get("q", ""),
+        request.args.get("limit", 25),
+    ))
 
 
 @app.route("/api/senion/begin", methods=["POST"])
