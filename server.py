@@ -398,7 +398,7 @@ def cmd_auth(args, session):
         session["auth_level"] = 2
         session["auth_key"] = args[0]
         return (random.choice([" Authentication accepted.", " Authentication accepted after corridor comparison."])
-                + "\n Rank elevated: Limonology"
+                + "\n Rank elevated: Halcyon"
                 + "\n" + random.choice([" Restricted commands now available.", " Restricted command ledger has stopped pretending not to see you."]))
     else:
         return (random.choice([" Authentication denied.", " Authentication denied; submitted code lacks a witness."])
