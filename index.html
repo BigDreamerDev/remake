@@ -43,6 +43,8 @@
 
 <!-- ── codicology switchboard / audio player overlay ────── -->
 <div id="codicology-overlay" role="dialog" aria-modal="true" aria-label="Codicology switchboard" style="display:none">
+  <!-- dial tone, looped while the routing form is open -->
+  <audio id="codicology-dialtone" src="assets/audio/dial_tone.ogg" loop preload="auto"></audio>
   <div class="codicology-frame">
     <div class="codicology-stripe">// LOWER SWITCHBOARD · CODICOLOGY WING · CALL IN PROGRESS //</div>
     <header class="codicology-header">
@@ -658,10 +660,26 @@
   const codicologyBody    = document.getElementById("codicology-body");
   const codicologyStatus  = document.getElementById("codicology-status");
   const codicologyClose   = document.getElementById("codicology-close");
+  const dialTone          = document.getElementById("codicology-dialtone");
 
   let codiPlayer = null;
   let codiSegments = [];
   let codiCurrent  = 0;
+
+  function startDialTone() {
+    if (!dialTone) return;
+    try {
+      dialTone.volume = 0.35;
+      dialTone.currentTime = 0;
+      const p = dialTone.play();
+      if (p && p.catch) p.catch(() => { /* autoplay blocked; tone stays armed */ });
+    } catch (_) { /* ignore */ }
+  }
+
+  function stopDialTone() {
+    if (!dialTone) return;
+    try { dialTone.pause(); dialTone.currentTime = 0; } catch (_) {}
+  }
 
   function escHtml(s) {
     return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
@@ -673,6 +691,7 @@
   }
 
   function closeCodicology() {
+    stopDialTone();
     if (codiPlayer) { try { codiPlayer.pause(); } catch (_) {} codiPlayer = null; }
     codicologyOverlay.classList.remove("open");
     setTimeout(() => { codicologyOverlay.style.display = "none"; }, 250);
@@ -718,9 +737,11 @@
           renderStep(r, null);
           setCodiStatus("step accepted");
         } else if (r.status === "complete") {
+          stopDialTone();
           codiSegments = r.segments || [];
           renderPlayer();
         } else if (r.status === "refused") {
+          stopDialTone();
           msg.textContent = r.message || "CALL TERMINATED.";
           msg.className = "codicology-message fail";
           setCodiStatus("line dropped", "fail");
@@ -812,20 +833,24 @@
   async function startCall() {
     codicologyBody.innerHTML = `<div class="codicology-loading">// raising the line //</div>`;
     setCodiStatus("dialing…", "pending");
+    startDialTone();
     try {
       const r = await SW.codicology.begin();
       if (r.status === "step") {
         setCodiStatus("line open");
         renderStep(r, r.intro);
       } else if (r.status === "error") {
+        stopDialTone();
         codicologyBody.innerHTML =
           `<div class="codicology-empty">${escHtml(r.message || "call setup failed.")}</div>`;
         setCodiStatus("line refused", "fail");
       } else if (r.status === "complete") {
+        stopDialTone();
         codiSegments = r.segments || [];
         renderPlayer();
       }
     } catch (err) {
+      stopDialTone();
       codicologyBody.innerHTML =
         `<div class="codicology-empty">// network refused: ${escHtml(err.message)} //</div>`;
       setCodiStatus("line refused", "fail");
