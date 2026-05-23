@@ -1028,6 +1028,34 @@ body::after {
     var(--bg);
 }
 
+/* ── markdown-rendered docs (github-markdown-css dark) ───── */
+.reader-md-body.markdown-body {
+  /* github-markdown-css sets its own background & color; we just give it
+     the page padding, width cap, and play nice with the SCP scrollbar. */
+  box-sizing: border-box;
+  min-width: 200px;
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 32px 44px 56px;
+  font-size: 14px;
+}
+
+.reader-md-body.markdown-body a {
+  cursor: pointer;
+}
+
+/* The github dark stylesheet uses its own --color-canvas-default; let it.
+   But the surrounding reader-doc pane should match that canvas so there's
+   no visible seam where padding ends. */
+.reader-doc {
+  background: var(--color-canvas-default, var(--bg));
+}
+
+/* Keep the SCP doc header readable on top of the GH-dark canvas. */
+.reader-doc-header {
+  background: linear-gradient(to bottom, var(--bg-elevated) 0%, var(--bg-surface) 100%);
+}
+
 .reader-footer {
   display: flex;
   align-items: center;

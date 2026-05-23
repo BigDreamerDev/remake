@@ -6,6 +6,8 @@
   <meta name="robots" content="noindex">
   <title>comShell v4.9.1 — STILLWATER FOUNDATION</title>
   <link rel="stylesheet" href="terminal.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown-dark.css">
+  <script src="https://cdn.jsdelivr.net/npm/marked@12/marked.min.js"></script>
   <script src="stillwater.js" defer></script>
 </head>
 <body>
@@ -500,6 +502,47 @@
     }
   }
 
+  // Configure marked once (GitHub-flavored, no smart-quote folding so
+  // ARG zero-width / hex content survives intact).
+  if (window.marked) {
+    marked.setOptions({
+      gfm: true,
+      breaks: false,
+      pedantic: false,
+    });
+  }
+
+  function resolveRelativeDocPath(basePath, rel) {
+    // basePath is a virtual dir (e.g. "handbook/cafeteria"); rel can have ../ etc.
+    const parts = (basePath || "").split("/").filter(Boolean);
+    const relParts = rel.split("/").filter(Boolean);
+    for (const p of relParts) {
+      if (p === "..") parts.pop();
+      else if (p !== ".") parts.push(p);
+    }
+    return parts.join("/");
+  }
+
+  function wireMarkdownLinks(rootEl, parentPath) {
+    rootEl.querySelectorAll(".markdown-body a").forEach(a => {
+      const href = a.getAttribute("href");
+      if (!href) return;
+      if (href.startsWith("#")) return;                          // intra-doc anchor
+      if (/^[a-z]+:/i.test(href) || href.startsWith("//")) {     // absolute URL
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        return;
+      }
+      a.addEventListener("click", e => {
+        e.preventDefault();
+        const resolved = resolveRelativeDocPath(parentPath, href);
+        if (!resolved) { loadDir(""); return; }
+        if (/\.[a-z0-9]{1,6}$/i.test(resolved)) loadFile(resolved);
+        else loadDir(resolved);
+      });
+    });
+  }
+
   async function loadFile(path) {
     readerCurrentFile = path;
     readerDoc.innerHTML = `<div class="reader-loading">// drawing record //</div>`;
@@ -510,12 +553,17 @@
         readerMeta.textContent = `error · ${path}`;
         return;
       }
+      const isMarkdown = /\.md$/i.test(data.virtual) && window.marked;
+      const bodyHtml = isMarkdown
+        ? `<article class="markdown-body reader-md-body">${marked.parse(data.content)}</article>`
+        : `<pre class="reader-doc-body">${readerEsc(data.content)}</pre>`;
       readerDoc.innerHTML =
         `<div class="reader-doc-header">` +
           `<div class="reader-doc-stamp">// ARCHIVAL COPY // READ-ONLY //</div>` +
           `<div class="reader-doc-title">${readerEsc(data.virtual)}</div>` +
         `</div>` +
-        `<pre class="reader-doc-body">${readerEsc(data.content)}</pre>`;
+        bodyHtml;
+      if (isMarkdown) wireMarkdownLinks(readerDoc, data.parent || "");
       readerMeta.textContent = `${data.virtual}  ·  ${data.lines} lines  ·  ${data.size} b`;
       readerDoc.scrollTop = 0;
     } catch (err) {
