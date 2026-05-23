@@ -25,10 +25,9 @@ except Exception:
 
 app = Flask(__name__)
 
-# Replace with your actual GitHub Pages URL once deployed
 CORS(app, origins=[
-    "https://<your-github-username>.github.io",
-    "http://localhost:8080",  # for local testing
+    "https://bigdreamerdev.github.io",  # GitHub Pages (project site at /remake/)
+    "http://localhost:8080",             # local serve.bat
 ])
 
 # ── session store (in-memory, per-request — stateless is fine for a REPL) ──
