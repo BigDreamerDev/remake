@@ -106,7 +106,7 @@ def _resolve(parts: list[str], default_root: str = "docs") -> tuple[Path | None,
 
 
 def _visible_file(path: Path) -> bool:
-    return path.is_file() and path.suffix.lower() in TEXT_EXTENSIONS and path.name not in {"README.md"}
+    return path.is_file() and path.suffix.lower() in TEXT_EXTENSIONS
 
 
 def _iter_files(root: Path, limit: int = 2000) -> Iterable[Path]:
