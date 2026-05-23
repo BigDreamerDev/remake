@@ -362,3 +362,104 @@ body::after {
   background: var(--green-dim);
   color: var(--bg);
 }
+
+/* ── operator verification overlay ───────────────────────── */
+#auth-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.4s ease;
+}
+
+.auth-box {
+  width: min(92vw, 480px);
+  padding: 28px 32px 24px;
+  background: var(--bg-surface);
+  border: 1px solid var(--border-mid);
+  box-shadow: 0 0 24px var(--green-glow);
+  font-family: var(--font-mono);
+  color: var(--green);
+}
+
+.auth-title {
+  font-family: var(--font-display);
+  font-size: 28px;
+  letter-spacing: 0.08em;
+  color: var(--green);
+  text-shadow: 0 0 8px var(--green-glow);
+}
+
+.auth-subtitle {
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--green-mid);
+  opacity: 0.85;
+  border-bottom: 1px dashed var(--border-mid);
+  padding-bottom: 14px;
+  margin-bottom: 18px;
+}
+
+#auth-form label {
+  display: block;
+  font-size: 12px;
+  color: var(--green-mid);
+  margin-bottom: 6px;
+  letter-spacing: 0.04em;
+}
+
+#auth-input {
+  width: 100%;
+  background: var(--bg-input);
+  border: 1px solid var(--border-mid);
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  padding: 9px 11px;
+  outline: none;
+  caret-color: var(--green);
+}
+
+#auth-input:focus {
+  border-color: var(--green-mid);
+  box-shadow: 0 0 6px var(--green-glow);
+}
+
+#auth-submit {
+  margin-top: 14px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid var(--green-dim);
+  color: var(--green);
+  font-family: var(--font-mono);
+  font-size: 13px;
+  padding: 8px 0;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+  text-transform: lowercase;
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+
+#auth-submit:hover:not([disabled]) {
+  background: var(--green-glow);
+  border-color: var(--green-mid);
+}
+
+#auth-submit[disabled] {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.auth-status {
+  min-height: 1.4em;
+  margin-top: 14px;
+  font-size: 12px;
+  color: var(--green-mid);
+}
+
+.auth-status.ok    { color: var(--green); }
+.auth-status.fail  { color: var(--red); }
+.auth-status.pending { color: var(--amber); }

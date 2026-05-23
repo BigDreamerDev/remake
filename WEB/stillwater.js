@@ -8,7 +8,7 @@ const SW = (() => {
 
   // ── config ────────────────────────────────────────────────
   // Replace with your Render URL after deploying
-  const API_BASE = "https://stillwater-comshell.onrender.com";
+  const API_BASE = "https://remake-ns80.onrender.com";
 
   // ── session (initialised from /api/session on load) ───────
   let SESSION = {
@@ -98,6 +98,27 @@ const SW = (() => {
     }
   }
 
+  // ── verify the comShell operator phrase ────────────────────
+  async function verifyComshell(password) {
+    // ensure we have a session (the sig is bound to session_id)
+    if (!SESSION.session_id) await initSession();
+
+    const res = await fetch(`${API_BASE}/api/auth/comshell`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ password, session: SESSION }),
+    });
+
+    let data = {};
+    try { data = await res.json(); } catch (_) { /* tolerate empty */ }
+    if (data.session) Object.assign(SESSION, data.session);
+    return { ok: !!data.ok, message: data.message || (res.ok ? "" : `server returned ${res.status}`) };
+  }
+
+  function isVerified() {
+    return !!SESSION.comshell_verified && !!SESSION.comshell_sig;
+  }
+
   // ── send a command to the server ──────────────────────────
   async function run(raw) {
     // local intercepts — no round-trip needed
@@ -110,6 +131,15 @@ const SW = (() => {
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ raw, session: SESSION }),
     });
+
+    if (res.status === 403) {
+      // session lost verification — surface to the UI
+      const data = await res.json().catch(() => ({}));
+      if (data.session) Object.assign(SESSION, data.session);
+      const err = new Error("unverified");
+      err.code = "UNVERIFIED";
+      throw err;
+    }
 
     if (!res.ok) {
       throw new Error(`server returned ${res.status}`);
@@ -130,5 +160,5 @@ const SW = (() => {
     } catch (_) { /* silent */ }
   }
 
-  return { banner, run, initSession, warmUp, session: () => ({ ...SESSION }) };
+  return { banner, run, initSession, warmUp, verifyComshell, isVerified, session: () => ({ ...SESSION }) };
 })();

@@ -1,7 +1,9 @@
 from __future__ import annotations
+import hashlib
+import hmac
 import json
-import random
 import os
+import random
 from dotenv import load_dotenv
 from flask import Flask, request, jsonify
 from flask_cors import CORS
@@ -43,11 +45,38 @@ def make_session():
     }
 
 
+def _comshell_sign(session_id: str) -> str | None:
+    pw = os.environ.get("STILLWATER_COMSHELL_PASSWORD", "")
+    if not pw or not session_id:
+        return None
+    return hmac.new(pw.encode("utf-8"), session_id.encode("utf-8"), hashlib.sha256).hexdigest()
+
+
+def _is_comshell_verified(session: dict) -> bool:
+    sig = session.get("comshell_sig")
+    if not isinstance(sig, str):
+        return False
+    expected = _comshell_sign(session.get("session_id", ""))
+    if not expected:
+        return False
+    return hmac.compare_digest(expected, sig)
+
+
+def _unverified_response(payload: dict, status: int = 403):
+    return jsonify(payload), status
+
+
 @app.route("/api/command", methods=["POST"])
 def command():
     data = request.get_json(force=True)
     raw: str = data.get("raw", "").strip()
     session: dict = data.get("session", make_session())
+
+    if not _is_comshell_verified(session):
+        return _unverified_response({
+            "output": "comShell access requires operator verification.",
+            "session": session,
+        })
 
     output, session = dispatch(raw, session)
     return jsonify({"output": output, "session": session})
@@ -58,10 +87,38 @@ def new_session():
     return jsonify(make_session())
 
 
+@app.route("/api/auth/comshell", methods=["POST"])
+def auth_comshell():
+    data = request.get_json(force=True) or {}
+    session = data.get("session") or make_session()
+    submitted = data.get("password", "")
+    if not isinstance(submitted, str):
+        submitted = str(submitted)
+
+    if not auth.verify_comshell_password(submitted):
+        session.pop("comshell_verified", None)
+        session.pop("comshell_sig", None)
+        return jsonify({"ok": False, "session": session, "message": "verification failed."})
+
+    sig = _comshell_sign(session.get("session_id", ""))
+    if not sig:
+        return jsonify({"ok": False, "session": session, "message": "verification not configured on the server."})
+
+    session["comshell_verified"] = True
+    session["comshell_sig"] = sig
+    return jsonify({"ok": True, "session": session})
+
+
 @app.route("/api/senion/begin", methods=["POST"])
 def senion_begin():
     data = request.get_json(force=True) or {}
     session = data.get("session") or make_session()
+    if not _is_comshell_verified(session):
+        return _unverified_response({
+            "status": "error",
+            "message": "comShell access requires operator verification.",
+            "session": session,
+        })
     return jsonify(senion_verify.begin(session))
 
 
@@ -69,6 +126,12 @@ def senion_begin():
 def senion_answer():
     data = request.get_json(force=True) or {}
     session = data.get("session") or make_session()
+    if not _is_comshell_verified(session):
+        return _unverified_response({
+            "status": "error",
+            "message": "comShell access requires operator verification.",
+            "session": session,
+        })
     submitted = data.get("answer", "")
     if not isinstance(submitted, str):
         submitted = str(submitted)

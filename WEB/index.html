@@ -10,8 +10,31 @@
 </head>
 <body>
 
+<!-- ── operator verification overlay ──────────────────────── -->
+<div id="auth-overlay" role="dialog" aria-modal="true" aria-label="Operator verification">
+  <div class="auth-box">
+    <div class="auth-title">STILLWATER FOUNDATION</div>
+    <div class="auth-subtitle">comShell v4.9.1 — operator verification required</div>
+    <form id="auth-form" autocomplete="off">
+      <label for="auth-input">operator phrase</label>
+      <input
+        id="auth-input"
+        type="password"
+        autocomplete="off"
+        autocorrect="off"
+        autocapitalize="none"
+        spellcheck="false"
+        aria-label="Operator phrase"
+        required
+      >
+      <button type="submit" id="auth-submit">verify</button>
+    </form>
+    <div id="auth-status" class="auth-status" aria-live="polite"></div>
+  </div>
+</div>
+
 <!-- ── boot overlay ──────────────────────────────────────── -->
-<div id="boot-overlay" aria-hidden="true">
+<div id="boot-overlay" aria-hidden="true" style="display:none">
   <div id="boot-logo">STILLWATER FOUNDATION</div>
   <div id="boot-bar-wrap"><div id="boot-bar"></div></div>
   <div id="boot-status">establishing session…</div>
@@ -225,8 +248,8 @@
   ];
 
   async function runBoot() {
-    // kick off server warm-up in parallel (don't await)
-    SW.warmUp();
+    overlay.style.display = "";
+    overlay.style.opacity = "1";
 
     for (const [pct, msg] of BOOT_STEPS) {
       bootBar.style.width = pct + "%";
@@ -234,23 +257,17 @@
       await new Promise(r => setTimeout(r, pct === 100 ? 300 : 180 + Math.random() * 120));
     }
 
-    // fetch real session from server
-    await SW.initSession();
-
-    // fade out overlay
     overlay.style.opacity = "0";
     await new Promise(r => setTimeout(r, 500));
     overlay.style.display = "none";
 
-    // render banner and enable input
     printBanner();
     inputEl.disabled = false;
     inputEl.focus();
 
-    // quick health check to set server status indicator
     try {
       const res = await fetch(
-        (SW.session().api_base || "https://stillwater-comshell.onrender.com") + "/health",
+        (SW.session().api_base || "https://remake-ns80.onrender.com") + "/health",
         { signal: AbortSignal.timeout(6000) }
       );
       setServerStatus(res.ok);
@@ -259,7 +276,57 @@
     }
   }
 
-  window.addEventListener("load", runBoot);
+  // ── operator-phrase gate (shown before boot) ──────────────
+  const authOverlay = document.getElementById("auth-overlay");
+  const authForm    = document.getElementById("auth-form");
+  const authInput   = document.getElementById("auth-input");
+  const authSubmit  = document.getElementById("auth-submit");
+  const authStatus  = document.getElementById("auth-status");
+
+  function setAuthStatus(text, cls) {
+    authStatus.textContent = text || "";
+    authStatus.className = "auth-status" + (cls ? " " + cls : "");
+  }
+
+  authForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const phrase = authInput.value;
+    if (!phrase) return;
+
+    authSubmit.disabled = true;
+    authInput.disabled = true;
+    setAuthStatus("verifying…", "pending");
+
+    try {
+      const result = await SW.verifyComshell(phrase);
+      if (result.ok) {
+        setAuthStatus("verification accepted.", "ok");
+        await new Promise(r => setTimeout(r, 350));
+        authOverlay.style.opacity = "0";
+        await new Promise(r => setTimeout(r, 400));
+        authOverlay.style.display = "none";
+        await runBoot();
+      } else {
+        setAuthStatus(result.message || "verification failed.", "fail");
+        authInput.value = "";
+        authInput.disabled = false;
+        authSubmit.disabled = false;
+        authInput.focus();
+      }
+    } catch (err) {
+      setAuthStatus(`network error: ${err.message}`, "fail");
+      authInput.disabled = false;
+      authSubmit.disabled = false;
+      authInput.focus();
+    }
+  });
+
+  window.addEventListener("load", async () => {
+    SW.warmUp();
+    // pre-fetch a session so the HMAC has something to sign against
+    try { await SW.initSession(); } catch (_) { /* fall back to local */ }
+    authInput.focus();
+  });
 </script>
 </body>
 </html>
