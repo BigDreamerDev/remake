@@ -59,11 +59,15 @@ SEGMENT_NAME_PATTERNS = (
 )
 
 AUDIO_SEARCH_DIRS = (
+    "docs/handbook/audio",
+    "docs/handbook/audio/SW-AUD-014",
     "docs/audio",
     "docs/sealed/audio",
     "docs/audio/SW-AUD-014",
     "docs/sealed/audio/SW-AUD-014",
 )
+
+READER_MARKER = "__OPEN_CODICOLOGY_CALL__"
 
 SWITCHBOARD_ART = r"""
         ╔════════════════════════════════════════════════════════════╗
@@ -323,6 +327,197 @@ loadSegment(0, true);
 def _open_segment_player(audio_segments: list[Path]) -> None:
     player = _html_player(audio_segments)
     webbrowser.open(player.as_uri())
+
+
+# ── web-flow API (used by server.py) ──────────────────────────────────────
+import hashlib
+import hmac
+import os
+
+
+_STEPS = (
+    {"key": "extension",
+     "prompt": "DIAL EXTENSION:",
+     "hint": "// the codicology line carries a single digit. //",
+     "expected_keys": ("extension",)},
+    {"key": "record_type",
+     "prompt": "RECORD TYPE:",
+     "hint": "// audio / video / textual / object — the line accepts one kind. //",
+     "expected_keys": ("kind", "kind_alt")},
+    {"key": "audio_id",
+     "prompt": "AUDIO ID:",
+     "hint": "// the file's number in the SW-AUD register. //",
+     "expected_keys": ("item",)},
+)
+
+
+def _progress_secret() -> bytes | None:
+    pw = os.environ.get("STILLWATER_COMSHELL_PASSWORD", "")
+    return pw.encode("utf-8") if pw else None
+
+
+def _sign(session_id: str, progress: int) -> str | None:
+    secret = _progress_secret()
+    if not secret or not session_id:
+        return None
+    msg = f"codicology:{session_id}:{progress}".encode("utf-8")
+    return hmac.new(secret, msg, hashlib.sha256).hexdigest()
+
+
+def _verify_signed_progress(session: dict) -> int | None:
+    session_id = session.get("session_id")
+    progress = session.get("codicology_progress")
+    sig = session.get("codicology_sig")
+    if not isinstance(session_id, str) or not isinstance(progress, int):
+        return None
+    if progress < 0 or progress > len(_STEPS):
+        return None
+    expected = _sign(session_id, progress)
+    if not expected or not isinstance(sig, str):
+        return None
+    if not hmac.compare_digest(expected, sig):
+        return None
+    return progress
+
+
+def _clear_progress(session: dict) -> None:
+    session.pop("codicology_progress", None)
+    session.pop("codicology_sig", None)
+
+
+def _accepts(step_index: int, submitted: str) -> bool:
+    if step_index < 0 or step_index >= len(_STEPS):
+        return False
+    step = _STEPS[step_index]
+    candidate = _normalise(submitted)
+    return any(
+        candidate == _normalise(_route_value(key))
+        for key in step["expected_keys"]
+    )
+
+
+def _step_payload(step_index: int) -> dict:
+    step = _STEPS[step_index]
+    return {
+        "step": step_index + 1,
+        "total": len(_STEPS),
+        "key": step["key"],
+        "prompt": step["prompt"],
+        "hint": step["hint"],
+    }
+
+
+def has_verified_progress(session: dict) -> bool:
+    """True if the session has completed the routing handshake."""
+    progress = _verify_signed_progress(session)
+    return progress == len(_STEPS)
+
+
+def begin(session: dict) -> dict:
+    """Start a new codicology call. Returns the first routing prompt."""
+    session_id = session.get("session_id")
+    if not isinstance(session_id, str) or not session_id:
+        return {"session": session, "status": "error", "message": "session has no id."}
+    sig = _sign(session_id, 0)
+    if sig is None:
+        _clear_progress(session)
+        return {"session": session, "status": "error", "message": "call routing not configured on the server."}
+    session["codicology_progress"] = 0
+    session["codicology_sig"] = sig
+    return {
+        "session": session,
+        "status": "step",
+        "intro": [
+            "STILLWATER FOUNDATION // LOWER SWITCHBOARD",
+            "Codicology Wing / Archive Integrity",
+            "Codicology does not accept direct verbal requests.",
+            "The switchboard will accept one route. All other routes terminate.",
+        ],
+        "step": _step_payload(0),
+    }
+
+
+def answer(session: dict, submitted: str) -> dict:
+    """Submit a value for the current routing step."""
+    progress = _verify_signed_progress(session)
+    if progress is None:
+        return {"session": session, "status": "error",
+                "message": "no verified call in progress. begin a new call."}
+
+    if progress >= len(_STEPS):
+        return {"session": session, "status": "complete",
+                "message": "call already routed.", "segments": _segments_payload()}
+
+    step_index = progress
+    if not _accepts(step_index, submitted or ""):
+        _clear_progress(session)
+        step = _STEPS[step_index]
+        return {
+            "session": session,
+            "status": "refused",
+            "step": _step_payload(step_index),
+            "message": (
+                f"{step['key'].upper()} MISMATCH. " + random.choice(TERMINATIONS)
+            ),
+        }
+
+    new_progress = progress + 1
+    new_sig = _sign(session.get("session_id", ""), new_progress)
+    if new_sig is None:
+        _clear_progress(session)
+        return {"session": session, "status": "error",
+                "message": "call routing not configured on the server."}
+    session["codicology_progress"] = new_progress
+    session["codicology_sig"] = new_sig
+
+    if new_progress >= len(_STEPS):
+        return {
+            "session": session,
+            "status": "complete",
+            "message": "archive channel located. fragmented hold channel open.",
+            "segments": _segments_payload(),
+        }
+
+    return {
+        "session": session,
+        "status": "step",
+        "message": f"{_STEPS[step_index]['key']} accepted.",
+        "step": _step_payload(new_progress),
+    }
+
+
+def available_segments() -> list[Path]:
+    """Return any SW-AUD audio segments found on disk, in index order."""
+    segments: list[tuple[int, Path]] = []
+    for index in range(1, SEGMENT_COUNT + 1):
+        path = _find_segment(index)
+        if path is not None:
+            segments.append((index, path))
+    return [path for _, path in segments]
+
+
+def _segments_payload() -> list[dict]:
+    paths = available_segments()
+    return [
+        {
+            "index": i + 1,
+            "name": path.name,
+            "relative": _relative(path),
+        }
+        for i, path in enumerate(paths)
+    ]
+
+
+def segments_json(session: dict) -> dict:
+    """Return the playlist if the session has completed the call routing."""
+    if not has_verified_progress(session):
+        return {"ok": False, "error": "call routing not verified on this session."}
+    paths = available_segments()
+    return {
+        "ok": True,
+        "segments": _segments_payload(),
+        "count": len(paths),
+    }
 
 
 def start(session: dict | None = None) -> None:

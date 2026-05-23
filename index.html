@@ -41,6 +41,24 @@
   <div id="boot-status">establishing session…</div>
 </div>
 
+<!-- ── codicology switchboard / audio player overlay ────── -->
+<div id="codicology-overlay" role="dialog" aria-modal="true" aria-label="Codicology switchboard" style="display:none">
+  <div class="codicology-frame">
+    <div class="codicology-stripe">// LOWER SWITCHBOARD · CODICOLOGY WING · CALL IN PROGRESS //</div>
+    <header class="codicology-header">
+      <div class="codicology-title">STILLWATER FOUNDATION</div>
+      <div class="codicology-subtitle">LOWER SWITCHBOARD / CODICOLOGY WING</div>
+    </header>
+    <main class="codicology-body" id="codicology-body">
+      <!-- step prompts and audio player render here -->
+    </main>
+    <footer class="codicology-footer">
+      <span id="codicology-status" class="codicology-status">line open</span>
+      <button id="codicology-close" class="codicology-close-btn" type="button">close</button>
+    </footer>
+  </div>
+</div>
+
 <!-- ── archive reader overlay ────────────────────────────── -->
 <div id="reader-overlay" role="dialog" aria-modal="true" aria-label="Archive browser" style="display:none">
   <div class="reader-frame">
@@ -224,6 +242,10 @@
       if (typeof result === "string" && result.startsWith("__OPEN_DOC_READER__")) {
         const target = result.slice("__OPEN_DOC_READER__".length).replace(/^:/, "");
         openReader(target);
+        return;
+      }
+      if (typeof result === "string" && result === "__OPEN_CODICOLOGY_CALL__") {
+        openCodicologyCall();
         return;
       }
 
@@ -630,6 +652,192 @@
       return;
     }
   });
+
+  // ── codicology switchboard / audio player ────────────────
+  const codicologyOverlay = document.getElementById("codicology-overlay");
+  const codicologyBody    = document.getElementById("codicology-body");
+  const codicologyStatus  = document.getElementById("codicology-status");
+  const codicologyClose   = document.getElementById("codicology-close");
+
+  let codiPlayer = null;
+  let codiSegments = [];
+  let codiCurrent  = 0;
+
+  function escHtml(s) {
+    return String(s).replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+  }
+
+  function setCodiStatus(text, cls) {
+    codicologyStatus.textContent = text || "";
+    codicologyStatus.className = "codicology-status" + (cls ? " " + cls : "");
+  }
+
+  function closeCodicology() {
+    if (codiPlayer) { try { codiPlayer.pause(); } catch (_) {} codiPlayer = null; }
+    codicologyOverlay.classList.remove("open");
+    setTimeout(() => { codicologyOverlay.style.display = "none"; }, 250);
+    codicologyBody.innerHTML = "";
+    setCodiStatus("line closed");
+    inputEl.focus();
+  }
+  codicologyClose.addEventListener("click", closeCodicology);
+
+  document.addEventListener("keydown", (e) => {
+    if (codicologyOverlay.style.display === "none") return;
+    if (e.key === "Escape") closeCodicology();
+  });
+
+  function renderStep(payload, intro) {
+    const introHtml = intro ? `<div class="codicology-intro">${intro.map(escHtml).join("<br>")}</div>` : "";
+    const step = payload.step;
+    codicologyBody.innerHTML =
+      introHtml +
+      `<div class="codicology-step">` +
+        `<div class="codicology-step-count">STEP ${step.step} / ${step.total}</div>` +
+        `<div class="codicology-step-prompt">${escHtml(step.prompt)}</div>` +
+        `<div class="codicology-step-hint">${escHtml(step.hint)}</div>` +
+        `<form class="codicology-form" id="codicology-form" autocomplete="off">` +
+          `<input id="codicology-input" type="text" autocomplete="off" autocorrect="off" autocapitalize="none" spellcheck="false" required>` +
+          `<button type="submit" class="codicology-btn">submit</button>` +
+        `</form>` +
+        `<div class="codicology-message" id="codicology-message"></div>` +
+      `</div>`;
+    const form = document.getElementById("codicology-form");
+    const inp = document.getElementById("codicology-input");
+    const msg = document.getElementById("codicology-message");
+    inp.focus();
+    form.addEventListener("submit", async (ev) => {
+      ev.preventDefault();
+      const value = inp.value.trim();
+      if (!value) return;
+      msg.textContent = "// routing… //";
+      msg.className = "codicology-message pending";
+      try {
+        const r = await SW.codicology.answer(value);
+        if (r.status === "step") {
+          renderStep(r, null);
+          setCodiStatus("step accepted");
+        } else if (r.status === "complete") {
+          codiSegments = r.segments || [];
+          renderPlayer();
+        } else if (r.status === "refused") {
+          msg.textContent = r.message || "CALL TERMINATED.";
+          msg.className = "codicology-message fail";
+          setCodiStatus("line dropped", "fail");
+          inp.disabled = true;
+          // give a retry button
+          const retry = document.createElement("button");
+          retry.textContent = "redial";
+          retry.className = "codicology-btn codicology-retry";
+          retry.addEventListener("click", () => startCall());
+          msg.appendChild(document.createElement("br"));
+          msg.appendChild(retry);
+        } else {
+          msg.textContent = r.message || "unknown response.";
+          msg.className = "codicology-message fail";
+        }
+      } catch (err) {
+        msg.textContent = `network refused: ${err.message}`;
+        msg.className = "codicology-message fail";
+      }
+    });
+  }
+
+  function renderPlayer() {
+    if (codiSegments.length === 0) {
+      codicologyBody.innerHTML =
+        `<div class="codicology-empty">// channel located, but no segments are mounted. //</div>`;
+      setCodiStatus("channel empty");
+      return;
+    }
+    setCodiStatus("channel open", "ok");
+    codiCurrent = 0;
+    const listHtml = codiSegments.map((s, i) =>
+      `<li class="codi-track" data-index="${i}" tabindex="0">` +
+        `<span class="codi-track-num">${String(s.index).padStart(2, "0")}</span>` +
+        `<span class="codi-track-name">${escHtml(s.name)}</span>` +
+      `</li>`
+    ).join("");
+    codicologyBody.innerHTML =
+      `<div class="codicology-player">` +
+        `<div class="codi-now-playing">` +
+          `<div class="codi-now-label">// now playing //</div>` +
+          `<div class="codi-now-title" id="codi-now-title">${escHtml(codiSegments[0].name)}</div>` +
+        `</div>` +
+        `<audio id="codi-audio" controls preload="none"></audio>` +
+        `<div class="codi-controls">` +
+          `<button class="codicology-btn" id="codi-prev">prev</button>` +
+          `<button class="codicology-btn" id="codi-next">next</button>` +
+          `<label class="codi-loop"><input type="checkbox" id="codi-loop"> loop sequence</label>` +
+        `</div>` +
+        `<ol class="codi-tracks">${listHtml}</ol>` +
+      `</div>`;
+    codiPlayer = document.getElementById("codi-audio");
+    const titleEl = document.getElementById("codi-now-title");
+    const tracks  = codicologyBody.querySelectorAll(".codi-track");
+    const loopBox = document.getElementById("codi-loop");
+
+    function load(index, play) {
+      if (codiSegments.length === 0) return;
+      codiCurrent = ((index % codiSegments.length) + codiSegments.length) % codiSegments.length;
+      const seg = codiSegments[codiCurrent];
+      codiPlayer.src = SW.codicology.audioUrl(seg.index);
+      titleEl.textContent = seg.name;
+      tracks.forEach((t, i) => t.classList.toggle("active", i === codiCurrent));
+      if (play) codiPlayer.play().catch(() => setCodiStatus("press play to begin"));
+    }
+
+    codiPlayer.addEventListener("ended", () => {
+      if (codiCurrent + 1 < codiSegments.length) {
+        load(codiCurrent + 1, true);
+      } else if (loopBox.checked) {
+        load(0, true);
+      } else {
+        setCodiStatus("sequence ended", "ok");
+      }
+    });
+    codiPlayer.addEventListener("error", () => {
+      setCodiStatus(`segment ${String(codiSegments[codiCurrent].index).padStart(2,"0")} failed`, "fail");
+    });
+    document.getElementById("codi-prev").addEventListener("click", () => load(codiCurrent - 1, true));
+    document.getElementById("codi-next").addEventListener("click", () => load(codiCurrent + 1, true));
+    tracks.forEach(t => {
+      t.addEventListener("click", () => load(parseInt(t.dataset.index, 10), true));
+      t.addEventListener("keydown", e => { if (e.key === "Enter") t.click(); });
+    });
+
+    load(0, false);
+  }
+
+  async function startCall() {
+    codicologyBody.innerHTML = `<div class="codicology-loading">// raising the line //</div>`;
+    setCodiStatus("dialing…", "pending");
+    try {
+      const r = await SW.codicology.begin();
+      if (r.status === "step") {
+        setCodiStatus("line open");
+        renderStep(r, r.intro);
+      } else if (r.status === "error") {
+        codicologyBody.innerHTML =
+          `<div class="codicology-empty">${escHtml(r.message || "call setup failed.")}</div>`;
+        setCodiStatus("line refused", "fail");
+      } else if (r.status === "complete") {
+        codiSegments = r.segments || [];
+        renderPlayer();
+      }
+    } catch (err) {
+      codicologyBody.innerHTML =
+        `<div class="codicology-empty">// network refused: ${escHtml(err.message)} //</div>`;
+      setCodiStatus("line refused", "fail");
+    }
+  }
+
+  function openCodicologyCall() {
+    codicologyOverlay.style.display = "";
+    requestAnimationFrame(() => codicologyOverlay.classList.add("open"));
+    inputEl.blur();
+    startCall();
+  }
 </script>
 </body>
 </html>

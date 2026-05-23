@@ -186,5 +186,39 @@ const SW = (() => {
     search: (q, limit = 25) => _getJson(`${API_BASE}/api/docs/search?q=${encodeURIComponent(q)}&limit=${limit}`),
   };
 
-  return { banner, run, initSession, warmUp, verifyComshell, isVerified, docs, session: () => ({ ...SESSION }) };
+  // ── codicology switchboard ────────────────────────────────
+  async function _postCodicology(path, body) {
+    const res = await fetch(`${API_BASE}${path}`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ...body, session: SESSION }),
+    });
+    if (res.status === 403) {
+      const data = await res.json().catch(() => ({}));
+      const err = new Error("unverified");
+      err.code = "UNVERIFIED";
+      err.data = data;
+      throw err;
+    }
+    if (!res.ok) throw new Error(`server returned ${res.status}`);
+    const data = await res.json();
+    if (data.session) Object.assign(SESSION, data.session);
+    return data;
+  }
+
+  const codicology = {
+    begin:  ()      => _postCodicology("/api/codicology/begin", {}),
+    answer: (value) => _postCodicology("/api/codicology/answer", { answer: value }),
+    audioUrl: (index) => {
+      const p = new URLSearchParams({
+        sid: SESSION.session_id || "",
+        sig: SESSION.comshell_sig || "",
+        cprog: String(SESSION.codicology_progress || 0),
+        csig: SESSION.codicology_sig || "",
+      });
+      return `${API_BASE}/api/codicology/audio/${index}?${p.toString()}`;
+    },
+  };
+
+  return { banner, run, initSession, warmUp, verifyComshell, isVerified, docs, codicology, session: () => ({ ...SESSION }) };
 })();

@@ -5,7 +5,7 @@ import json
 import os
 import random
 from dotenv import load_dotenv
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_file, abort
 from flask_cors import CORS
 
 load_dotenv()
@@ -118,6 +118,71 @@ def auth_comshell():
     session["comshell_verified"] = True
     session["comshell_sig"] = sig
     return jsonify({"ok": True, "session": session})
+
+
+@app.route("/api/codicology/begin", methods=["POST"])
+def codicology_begin():
+    if codicology_call is None:
+        return jsonify({"status": "error", "message": "switchboard module unavailable."}), 503
+    data = request.get_json(force=True) or {}
+    session = data.get("session") or make_session()
+    if not _is_comshell_verified(session):
+        return _unverified_response({
+            "status": "error",
+            "message": "comShell access requires operator verification.",
+            "session": session,
+        })
+    return jsonify(codicology_call.begin(session))
+
+
+@app.route("/api/codicology/answer", methods=["POST"])
+def codicology_answer():
+    if codicology_call is None:
+        return jsonify({"status": "error", "message": "switchboard module unavailable."}), 503
+    data = request.get_json(force=True) or {}
+    session = data.get("session") or make_session()
+    if not _is_comshell_verified(session):
+        return _unverified_response({
+            "status": "error",
+            "message": "comShell access requires operator verification.",
+            "session": session,
+        })
+    submitted = data.get("answer", "")
+    if not isinstance(submitted, str):
+        submitted = str(submitted)
+    return jsonify(codicology_call.answer(session, submitted))
+
+
+def _session_from_query() -> dict:
+    """Reconstruct enough of a session from URL query params to validate signatures."""
+    return {
+        "session_id": request.args.get("sid", ""),
+        "comshell_sig": request.args.get("sig", ""),
+        "comshell_verified": True,
+        "codicology_progress": int(request.args.get("cprog", "0") or 0)
+            if (request.args.get("cprog", "") or "").isdigit() else 0,
+        "codicology_sig": request.args.get("csig", ""),
+    }
+
+
+@app.route("/api/codicology/audio/<int:index>", methods=["GET"])
+def codicology_audio(index):
+    """Stream a single SW-AUD segment. Requires comshell verification AND a
+    valid codicology completion signature, supplied as query params."""
+    if codicology_call is None:
+        return abort(503)
+    session = _session_from_query()
+    if not _is_comshell_verified(session):
+        return abort(403)
+    if not codicology_call.has_verified_progress(session):
+        return abort(403)
+    segments = codicology_call.available_segments()
+    if index < 1 or index > len(segments):
+        return abort(404)
+    path = segments[index - 1]
+    if not path.exists() or not path.is_file():
+        return abort(404)
+    return send_file(str(path), conditional=True)
 
 
 @app.route("/api/docs/roots", methods=["GET"])
@@ -381,7 +446,7 @@ def cmd_contact_office(args, session):
 def cmd_codicology(session):
     if codicology_call is None:
         return "Codicology switchboard module unavailable. The office is present but unreachable."
-    return codicology_call.start(session)
+    return codicology_call.READER_MARKER
 
 
 if __name__ == "__main__":

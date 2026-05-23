@@ -672,6 +672,365 @@ body::after {
   text-transform: uppercase;
 }
 
+/* ── codicology switchboard / audio player overlay ───────── */
+#codicology-overlay {
+  position: fixed;
+  inset: var(--classify-h) 0;
+  z-index: 220;
+  background: rgba(2, 3, 4, 0.92);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.22s ease;
+  backdrop-filter: blur(2px);
+}
+
+#codicology-overlay.open { opacity: 1; }
+
+.codicology-frame {
+  width: min(94vw, 620px);
+  max-height: 86vh;
+  display: grid;
+  grid-template-rows: auto auto 1fr auto;
+  background: var(--bg-surface);
+  border: 1px solid var(--rule-mid);
+  box-shadow: 0 0 0 1px var(--bg-deep), 0 18px 48px rgba(0, 0, 0, 0.7);
+  position: relative;
+}
+
+.codicology-frame::before,
+.codicology-frame::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  pointer-events: none;
+  border: 1px solid var(--ink-dim);
+}
+.codicology-frame::before { top: 6px; left: 6px; border-right: none; border-bottom: none; }
+.codicology-frame::after  { bottom: 6px; right: 6px; border-left: none; border-top: none; }
+
+.codicology-stripe {
+  background: var(--red-deep);
+  color: var(--bone);
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid var(--red);
+  text-transform: uppercase;
+  background-image:
+    repeating-linear-gradient(
+      45deg,
+      transparent 0 6px,
+      rgba(0, 0, 0, 0.25) 6px 7px
+    );
+}
+
+.codicology-header {
+  padding: 18px 26px 12px;
+  border-bottom: 1px dashed var(--rule-mid);
+}
+
+.codicology-title {
+  font-family: var(--font-stamp);
+  font-size: 22px;
+  letter-spacing: 0.16em;
+  color: var(--ink-bright);
+  text-transform: uppercase;
+}
+
+.codicology-subtitle {
+  margin-top: 4px;
+  font-size: 10px;
+  color: var(--ink-mid);
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+}
+
+.codicology-body {
+  padding: 22px 26px;
+  overflow-y: auto;
+  min-height: 0;
+}
+
+.codicology-body::-webkit-scrollbar { width: var(--scrollbar-w); }
+.codicology-body::-webkit-scrollbar-thumb { background: var(--rule-mid); }
+.codicology-body::-webkit-scrollbar-track { background: var(--bg-deep); }
+
+.codicology-intro {
+  color: var(--ink-mid);
+  font-size: 11.5px;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+  border-left: 2px solid var(--amber-dim);
+  padding: 8px 0 8px 14px;
+  margin-bottom: 18px;
+  background: rgba(200, 154, 58, 0.04);
+}
+
+.codicology-step-count {
+  font-size: 10px;
+  letter-spacing: 0.28em;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.codicology-step-prompt {
+  font-family: var(--font-stamp);
+  font-size: 16px;
+  letter-spacing: 0.14em;
+  color: var(--ink-bright);
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.codicology-step-hint {
+  font-size: 11px;
+  color: var(--ink-mid);
+  letter-spacing: 0.06em;
+  margin-bottom: 14px;
+}
+
+.codicology-form {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+}
+
+#codicology-input {
+  flex: 1;
+  background: var(--bg-input);
+  border: 1px solid var(--rule-mid);
+  border-bottom: 1px dashed var(--ink-dim);
+  color: var(--ink-bright);
+  font-family: var(--font-mono);
+  font-size: 14px;
+  padding: 9px 11px;
+  outline: none;
+  letter-spacing: 0.03em;
+}
+
+#codicology-input:focus {
+  border-bottom-color: var(--amber);
+  background: rgba(200, 154, 58, 0.05);
+}
+
+.codicology-btn {
+  background: transparent;
+  border: 1px solid var(--ink-dim);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.18em;
+  padding: 7px 16px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: border-color 0.15s, color 0.15s, background 0.15s;
+}
+
+.codicology-btn:hover:not([disabled]) {
+  border-color: var(--amber);
+  color: var(--amber-bright);
+  background: rgba(200, 154, 58, 0.08);
+}
+
+.codicology-btn[disabled] { opacity: 0.4; cursor: not-allowed; }
+
+.codicology-retry {
+  margin-top: 8px;
+  border-color: var(--red-dim);
+  color: var(--red-bright);
+}
+
+.codicology-retry:hover:not([disabled]) {
+  border-color: var(--red);
+  background: rgba(208, 50, 50, 0.1);
+}
+
+.codicology-message {
+  margin-top: 14px;
+  min-height: 1.4em;
+  font-size: 11px;
+  color: var(--ink-mid);
+  letter-spacing: 0.06em;
+}
+
+.codicology-message.pending { color: var(--amber); animation: blink-text 1s step-end infinite; }
+.codicology-message.fail    { color: var(--red-bright); }
+
+.codicology-loading,
+.codicology-empty {
+  padding: 14px 0;
+  text-align: center;
+  font-size: 11px;
+  color: var(--ink-dim);
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.codicology-loading { animation: blink-text 1s step-end infinite; }
+
+.codicology-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 9px 18px;
+  background: var(--bg-elevated);
+  border-top: 1px solid var(--rule-mid);
+}
+
+.codicology-status {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.2em;
+  color: var(--ink-mid);
+  text-transform: uppercase;
+}
+
+.codicology-status.ok      { color: var(--amber-bright); }
+.codicology-status.fail    { color: var(--red-bright); }
+.codicology-status.pending { color: var(--amber); }
+
+.codicology-close-btn {
+  background: transparent;
+  border: 1px solid var(--ink-dim);
+  color: var(--ink);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  padding: 5px 12px;
+  cursor: pointer;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+.codicology-close-btn:hover {
+  border-color: var(--red);
+  color: var(--red-bright);
+  background: rgba(208, 50, 50, 0.08);
+}
+
+/* ── audio player (inside the codicology body) ───────────── */
+.codicology-player .codi-now-label {
+  font-size: 9px;
+  letter-spacing: 0.32em;
+  color: var(--ink-dim);
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.codicology-player .codi-now-title {
+  font-family: var(--font-mono);
+  font-size: 14px;
+  color: var(--ink-bright);
+  letter-spacing: 0.04em;
+  margin-bottom: 12px;
+}
+
+#codi-audio {
+  width: 100%;
+  filter: hue-rotate(170deg) saturate(0.55) brightness(0.8);
+  background: var(--bg-input);
+}
+
+.codi-controls {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin: 12px 0 16px;
+}
+
+.codi-loop {
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  color: var(--ink-mid);
+  text-transform: uppercase;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.codi-loop input[type="checkbox"] {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 12px;
+  height: 12px;
+  border: 1px solid var(--ink-dim);
+  background: var(--bg-input);
+  vertical-align: middle;
+  position: relative;
+  cursor: pointer;
+}
+
+.codi-loop input[type="checkbox"]:checked::after {
+  content: "✕";
+  position: absolute;
+  inset: -3px 0 0 0;
+  color: var(--amber);
+  font-size: 13px;
+  line-height: 12px;
+  text-align: center;
+}
+
+.codi-tracks {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 0;
+  border-top: 1px dashed var(--rule-mid);
+}
+
+.codi-track {
+  display: flex;
+  align-items: baseline;
+  gap: 14px;
+  padding: 8px 10px;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  color: var(--ink);
+  cursor: pointer;
+  border-bottom: 1px dashed var(--rule);
+  border-left: 2px solid transparent;
+  transition: background 0.1s, color 0.1s, border-color 0.1s;
+  outline: none;
+}
+
+.codi-track:hover {
+  background: rgba(200, 154, 58, 0.06);
+  color: var(--ink-bright);
+  border-left-color: var(--amber-dim);
+}
+
+.codi-track:focus {
+  background: rgba(200, 154, 58, 0.12);
+  border-left-color: var(--amber);
+}
+
+.codi-track.active {
+  border-left-color: var(--amber);
+  background: rgba(200, 154, 58, 0.08);
+  color: var(--amber-bright);
+}
+
+.codi-track-num {
+  color: var(--ink-dim);
+  font-size: 10px;
+  letter-spacing: 0.18em;
+  flex-shrink: 0;
+  width: 30px;
+}
+
+.codi-track.active .codi-track-num { color: var(--amber); }
+
+.codi-track-name {
+  flex: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 /* ── archive reader overlay ──────────────────────────────── */
 #reader-overlay {
   position: fixed;
