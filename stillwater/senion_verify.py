@@ -30,32 +30,40 @@ _SUCCESS = [
 
 
 _GATES = [
-    {"title": "Known Rosetta line",
-     "prompt": "TRANSLATE:\nNa sel unglosi-vor-seln."},
-    {"title": "Evidential source",
-     "prompt": "IDENTIFY THE SOURCE MARKER AND ITS MEANING:\nRoseta arvel-eth han-seln."},
-    {"title": "Unseen sentence",
-     "prompt": "INTERPRET:\nKorven arvel-eth han-thur."},
-    {"title": "Word order proof",
-     "prompt": "INTERPRET:\nArvel kor-eth meren dom-or-seln."},
-    {"title": "Case marker",
-     "prompt": "WHAT DOES -eth MEAN IN:\nRoseta arvel-eth han-seln."},
-    {"title": "False translation trap",
-     "prompt": "CHOOSE THE CORRECT TRANSLATION:\nRoseta arvel-eth han-seln.\n\nA: Rosetta is in the archive, according to record.\nB: Rosetta is the archive, witnessed directly."},
-    {"title": "Evidential contrast",
-     "prompt": "WHICH LINE IS DIRECT WITNESS?\nA: Kor morh-us-ren-seln.\nB: Kor morh-us-ren-nai."},
+    {"title": "Visual evidential",
+     "prompt": "WHAT DOES THE PARTICLE -nai INDICATE?\n\nAnswer in one short phrase: it marks knowledge that was…"},
+    {"title": "Recorded evidential",
+     "prompt": "A SENIONSOLN CLAUSE ENDS IN -seln.\nWhat source of knowledge does this mark?"},
+    {"title": "Reported evidential",
+     "prompt": "WHAT DOES THE PARTICLE -kel INDICATE?\n\n(Distinguish it from -nai and -seln.)"},
+    {"title": "Inferential evidential",
+     "prompt": "A SENIONSOLN CLAUSE ENDS IN -thur.\nHow does the speaker know what they are saying?"},
+    {"title": "Postposition (locative)",
+     "prompt": "IN THE PHRASE   vehel-eth   \nwhat does the suffix -eth mean in English?"},
+    {"title": "Postposition (ablative)",
+     "prompt": "IN THE PHRASE   mal-aru   \nwhat does the suffix -aru mean in English?"},
+    {"title": "Past tense",
+     "prompt": "ON A SENIONSOLN VERB, what does the suffix -ren mark?"},
     {"title": "Sealed mood",
-     "prompt": "WHAT EXTRA MEANING DOES -vor ADD?\nNa sel unglosi-vor-seln."},
-    {"title": "Generate Senion",
-     "prompt": "WRITE IN SENIONSOLN:\nThe archive exists. [from record]"},
-    {"title": "Missing evidential",
-     "prompt": "THIS SENTENCE IS INVALID:\nKor han.\n\nWHAT IS MISSING?"},
-    {"title": "Signal line",
-     "prompt": "INTERPRET:\nSūn nēr-aru nadi-or-kel."},
-    {"title": "Number and action",
-     "prompt": "WHAT NUMBER IS IN THIS LINE, AND WHAT DID THEY DO?\nOsher sen-mor kelhom thuri-or-nai."},
-    {"title": "Code reconstruction",
-     "prompt": "EXTRACT THE CODE OBJECTS FROM THESE LINES:\nI. Arvel kor-eth meren dom-or-seln.\nII. Kor en-eth morh-us-ren-seln.\nIII. Osher sen-mor kelhom thuri-or-nai.\nIV. Sūn nēr-aru nadi-or-kel.\n\nExpected form: WORD-WORD-WORD-WORD"},
+     "prompt": "WHAT DOES THE PARTICLE -vor ADD TO A CLAUSE?\n\n(It is not an evidential. State its function.)"},
+    {"title": "Topic marker",
+     "prompt": "A NOUN CARRIES THE CLITIC -ha.\nWhat does this indicate about the noun's role in the clause?"},
+    {"title": "Translate (simple)",
+     "prompt": "TRANSLATE TO ENGLISH:\n\n    Mal sel-en han-seln.\n\n(Glosses: mal = room; sel = silence.)"},
+    {"title": "Translate (with tense and aspect)",
+     "prompt": "TRANSLATE TO ENGLISH:\n\n    Arveler kelhom thuri-us-ren-kel.\n\n(Glosses: arveler = archivist; kelhom = record/document; thuri = read.)"},
+    {"title": "Compose in Senionsoln",
+     "prompt": "RENDER IN SENIONSOLN:\n\n    The door exists in the archive. [from the record]\n\n(Use SOV order. Postpositions on the noun. Evidential at the clause's end.)"},
+    {"title": "Reconstruction",
+     "prompt": (
+         "FOUR LINES, NUMBERED. Each line is grammatical Senionsoln.\n"
+         "For each line, identify the requested word in English, then assemble the sequence.\n\n"
+         "  I.  Osher kelhom dom-or-vor-seln.   — TAKE THE SUBJECT (a person).\n"
+         "  II. Sūn nēr-aru nadi-or-nal.        — TAKE THE SUBJECT (an audible thing).\n"
+         "  III. Glosi-vor.                      — TAKE THE VERB ROOT (the action this sealed command names).\n"
+         "  IV. Roseta arvel-eth han-seln.       — TAKE THE PROPER NOUN.\n\n"
+         "Expected form: WORD-WORD-WORD-WORD (English; dashes between words)."
+     )},
 ]
 
 
