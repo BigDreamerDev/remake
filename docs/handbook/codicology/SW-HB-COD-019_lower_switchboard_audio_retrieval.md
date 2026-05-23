@@ -25,7 +25,9 @@ Do not count the wires.
 
 If the panel asks for an extension, dial the extension assigned to lower archive audio routing.
 
-If you are unsure which extension this is, you are not the intended caller.
+The lower switchboard panel carries **fourteen rings and one lower receiver**. The receiver hangs from the ring numbered the same as the visitor-log entry that is to remain blank (*Clause 9.7 Subsection: Enumerated Absences*). The receiver answers from no other ring. Read off the ring's number; that is the extension.
+
+If you are unsure which entry this refers to, you are not the intended caller.
 
 ---
 

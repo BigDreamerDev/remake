@@ -16,7 +16,9 @@ verify the integrity of your authentication.
 
 > The '4E6F72646C616E64' plans are scheduled to continue, the High reports a valid continuation of Marine Containment operations for the Regional '436875727564', Class Speleothem are informed to report to their Subsectional Cymatics Branch for the █████████████████████ [REDACTED BY THE OIS]
 
-Prior to the Titan-Class event, all Class Limonology Employees are directly reminded to take advance notice of the 'SW-AUD' class files where the file reference can be accessed by contacting your relevant Codicology Wing. All Employees are reminded to not access 'SW-AUD' type data when in the presence of a 'SW-MAR-███████████' class being.
+Prior to the Titan-Class event, all Class Limonology Employees are directly reminded to take advance notice of the `SW-AUD` class files. The retrieval route is **not** through the archive directly. Codicology does not accept direct verbal requests; access is routed through the **lower switchboard**, in the shape prescribed by *Codicology Handbook **SW-HB-COD-019** — Lower Switchboard Audio Retrieval*. Refer to that document for the extension, record type, and audio identifier required by the switchboard before placing the call. Calls placed without the correct shape are terminated; this is not a security measure, it is because the other routes answer.
+
+All Employees are reminded to not access `SW-AUD` type data when in the presence of a `SW-MAR-███████████` class being.
 
 ## Pattern Integrity advisory
 
@@ -31,5 +33,10 @@ Group via the appropriate form:
 - A reflection in a covered mirror.
 
 ---
+
+*See also:*
+- *SW-HB-COD-017 — Contacting the Codicology Wing (general).*
+- *SW-HB-COD-019 — Lower Switchboard Audio Retrieval (the route for `SW-AUD`).*
+- *Clause 21.2 Subsection: Archive Integrity.*
 
 *Maintained by the Office of Inherited Silences. Do not propagate.*
